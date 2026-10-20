@@ -1,0 +1,711 @@
+{
+  "checkedAt": "2026-10-20",
+  "method": "HTTP GET, follow redirects; a successful HTTP response does not establish educational coverage or freshness. 403/429/network errors are inconclusive.",
+  "resources": [
+    {
+      "roadmap": "django-backend",
+      "step": "dj-step-1",
+      "title": "دوره رایگان پایتون مقدماتی تا پیشرفته (منگارد)",
+      "url": "https://www.mongard.ir/courses/python-beginner/",
+      "type": "video-fa",
+      "platform": "Mongard",
+      "description": "آموزش روان و فارسی مبانی پایتون، شیءگرایی و محیط مجازی مخصوص ورود به جنگو.",
+      "verification": {
+        "status": 404,
+        "finalUrl": "https://www.mongard.ir/courses/python-beginner/",
+        "pageTitle": "",
+        "error": "HTTP Error 404: Not Found"
+      }
+    },
+    {
+      "roadmap": "django-backend",
+      "step": "dj-step-1",
+      "title": "پلی‌لیست Python Tutorials از Corey Schafer",
+      "url": "https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU",
+      "type": "video-en",
+      "platform": "YouTube",
+      "description": "یکی از بهترین و واضح‌ترین آموزش‌های ویدیویی پایتون در دنیا.",
+      "verification": {
+        "status": null,
+        "finalUrl": "https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU",
+        "pageTitle": "",
+        "error": "<urlopen error [Errno 101] Network is unreachable>"
+      }
+    },
+    {
+      "roadmap": "django-backend",
+      "step": "dj-step-1",
+      "title": "تمرین تعاملی پایتون در Kaggle Learn",
+      "url": "https://www.kaggle.com/learn/python",
+      "type": "interactive",
+      "platform": "Kaggle",
+      "description": "مینی‌دوره تعاملی که مستقیم داخل مرورگر کد می‌زنی و تمرین حل می‌کنی.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://www.kaggle.com/learn/python",
+        "pageTitle": "Learn Python Tutorials | Kaggle",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "django-backend",
+      "step": "dj-step-1",
+      "title": "مستندات رسمی پایتون (صرفاً جهت رفرنس)",
+      "url": "https://docs.python.org/3/tutorial/",
+      "type": "doc",
+      "platform": "Python Docs",
+      "description": "منبع مرجع (Source of Truth) برای زمانی که می‌خواهی جزئیات دقیق یک تابع را چک کنی.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://docs.python.org/3/tutorial/",
+        "pageTitle": "The Python Tutorial — Python 3.15.0 documentation",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "django-backend",
+      "step": "dj-step-2",
+      "title": "بازی تعاملی یادگیری Git و Branching",
+      "url": "https://learngitbranching.js.org/",
+      "type": "interactive",
+      "platform": "LearnGitBranching",
+      "description": "فوق‌العاده جذاب! کل مفاهیم برنچ، مرج و ری‌بیس گیت رو توی ۲ ساعت به صورت بصری و بازی‌محور یاد بگیر.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://learngitbranching.js.org/",
+        "pageTitle": "Learn Git Branching",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "django-backend",
+      "step": "dj-step-2",
+      "title": "دوره رایگان آموزش گیت و گیت‌هاب (جادی / مکتب‌خونه)",
+      "url": "https://www.youtube.com/results?search_query=jadi+git+tutorial",
+      "type": "video-fa",
+      "platform": "YouTube فارسی",
+      "description": "آموزش شیرین و کاربردی گیت به زبان فارسی.",
+      "verification": {
+        "status": null,
+        "finalUrl": "https://www.youtube.com/results?search_query=jadi+git+tutorial",
+        "pageTitle": "",
+        "error": "<urlopen error [Errno 101] Network is unreachable>"
+      }
+    },
+    {
+      "roadmap": "django-backend",
+      "step": "dj-step-2",
+      "title": "راهنمای تصویری پروتکل HTTP در MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+      "type": "doc",
+      "platform": "MDN Web Docs",
+      "description": "بهترین رفرنس وب برای درک چرخه Request و Response.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+        "pageTitle": "HTTP: Hypertext Transfer Protocol | MDN",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "django-backend",
+      "step": "dj-step-3",
+      "title": "پلی‌لیست مدرن Django در کانال BugBytes",
+      "url": "https://www.youtube.com/@bugbytes3923",
+      "type": "video-en",
+      "platform": "YouTube (BugBytes)",
+      "description": "آموزش‌های فوق‌العاده تمیز، مدرن و کاربردی جنگو بدون حاشیه.",
+      "verification": {
+        "status": null,
+        "finalUrl": "https://www.youtube.com/@bugbytes3923",
+        "pageTitle": "",
+        "error": "<urlopen error [Errno 101] Network is unreachable>"
+      }
+    },
+    {
+      "roadmap": "django-backend",
+      "step": "dj-step-3",
+      "title": "دوره جامع آموزش جنگو به زبان فارسی",
+      "url": "https://www.mongard.ir/courses/django-beginner/",
+      "type": "video-fa",
+      "platform": "Mongard",
+      "description": "شروع گام‌به‌گام جنگو به زبان فارسی از نصب تا ساخت اولین اپ.",
+      "verification": {
+        "status": 404,
+        "finalUrl": "https://www.mongard.ir/courses/django-beginner/",
+        "pageTitle": "",
+        "error": "HTTP Error 404: Not Found"
+      }
+    },
+    {
+      "roadmap": "django-backend",
+      "step": "dj-step-3",
+      "title": "آموزش گام‌به‌گام جنگو در MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django",
+      "type": "doc",
+      "platform": "MDN",
+      "description": "آموزش متنی-پروژه‌محور بسیار روان‌تر از داکیومنت رسمی.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django",
+        "pageTitle": "Django Web Framework (Python) - Learn web development | MDN",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "django-backend",
+      "step": "dj-step-4",
+      "title": "یادگیری تعاملی SQL از صفر (SQLBolt)",
+      "url": "https://sqlbolt.com/",
+      "type": "interactive",
+      "platform": "SQLBolt",
+      "description": "بهترین سایت تعاملی برای یادگیری کوئری‌های SQL و Joinها در چند ساعت با حل تمرین زنده.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://sqlbolt.com/",
+        "pageTitle": "SQLBolt - Learn SQL - Introduction to SQL",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "django-backend",
+      "step": "dj-step-4",
+      "title": "پلی‌لیست عمیق Django ORM در کانال BugBytes",
+      "url": "https://www.youtube.com/playlist?list=PL-2EBeDYMIbTLulc9FSoAXhbmXpLq2l5t",
+      "type": "video-en",
+      "platform": "YouTube (BugBytes)",
+      "description": "بررسی کامل کوئری‌ها، Aggregation، Annotation و روابط دیتابیس در جنگو.",
+      "verification": {
+        "status": null,
+        "finalUrl": "https://www.youtube.com/playlist?list=PL-2EBeDYMIbTLulc9FSoAXhbmXpLq2l5t",
+        "pageTitle": "",
+        "error": "<urlopen error [Errno 101] Network is unreachable>"
+      }
+    },
+    {
+      "roadmap": "django-backend",
+      "step": "dj-step-4",
+      "title": "مرجع مدل‌ها و QuerySet در مستندات جنگو",
+      "url": "https://docs.djangoproject.com/en/stable/topics/db/models/",
+      "type": "doc",
+      "platform": "Django Docs",
+      "description": "رفرنس کامل انواع فیلدها و متدهای ORM.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://docs.djangoproject.com/en/6.1/topics/db/models/",
+        "pageTitle": "Models | Django documentation | Django",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "django-backend",
+      "step": "dj-step-5",
+      "title": "آزمایشگاه تعاملی امنیت وب (PortSwigger Web Security Academy)",
+      "url": "https://portswigger.net/web-security",
+      "type": "interactive",
+      "platform": "PortSwigger",
+      "description": "بهترین پلتفرم رایگان و عملی دنیا برای فهمیدن و تست واقعی آسیب‌پذیری‌های SQLi، XSS و CSRF.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://portswigger.net/web-security",
+        "pageTitle": "Web Security Academy: Free Online Training from PortSwigger",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "django-backend",
+      "step": "dj-step-5",
+      "title": "آموزش Custom User Model و احراز هویت در جنگو",
+      "url": "https://www.youtube.com/results?search_query=django+custom+user+model+bugbytes",
+      "type": "video-en",
+      "platform": "YouTube",
+      "description": "پیاده‌سازی استاندارد لاگین با ایمیل یا شماره موبایل در جنگو.",
+      "verification": {
+        "status": null,
+        "finalUrl": "https://www.youtube.com/results?search_query=django+custom+user+model+bugbytes",
+        "pageTitle": "",
+        "error": "<urlopen error [Errno 101] Network is unreachable>"
+      }
+    },
+    {
+      "roadmap": "django-backend",
+      "step": "dj-step-5",
+      "title": "مستندات امنیت در Django",
+      "url": "https://docs.djangoproject.com/en/stable/topics/security/",
+      "type": "doc",
+      "platform": "Django Docs",
+      "description": "چک‌لیست امنیتی داخلی جنگو برای محافظت از وب‌اپلیکیشن.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://docs.djangoproject.com/en/6.1/topics/security/",
+        "pageTitle": "Security in Django | Django documentation | Django",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "django-backend",
+      "step": "dj-step-6",
+      "title": "پلی‌لیست کامل آموزش Django REST Framework (کانال BugBytes)",
+      "url": "https://www.youtube.com/playlist?list=PL-2EBeDYMIbTLulc9FSoAXhbmXpLq2l5t",
+      "type": "video-en",
+      "platform": "YouTube (BugBytes)",
+      "description": "آموزش صفر تا صد DRF با استانداردهای روز بازار کار.",
+      "verification": {
+        "status": null,
+        "finalUrl": "https://www.youtube.com/playlist?list=PL-2EBeDYMIbTLulc9FSoAXhbmXpLq2l5t",
+        "pageTitle": "",
+        "error": "<urlopen error [Errno 101] Network is unreachable>"
+      }
+    },
+    {
+      "roadmap": "django-backend",
+      "step": "dj-step-6",
+      "title": "دوره فارسی آموزش Django REST Framework (منگارد)",
+      "url": "https://www.mongard.ir/courses/django-rest-framework/",
+      "type": "video-fa",
+      "platform": "Mongard",
+      "description": "آموزش جامع ساخت REST API، JWT و پرمیشن‌ها در DRF به زبان فارسی.",
+      "verification": {
+        "status": 404,
+        "finalUrl": "https://www.mongard.ir/courses/django-rest-framework/",
+        "pageTitle": "",
+        "error": "HTTP Error 404: Not Found"
+      }
+    },
+    {
+      "roadmap": "django-backend",
+      "step": "dj-step-6",
+      "title": "مستندات رسمی و Quickstart فریم‌ورک DRF",
+      "url": "https://www.django-rest-framework.org/tutorial/quickstart/",
+      "type": "doc",
+      "platform": "DRF Official",
+      "description": "یکی از خوش‌خوان‌ترین داکیومنت‌ها برای مراجعه سریع به ساختار ViewSetها.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://www.django-rest-framework.org/tutorial/quickstart/",
+        "pageTitle": "Quickstart - Django REST framework",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "django-backend",
+      "step": "dj-step-7",
+      "title": "آموزش Celery، Redis و بهینه‌سازی در جنگو (BugBytes)",
+      "url": "https://www.youtube.com/@bugbytes3923/videos",
+      "type": "video-en",
+      "platform": "YouTube",
+      "description": "ویدیوهای عملی برای اتصال Redis و Celery به جنگو با Docker.",
+      "verification": {
+        "status": null,
+        "finalUrl": "https://www.youtube.com/@bugbytes3923/videos",
+        "pageTitle": "",
+        "error": "<urlopen error timed out>"
+      }
+    },
+    {
+      "roadmap": "django-backend",
+      "step": "dj-step-7",
+      "title": "آموزش‌های کاربردی Django در Real Python",
+      "url": "https://realpython.com/tutorials/django/",
+      "type": "doc",
+      "platform": "Real Python",
+      "description": "مقالات پروژه‌محور عالی درباره تست‌نویسی و بهینه‌سازی در جنگو.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://realpython.com/tutorials/django/",
+        "pageTitle": "Django Tutorials – Real Python",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "django-backend",
+      "step": "dj-step-8",
+      "title": "آموزش Docker برای برنامه‌نویسان پایتون و جنگو",
+      "url": "https://www.youtube.com/results?search_query=dockerize+django+postgres+nginx",
+      "type": "video-en",
+      "platform": "YouTube",
+      "description": "راهنمای عملی داکرایز کردن پروژه جنگو به همراه دیتابیس و Nginx.",
+      "verification": {
+        "status": null,
+        "finalUrl": "https://www.youtube.com/results?search_query=dockerize+django+postgres+nginx",
+        "pageTitle": "",
+        "error": "<urlopen error [Errno 101] Network is unreachable>"
+      }
+    },
+    {
+      "roadmap": "django-backend",
+      "step": "dj-step-8",
+      "title": "چک‌لیست رسمی Deployment در مستندات جنگو",
+      "url": "https://docs.djangoproject.com/en/stable/howto/deployment/",
+      "type": "doc",
+      "platform": "Django Docs",
+      "description": "نکات حیاتی امنیتی (مثل DEBUG=False و ALLOWED_HOSTS) قبل از پابلیش.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://docs.djangoproject.com/en/6.1/howto/deployment/",
+        "pageTitle": "How to deploy Django | Django documentation | Django",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "data-science",
+      "step": "ds-step-1",
+      "title": "مینی‌دوره تعاملی پایتون در Kaggle Learn",
+      "url": "https://www.kaggle.com/learn/python",
+      "type": "interactive",
+      "platform": "Kaggle Learn",
+      "description": "بهترین نقطه شروع! بدون نیاز به نصب هیچ برنامه‌ای، پایتون مخصوص دیتا ساینس رو توی مرورگر تمرین کن.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://www.kaggle.com/learn/python",
+        "pageTitle": "Learn Python Tutorials | Kaggle",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "data-science",
+      "step": "ds-step-1",
+      "title": "بازی تعاملی یادگیری Git",
+      "url": "https://learngitbranching.js.org/",
+      "type": "interactive",
+      "platform": "LearnGitBranching",
+      "description": "یادگیری سریع مفاهیم گیت به صورت کاملاً تصویری.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://learngitbranching.js.org/",
+        "pageTitle": "Learn Git Branching",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "data-science",
+      "step": "ds-step-1",
+      "title": "آموزش کار با Google Colab و Jupyter به زبان فارسی",
+      "url": "https://www.youtube.com/results?search_query=google+colab+persian+tutorial",
+      "type": "video-fa",
+      "platform": "YouTube فارسی",
+      "description": "آشنایی با محیط کولب و نحوه اجرای کدهای پایتون روی سرورهای رایگان گوگل.",
+      "verification": {
+        "status": null,
+        "finalUrl": "https://www.youtube.com/results?search_query=google+colab+persian+tutorial",
+        "pageTitle": "",
+        "error": "<urlopen error [Errno 101] Network is unreachable>"
+      }
+    },
+    {
+      "roadmap": "data-science",
+      "step": "ds-step-2",
+      "title": "مینی‌دوره تعاملی Pandas در کگل",
+      "url": "https://www.kaggle.com/learn/pandas",
+      "type": "interactive",
+      "platform": "Kaggle Learn",
+      "description": "آموزش عملی فیلتر کردن، گروه‌بندی و تمیزکاری دیتافریم‌ها با دیتاست‌های واقعی.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://www.kaggle.com/learn/pandas",
+        "pageTitle": "Learn Pandas Tutorials | Kaggle",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "data-science",
+      "step": "ds-step-2",
+      "title": "مینی‌دوره Data Cleaning در کگل",
+      "url": "https://www.kaggle.com/learn/data-cleaning",
+      "type": "interactive",
+      "platform": "Kaggle Learn",
+      "description": "تکنیک‌های عملی برخورد با داده‌های ناقص و ناسازگار.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://www.kaggle.com/learn/data-cleaning",
+        "pageTitle": "Learn Data Cleaning Tutorials | Kaggle",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "data-science",
+      "step": "ds-step-2",
+      "title": "آموزش تعاملی SQL در SQLBolt + کگل SQL",
+      "url": "https://sqlbolt.com/",
+      "type": "interactive",
+      "platform": "SQLBolt",
+      "description": "یادگیری سریع و تعاملی کوئری‌نویسی SQL از پایه تا پیشرفته.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://sqlbolt.com/",
+        "pageTitle": "SQLBolt - Learn SQL - Introduction to SQL",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "data-science",
+      "step": "ds-step-2",
+      "title": "تمرین‌های تحلیل داده و پایتون در کوئرا (Quera)",
+      "url": "https://quera.org/",
+      "type": "interactive",
+      "platform": "Quera (فارسی)",
+      "description": "حل سوالات واقعی مسابقات و مصاحبه‌های شرکت‌های ایرانی با داوری خودکار.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://quera.org/",
+        "pageTitle": "جامعه توسعه‌دهندگان ایران | Quera",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "data-science",
+      "step": "ds-step-3",
+      "title": "کانال یوتیوب StatQuest with Josh Starmer (فوق‌العاده!)",
+      "url": "https://www.youtube.com/@statquest",
+      "type": "video-en",
+      "platform": "YouTube (StatQuest)",
+      "description": "بهترین کانال دنیا برای فهمیدن مفاهیم آمار، احتمال و P-value به ساده‌ترین و تصویری‌ترین زبان ممکن بدون پیچیدگی.",
+      "verification": {
+        "status": null,
+        "finalUrl": "https://www.youtube.com/@statquest",
+        "pageTitle": "",
+        "error": "<urlopen error [Errno 101] Network is unreachable>"
+      }
+    },
+    {
+      "roadmap": "data-science",
+      "step": "ds-step-3",
+      "title": "دوره رایگان آمار و احتمال در Khan Academy",
+      "url": "https://www.khanacademy.org/math/statistics-probability",
+      "type": "interactive",
+      "platform": "Khan Academy",
+      "description": "آموزش گام‌به‌گام و بسیار روان مفاهیم پایه آمار همراه با تمرین‌های تعاملی.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://www.khanacademy.org/math/statistics-probability",
+        "pageTitle": "Client Challenge",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "data-science",
+      "step": "ds-step-3",
+      "title": "مینی‌دوره Data Visualization در Kaggle",
+      "url": "https://www.kaggle.com/learn/data-visualization",
+      "type": "interactive",
+      "platform": "Kaggle Learn",
+      "description": "آموزش عملی کتابخانه Seaborn و انتخاب نمودار مناسب برای هر نوع داده.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://www.kaggle.com/learn/data-visualization",
+        "pageTitle": "Learn Data Visualization Tutorials | Kaggle",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "data-science",
+      "step": "ds-step-4",
+      "title": "پلی‌لیست انیمیشنی Essence of Linear Algebra از 3Blue1Brown",
+      "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+      "type": "video-en",
+      "platform": "YouTube (3Blue1Brown)",
+      "description": "شاهکار انیمیشنی! جبر خطی و ماتریس‌ها رو طوری بصری می‌فهمی که هیچ‌وقت سر کلاس دانشگاه ندیدی.",
+      "verification": {
+        "status": null,
+        "finalUrl": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+        "pageTitle": "",
+        "error": "<urlopen error [Errno 101] Network is unreachable>"
+      }
+    },
+    {
+      "roadmap": "data-science",
+      "step": "ds-step-4",
+      "title": "پلی‌لیست انیمیشنی Essence of Calculus از 3Blue1Brown",
+      "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr",
+      "type": "video-en",
+      "platform": "YouTube (3Blue1Brown)",
+      "description": "درک عمیق و شهودی مفهوم مشتق و نرخ تغییرات بدون درگیر شدن با محاسبات خسته‌کننده.",
+      "verification": {
+        "status": null,
+        "finalUrl": "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr",
+        "pageTitle": "",
+        "error": "<urlopen error [Errno 101] Network is unreachable>"
+      }
+    },
+    {
+      "roadmap": "data-science",
+      "step": "ds-step-5",
+      "title": "دوره معروف Machine Learning Specialization از Andrew Ng",
+      "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+      "type": "video-en",
+      "platform": "Coursera / YouTube",
+      "description": "معتبرترین دوره شروع یادگیری ماشین در دنیا با تدریس فوق‌العاده اندرو ان‌جی.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://www.coursera.org/specializations/machine-learning-introduction",
+        "pageTitle": "Machine Learning | Coursera",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "data-science",
+      "step": "ds-step-5",
+      "title": "پلی‌لیست Machine Learning در کانال StatQuest",
+      "url": "https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF",
+      "type": "video-en",
+      "platform": "YouTube (StatQuest)",
+      "description": "توضیح گام‌به‌گام و تصویری تک‌تک الگوریتم‌ها از درخت تصمیم تا XGBoost و ROC-AUC.",
+      "verification": {
+        "status": null,
+        "finalUrl": "https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF",
+        "pageTitle": "",
+        "error": "<urlopen error [Errno 101] Network is unreachable>"
+      }
+    },
+    {
+      "roadmap": "data-science",
+      "step": "ds-step-5",
+      "title": "مینی‌دوره‌های Intro to ML و Intermediate ML در کگل",
+      "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+      "type": "interactive",
+      "platform": "Kaggle Learn",
+      "description": "کدنویسی عملی با Scikit-learn و XGBoost همراه با آموزش جلوگیری از Data Leakage.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://www.kaggle.com/learn/intro-to-machine-learning",
+        "pageTitle": "Learn Intro to Machine Learning Tutorials | Kaggle",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "data-science",
+      "step": "ds-step-6",
+      "title": "مستندات و گالری پروژه‌های Streamlit",
+      "url": "https://streamlit.io/",
+      "type": "interactive",
+      "platform": "Streamlit",
+      "description": "سریع‌ترین ابزار تبدیل اسکریپت‌های دیتا ساینس به وب‌اپلیکیشن‌های قابل اشتراک‌گذاری.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://streamlit.io/",
+        "pageTitle": "Streamlit • A faster way to build and share data apps",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "data-science",
+      "step": "ds-step-6",
+      "title": "آموزش دیپلوی مدل ماشین لرنینگ با FastAPI",
+      "url": "https://www.youtube.com/results?search_query=deploy+machine+learning+model+fastapi",
+      "type": "video-en",
+      "platform": "YouTube",
+      "description": "آموزش ساخت REST API برای مدل‌های Scikit-learn با FastAPI.",
+      "verification": {
+        "status": null,
+        "finalUrl": "https://www.youtube.com/results?search_query=deploy+machine+learning+model+fastapi",
+        "pageTitle": "",
+        "error": "<urlopen error [Errno 101] Network is unreachable>"
+      }
+    },
+    {
+      "roadmap": "data-science",
+      "step": "ds-step-7",
+      "title": "دوره عملی Deep Learning برای کدنویس‌ها (fast.ai)",
+      "url": "https://course.fast.ai/",
+      "type": "video-en",
+      "platform": "fast.ai",
+      "description": "بهترین دوره پروژه‌محور و Top-Down یادگیری عمیق با PyTorch.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://course.fast.ai/",
+        "pageTitle": "Practical Deep Learning for Coders - Practical Deep Learning",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "data-science",
+      "step": "ds-step-7",
+      "title": "دوره رایگان NLP و LLM در Hugging Face",
+      "url": "https://huggingface.co/learn/nlp-course/",
+      "type": "interactive",
+      "platform": "Hugging Face",
+      "description": "مرجع اصلی یادگیری کار با مدل‌های زبانی و ترنسفورمرها.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://huggingface.co/learn/llm-course/chapter1/1",
+        "pageTitle": "Introduction · Hugging Face",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "linux-devops-core",
+      "step": "lx-step-1",
+      "title": "دوره رایگان لینوکس و مفاهیم سیستم‌عامل (جادی - LPIC-1)",
+      "url": "https://www.youtube.com/playlist?list=PL-tKrPVkKKE0k_1812_c2-tT3V7G2M8sA",
+      "type": "video-fa",
+      "platform": "YouTube (جادی)",
+      "description": "بهترین و جذاب‌ترین دوره فارسی برای درک عمیق لینوکس و نحوه کارکرد سیستم‌عامل.",
+      "verification": {
+        "status": null,
+        "finalUrl": "https://www.youtube.com/playlist?list=PL-tKrPVkKKE0k_1812_c2-tT3V7G2M8sA",
+        "pageTitle": "",
+        "error": "<urlopen error [Errno 101] Network is unreachable>"
+      }
+    },
+    {
+      "roadmap": "linux-devops-core",
+      "step": "lx-step-2",
+      "title": "سایت تعاملی Linux Journey",
+      "url": "https://linuxjourney.com/",
+      "type": "interactive",
+      "platform": "Linux Journey",
+      "description": "یادگیری مرحله‌به‌مرحله و بسیار خلاصه و تعاملی دستورات لینوکس.",
+      "verification": {
+        "status": 403,
+        "finalUrl": "https://labex.io/linuxjourney",
+        "pageTitle": "",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "roadmap": "linux-devops-core",
+      "step": "lx-step-2",
+      "title": "بازی هکری OverTheWire: Bandit برای تمرین لینوکس و SSH",
+      "url": "https://overthewire.org/wargames/bandit/",
+      "type": "interactive",
+      "platform": "OverTheWire",
+      "description": "فوق‌العاده اعتیادآور! با وصل شدن به سرور واقعی از طریق SSH و حل معماها به مرحله بعد می‌ری.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://overthewire.org/wargames/bandit/",
+        "pageTitle": "OverTheWire: Bandit",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "linux-devops-core",
+      "step": "lx-step-3",
+      "title": "آزمایشگاه رایگان Play with Docker در مرورگر",
+      "url": "https://labs.play-with-docker.com/",
+      "type": "interactive",
+      "platform": "Play with Docker",
+      "description": "محیط لینوکس و داکر آنلاین و رایگان برای تست دستورات داکر بدون نصب روی سیستم.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://labs.play-with-docker.com/",
+        "pageTitle": "Play with Docker",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "linux-devops-core",
+      "step": "lx-step-3",
+      "title": "دوره ویدیویی آموزش Docker از صفر (TechWorld with Nana)",
+      "url": "https://www.youtube.com/watch?v=3c-iBn73dDE",
+      "type": "video-en",
+      "platform": "YouTube (Nana)",
+      "description": "بهترین آموزش تصویری و انیمیشنی داکر برای درک کامل کانتینرها.",
+      "verification": {
+        "status": null,
+        "finalUrl": "https://www.youtube.com/watch?v=3c-iBn73dDE",
+        "pageTitle": "",
+        "error": "<urlopen error [Errno 101] Network is unreachable>"
+      }
+    }
+  ]
+}

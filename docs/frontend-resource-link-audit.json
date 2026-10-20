@@ -1,0 +1,336 @@
+{
+  "checkedAt": "2026-10-20",
+  "method": "HTTP GET, follow redirects; a successful HTTP response does not establish educational coverage or freshness. 403/429/network errors are inconclusive.",
+  "resources": [
+    {
+      "roadmap": "frontend",
+      "step": "fe-step-0",
+      "title": "وب چطور کار می‌کند؟",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works",
+      "type": "doc",
+      "platform": "MDN",
+      "description": "برای شروع: مسیر کلاینت، DNS، سرور و درخواست HTTP را دنبال کن.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works",
+        "pageTitle": "How the web works - Learn web development | MDN",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "frontend",
+      "step": "fe-step-0",
+      "title": "راهنمای HTTP",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+      "type": "doc",
+      "platform": "MDN",
+      "description": "مرجع تکمیلی برای متدها، هدرها، کوکی‌ها و CORS.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+        "pageTitle": "HTTP: Hypertext Transfer Protocol | MDN",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "frontend",
+      "step": "fe-step-1",
+      "title": "ساختار محتوا با HTML",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content",
+      "type": "doc",
+      "platform": "MDN",
+      "description": "برای شروع: عناصر معنایی، لینک‌ها و ساختار صفحه را در تمرینت به کار ببر.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content",
+        "pageTitle": "Structuring content with HTML - Learn web development | MDN",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "frontend",
+      "step": "fe-step-1",
+      "title": "چیدمان با CSS",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout",
+      "type": "doc",
+      "platform": "MDN",
+      "description": "Flexbox، Grid و طراحی واکنش‌گرا؛ فصل مرتبط با تمرین را انتخاب کن.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout",
+        "pageTitle": "CSS layout - Learn web development | MDN",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "frontend",
+      "step": "fe-step-1",
+      "title": "آموزش‌های دسترس‌پذیری وب",
+      "url": "https://www.w3.org/WAI/tutorials/",
+      "type": "doc",
+      "platform": "W3C WAI",
+      "description": "برای فرم، برچسب ورودی‌ها، ساختار صفحه و رفتار قابل‌دسترس به آموزش مربوط مراجعه کن.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://www.w3.org/WAI/tutorials/",
+        "pageTitle": "Tutorials | Web Accessibility Initiative (WAI) | W3C",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "frontend",
+      "step": "fe-step-2",
+      "title": "اولین مخزن، branch و pull request",
+      "url": "https://docs.github.com/en/get-started/using-github/hello-world",
+      "type": "doc",
+      "platform": "GitHub Docs",
+      "description": "برای شروع: چرخهٔ ساخت مخزن، commit، branch و pull request را تمرین کن.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://docs.github.com/en/get-started/using-github/hello-world",
+        "pageTitle": "Hello World - GitHub Docs",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "frontend",
+      "step": "fe-step-2",
+      "title": "راهنمای DevTools",
+      "url": "https://developer.chrome.com/docs/devtools/",
+      "type": "doc",
+      "platform": "Chrome for Developers",
+      "description": "مرجع ابزارهای Elements، Network، Console، Performance و Application؛ هر پنل را در پروژه آزمایش کن.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://developer.chrome.com/docs/devtools/",
+        "pageTitle": "Chrome DevTools  |  Chrome for Developers",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "frontend",
+      "step": "fe-step-2",
+      "title": "شروع کار با Vite",
+      "url": "https://vite.dev/guide/",
+      "type": "doc",
+      "platform": "Vite",
+      "description": "ساخت و اجرای پروژه و کار با اسکریپت‌های توسعه و build.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://vite.dev/guide/",
+        "pageTitle": "Getting Started | Vite",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "frontend",
+      "step": "fe-step-3",
+      "title": "راهنمای JavaScript",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+      "type": "doc",
+      "platform": "MDN",
+      "description": "برای شروع: نوع داده‌ها، توابع، آبجکت‌ها، Promise و ماژول‌ها را با تمرین مرور کن.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+        "pageTitle": "JavaScript Guide - JavaScript | MDN",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "frontend",
+      "step": "fe-step-3",
+      "title": "کار با Fetch API",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch",
+      "type": "doc",
+      "platform": "MDN",
+      "description": "در پروژهٔ بدون فریم‌ورک، پاسخ HTTP و شکست درخواست را مدیریت کن.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch",
+        "pageTitle": "Using the Fetch API - Web APIs | MDN",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "frontend",
+      "step": "fe-step-4",
+      "title": "کتاب راهنمای TypeScript",
+      "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+      "type": "doc",
+      "platform": "TypeScript",
+      "description": "برای شروع: نوع‌های پایه، union، narrowing و genericهای ساده؛ بعد سراغ بخش‌های پیشرفته برو.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://www.typescriptlang.org/docs/handbook/intro.html",
+        "pageTitle": "TypeScript: Handbook - The TypeScript Handbook",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "frontend",
+      "step": "fe-step-4",
+      "title": "کاربرد پایهٔ Zod",
+      "url": "https://zod.dev/basics",
+      "type": "doc",
+      "platform": "Zod",
+      "description": "اعتبارسنجی ورودی و بررسی نتیجهٔ parse و safeParse در مرز API.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://zod.dev/basics",
+        "pageTitle": "Basic usage | Zod",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "frontend",
+      "step": "fe-step-5",
+      "title": "آموزش رسمی React",
+      "url": "https://react.dev/learn",
+      "type": "doc",
+      "platform": "React",
+      "description": "برای شروع: توصیف UI، تعامل، مدیریت state و escape hatchها را به‌ترتیب نیازت بخوان.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://react.dev/learn",
+        "pageTitle": "Quick Start – React",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "frontend",
+      "step": "fe-step-5",
+      "title": "تست رفتار کامپوننت‌های React",
+      "url": "https://testing-library.com/docs/react-testing-library/intro/",
+      "type": "doc",
+      "platform": "Testing Library",
+      "description": "مرجع تست رفتار قابل‌مشاهدهٔ کاربر و تعامل با رابط کاربری.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://testing-library.com/docs/react-testing-library/intro/",
+        "pageTitle": "React Testing Library | Testing Library",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "frontend",
+      "step": "fe-step-6",
+      "title": "مدیریت server state با TanStack Query",
+      "url": "https://tanstack.com/query/latest/docs/framework/react/overview",
+      "type": "doc",
+      "platform": "TanStack Query",
+      "description": "برای بخش داده: دریافت، کش، تغییر داده و هماهنگی وضعیت درخواست‌ها.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://tanstack.com/query/latest/docs/framework/react/overview",
+        "pageTitle": "Overview | TanStack Query React Docs",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "frontend",
+      "step": "fe-step-6",
+      "title": "فرم با React Hook Form",
+      "url": "https://react-hook-form.com/get-started",
+      "type": "doc",
+      "platform": "React Hook Form",
+      "description": "برای بخش فرم: ثبت فیلدها، اعتبارسنجی، ارسال و نمایش خطا.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://react-hook-form.com/get-started",
+        "pageTitle": "Get Started | React Hook Form",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "frontend",
+      "step": "fe-step-6",
+      "title": "شبیه‌سازی API با MSW",
+      "url": "https://mswjs.io/docs/",
+      "type": "doc",
+      "platform": "MSW",
+      "description": "برای تست: پاسخ موفق، شکست و وضعیت‌های شبکه را شبیه‌سازی کن.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://mswjs.io/docs/",
+        "pageTitle": "Introduction - Mock Service Worker",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "frontend",
+      "step": "fe-step-7",
+      "title": "شروع کار با App Router",
+      "url": "https://nextjs.org/docs/app/getting-started",
+      "type": "doc",
+      "platform": "Next.js",
+      "description": "برای شروع: مرز سرور و کلاینت، مسیرها، دریافت داده و انتشار را در مستندات نسخهٔ پروژه دنبال کن.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://nextjs.org/docs/app/getting-started",
+        "pageTitle": "Getting Started",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "frontend",
+      "step": "fe-step-7",
+      "title": "آموزش عملکرد وب",
+      "url": "https://web.dev/learn/performance",
+      "type": "doc",
+      "platform": "web.dev",
+      "description": "اندازه‌گیری و بررسی هزینهٔ منابع صفحه، تصاویر و JavaScript؛ انتخاب فصل متناسب با نتیجهٔ اندازه‌گیری.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://web.dev/learn/performance",
+        "pageTitle": "Learn Performance  |  web.dev",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "frontend",
+      "step": "fe-step-7",
+      "title": "شروع تست E2E با Playwright",
+      "url": "https://playwright.dev/docs/intro",
+      "type": "doc",
+      "platform": "Playwright",
+      "description": "برای تست: یک مسیر حیاتی کاربر را در مرورگر واقعی اجرا و بررسی کن.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://playwright.dev/docs/intro",
+        "pageTitle": "Installation | Playwright",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "frontend",
+      "step": "fe-step-8",
+      "title": "آموزش عملکرد وب",
+      "url": "https://web.dev/learn/performance",
+      "type": "doc",
+      "platform": "web.dev",
+      "description": "یکی از مسیرهای انتخابی؛ پس از ساخت و انتشار محصول، حوزهٔ عملکرد را عمیق‌تر دنبال کن.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://web.dev/learn/performance",
+        "pageTitle": "Learn Performance  |  web.dev",
+        "error": null
+      }
+    },
+    {
+      "roadmap": "frontend",
+      "step": "fe-step-8",
+      "title": "شروع React Native",
+      "url": "https://reactnative.dev/docs/getting-started",
+      "type": "doc",
+      "platform": "React Native",
+      "description": "مرجع یکی از شاخه‌های انتخابی، برای توسعهٔ رابط موبایل با React.",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://reactnative.dev/docs/getting-started",
+        "pageTitle": "Introduction · React Native",
+        "error": null
+      }
+    }
+  ]
+}

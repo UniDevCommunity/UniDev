@@ -1,0 +1,3616 @@
+{
+  "checkedAt": "2026-10-20",
+  "audience": "دانشجوی در حال ساخت اولین پروژه‌ها و آماده‌شدن برای کارآموزی؛ عمق تخصصی به‌صورت انتخابی.",
+  "scope": {
+    "roadmaps": 4,
+    "modules": 27,
+    "topicNodes": 128,
+    "learningResourcePlacements": 69,
+    "originalFrontendReferences": 3,
+    "distinctLearningAndReferenceUrls": 66,
+    "contributorLinks": 3,
+    "sourceDownloads": 3
+  },
+  "method": "GET+redirect+خواندن متن/فهرست صفحات ناشر؛ بررسی metadata وب و منابع رسمی؛ نگاشت محتوایی و قضاوت آموزشی؛ پخش همهٔ ویدئوها و اجرای همهٔ تمرین‌های خارجی انجام نشده است.",
+  "sourceHashes": {
+    "src/data/roadmaps.ts": "d0bd2f2883d473745fb3178149e0b58298b899d1d7740fa6381c7d0e77ae4806",
+    "src/data/frontend-roadmap.ts": "50529e9fbb2444c08bf07436cfc2e536a80807e77c6df66ebb54982cf4537a7e"
+  },
+  "urlEvidence": {
+    "https://www.mongard.ir/courses/python-beginner/": {
+      "httpStatus": 404,
+      "finalUrl": "https://www.mongard.ir/courses/python-beginner/",
+      "readableTextCharacters": 0,
+      "pageTitles": [],
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://www.mongard.ir/courses/django-beginner/": {
+      "httpStatus": 404,
+      "finalUrl": "https://www.mongard.ir/courses/django-beginner/",
+      "readableTextCharacters": 0,
+      "pageTitles": [],
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://docs.python.org/3/tutorial/": {
+      "httpStatus": 200,
+      "finalUrl": "https://docs.python.org/3/tutorial/",
+      "readableTextCharacters": 7164,
+      "pageTitles": [
+        "The Python Tutorial — Python 3.15.0 documentation",
+        "The Python Tutorial ¶"
+      ],
+      "error": null
+    },
+    "https://www.kaggle.com/learn/python": {
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/learn/python",
+      "readableTextCharacters": 31,
+      "pageTitles": [
+        "Learn Python Tutorials | Kaggle"
+      ],
+      "error": null,
+      "supplementalVerification": {
+        "method": "فهرست هفت درس دوره از صفحهٔ ناشر بازیابی شد؛ تمرین‌ها اجرا نشده‌اند.",
+        "url": "https://www.kaggle.com/learn/python/hello-python"
+      }
+    },
+    "https://learngitbranching.js.org/": {
+      "httpStatus": 200,
+      "finalUrl": "https://learngitbranching.js.org/",
+      "readableTextCharacters": 70,
+      "pageTitles": [
+        "Learn Git Branching"
+      ],
+      "error": null
+    },
+    "https://developer.mozilla.org/en-US/docs/Web/HTTP": {
+      "httpStatus": 200,
+      "finalUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+      "readableTextCharacters": 10660,
+      "pageTitles": [
+        "HTTP: Hypertext Transfer Protocol | MDN",
+        "MDN",
+        "HTTP: Hypertext Transfer Protocol"
+      ],
+      "error": null
+    },
+    "https://portswigger.net/web-security": {
+      "httpStatus": 200,
+      "finalUrl": "https://portswigger.net/web-security",
+      "readableTextCharacters": 7145,
+      "pageTitles": [
+        "Web Security Academy: Free Online Training from PortSwigger",
+        "Free, online web security training from the creators of Burp Suite"
+      ],
+      "error": null
+    },
+    "https://sqlbolt.com/": {
+      "httpStatus": 200,
+      "finalUrl": "https://sqlbolt.com/",
+      "readableTextCharacters": 3960,
+      "pageTitles": [
+        "SQLBolt - Learn SQL - Introduction to SQL",
+        "What is SQL?",
+        "Relational databases"
+      ],
+      "error": null
+    },
+    "https://docs.djangoproject.com/en/stable/topics/db/models/": {
+      "httpStatus": 200,
+      "finalUrl": "https://docs.djangoproject.com/en/6.1/topics/db/models/",
+      "readableTextCharacters": 51988,
+      "pageTitles": [
+        "Models | Django documentation | Django",
+        "Models ¶"
+      ],
+      "error": null
+    },
+    "https://www.mongard.ir/courses/django-rest-framework/": {
+      "httpStatus": 404,
+      "finalUrl": "https://www.mongard.ir/courses/django-rest-framework/",
+      "readableTextCharacters": 0,
+      "pageTitles": [],
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://docs.djangoproject.com/en/stable/topics/security/": {
+      "httpStatus": 200,
+      "finalUrl": "https://docs.djangoproject.com/en/6.1/topics/security/",
+      "readableTextCharacters": 17325,
+      "pageTitles": [
+        "Security in Django | Django documentation | Django",
+        "Security in Django ¶"
+      ],
+      "error": null
+    },
+    "https://www.django-rest-framework.org/tutorial/quickstart/": {
+      "httpStatus": null,
+      "finalUrl": "https://www.django-rest-framework.org/tutorial/quickstart/",
+      "readableTextCharacters": 0,
+      "pageTitles": [],
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)>",
+      "supplementalVerification": {
+        "method": "متن ناشر با ابزار وب خوانده شد؛ GET این اجرا خطای شبکه داشت.",
+        "url": "https://www.django-rest-framework.org/tutorial/quickstart/"
+      }
+    },
+    "https://realpython.com/tutorials/django/": {
+      "httpStatus": 200,
+      "finalUrl": "https://realpython.com/tutorials/django/",
+      "readableTextCharacters": 8916,
+      "pageTitles": [
+        "Django Tutorials – Real Python",
+        "Django Tutorials"
+      ],
+      "error": null
+    },
+    "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django": {
+      "httpStatus": 200,
+      "finalUrl": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django",
+      "readableTextCharacters": 6958,
+      "pageTitles": [
+        "Django Web Framework (Python) - Learn web development | MDN",
+        "MDN",
+        "Django Web Framework (Python)"
+      ],
+      "error": null
+    },
+    "https://docs.djangoproject.com/en/stable/howto/deployment/": {
+      "httpStatus": 200,
+      "finalUrl": "https://docs.djangoproject.com/en/6.1/howto/deployment/",
+      "readableTextCharacters": 2329,
+      "pageTitles": [
+        "How to deploy Django | Django documentation | Django",
+        "How to deploy Django ¶"
+      ],
+      "error": null
+    },
+    "https://www.youtube.com/@bugbytes3923": {
+      "httpStatus": null,
+      "finalUrl": "https://www.youtube.com/@bugbytes3923",
+      "readableTextCharacters": 0,
+      "pageTitles": [],
+      "error": "<urlopen error timed out>"
+    },
+    "https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU": {
+      "httpStatus": null,
+      "finalUrl": "https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU",
+      "readableTextCharacters": 0,
+      "pageTitles": [],
+      "error": "<urlopen error timed out>",
+      "supplementalVerification": {
+        "method": "فقط عنوان Python Tutorials در بازیابی وب؛ پخش و درس‌ها تأیید نشد."
+      }
+    },
+    "https://www.youtube.com/results?search_query=jadi+git+tutorial": {
+      "httpStatus": null,
+      "finalUrl": "https://www.youtube.com/results?search_query=jadi+git+tutorial",
+      "readableTextCharacters": 0,
+      "pageTitles": [],
+      "error": "<urlopen error timed out>"
+    },
+    "https://quera.org/": {
+      "httpStatus": 200,
+      "finalUrl": "https://quera.org/",
+      "readableTextCharacters": 1299,
+      "pageTitles": [
+        "جامعه توسعه‌دهندگان ایران | Quera",
+        "جامعه توسعه‌دهندگان ایران"
+      ],
+      "error": null
+    },
+    "https://www.youtube.com/playlist?list=PL-2EBeDYMIbTLulc9FSoAXhbmXpLq2l5t": {
+      "httpStatus": null,
+      "finalUrl": "https://www.youtube.com/playlist?list=PL-2EBeDYMIbTLulc9FSoAXhbmXpLq2l5t",
+      "readableTextCharacters": 0,
+      "pageTitles": [],
+      "error": "<urlopen error [Errno 101] Network is unreachable>",
+      "supplementalVerification": {
+        "method": "فقط عنوان Django REST Framework - API Development with Django در بازیابی وب؛ metadata قدیمی‌تر از تاریخ بررسی است، پخش فعلی تأیید نشد."
+      }
+    },
+    "https://www.kaggle.com/learn/data-cleaning": {
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/learn/data-cleaning",
+      "readableTextCharacters": 38,
+      "pageTitles": [
+        "Learn Data Cleaning Tutorials | Kaggle"
+      ],
+      "error": null
+    },
+    "https://www.kaggle.com/learn/pandas": {
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/learn/pandas",
+      "readableTextCharacters": 31,
+      "pageTitles": [
+        "Learn Pandas Tutorials | Kaggle"
+      ],
+      "error": null
+    },
+    "https://www.khanacademy.org/math/statistics-probability": {
+      "httpStatus": 200,
+      "finalUrl": "https://www.khanacademy.org/math/statistics-probability",
+      "readableTextCharacters": 226,
+      "pageTitles": [
+        "Client Challenge"
+      ],
+      "error": null
+    },
+    "https://www.kaggle.com/learn/data-visualization": {
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/learn/data-visualization",
+      "readableTextCharacters": 43,
+      "pageTitles": [
+        "Learn Data Visualization Tutorials | Kaggle"
+      ],
+      "error": null
+    },
+    "https://www.youtube.com/results?search_query=django+custom+user+model+bugbytes": {
+      "httpStatus": null,
+      "finalUrl": "https://www.youtube.com/results?search_query=django+custom+user+model+bugbytes",
+      "readableTextCharacters": 0,
+      "pageTitles": [],
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
+    },
+    "https://www.coursera.org/specializations/machine-learning-introduction": {
+      "httpStatus": 200,
+      "finalUrl": "https://www.coursera.org/specializations/machine-learning-introduction",
+      "readableTextCharacters": 29709,
+      "pageTitles": [
+        "Machine Learning | Coursera",
+        "Machine Learning Specialization",
+        "See how employees at top companies are mastering in-demand skills"
+      ],
+      "error": null
+    },
+    "https://www.kaggle.com/learn/intro-to-machine-learning": {
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/learn/intro-to-machine-learning",
+      "readableTextCharacters": 50,
+      "pageTitles": [
+        "Learn Intro to Machine Learning Tutorials | Kaggle"
+      ],
+      "error": null,
+      "supplementalVerification": {
+        "method": "فهرست دورهٔ Intro با جستجوی صفحهٔ ناشر بازیابی شد؛ تمرین‌ها اجرا نشده‌اند.",
+        "url": "https://www.kaggle.com/learn/intro-to-machine-learning?s=09"
+      }
+    },
+    "https://www.youtube.com/@bugbytes3923/videos": {
+      "httpStatus": null,
+      "finalUrl": "https://www.youtube.com/@bugbytes3923/videos",
+      "readableTextCharacters": 0,
+      "pageTitles": [],
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
+    },
+    "https://streamlit.io/": {
+      "httpStatus": 200,
+      "finalUrl": "https://streamlit.io/",
+      "readableTextCharacters": 16524,
+      "pageTitles": [
+        "Streamlit • A faster way to build and share data apps"
+      ],
+      "error": null
+    },
+    "https://course.fast.ai/": {
+      "httpStatus": 200,
+      "finalUrl": "https://course.fast.ai/",
+      "readableTextCharacters": 12786,
+      "pageTitles": [
+        "Practical Deep Learning for Coders - Practical Deep Learning",
+        "Practical Deep Learning"
+      ],
+      "error": null
+    },
+    "https://www.youtube.com/results?search_query=dockerize+django+postgres+nginx": {
+      "httpStatus": null,
+      "finalUrl": "https://www.youtube.com/results?search_query=dockerize+django+postgres+nginx",
+      "readableTextCharacters": 0,
+      "pageTitles": [],
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
+    },
+    "https://huggingface.co/learn/nlp-course/": {
+      "httpStatus": 200,
+      "finalUrl": "https://huggingface.co/learn/llm-course/chapter1/1",
+      "readableTextCharacters": 11645,
+      "pageTitles": [
+        "Introduction · Hugging Face",
+        "LLM Course",
+        "Introduction"
+      ],
+      "error": null
+    },
+    "https://linuxjourney.com/": {
+      "httpStatus": 403,
+      "finalUrl": "https://labex.io/linuxjourney",
+      "readableTextCharacters": 0,
+      "pageTitles": [],
+      "error": "HTTP Error 403: Forbidden",
+      "supplementalVerification": {
+        "method": "مقصد canonical با ابزار وب خوانده شد؛ خطای 403 درخواست مستقیم حذف منبع را اثبات نمی‌کند.",
+        "url": "https://labex.io/linuxjourney"
+      }
+    },
+    "https://overthewire.org/wargames/bandit/": {
+      "httpStatus": 200,
+      "finalUrl": "https://overthewire.org/wargames/bandit/",
+      "readableTextCharacters": 2169,
+      "pageTitles": [
+        "OverTheWire: Bandit",
+        "Bandit"
+      ],
+      "error": null
+    },
+    "https://labs.play-with-docker.com/": {
+      "httpStatus": 200,
+      "finalUrl": "https://labs.play-with-docker.com/",
+      "readableTextCharacters": 926,
+      "pageTitles": [
+        "Play with Docker",
+        "Play with Docker"
+      ],
+      "error": null,
+      "publisherNotice": "Deprecation notice: Play with Docker will be unavailable starting March 1, 2026."
+    },
+    "https://www.youtube.com/results?search_query=google+colab+persian+tutorial": {
+      "httpStatus": null,
+      "finalUrl": "https://www.youtube.com/results?search_query=google+colab+persian+tutorial",
+      "readableTextCharacters": 0,
+      "pageTitles": [],
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
+    },
+    "https://www.youtube.com/@statquest": {
+      "httpStatus": null,
+      "finalUrl": "https://www.youtube.com/@statquest",
+      "readableTextCharacters": 0,
+      "pageTitles": [],
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
+    },
+    "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab": {
+      "httpStatus": null,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+      "readableTextCharacters": 0,
+      "pageTitles": [],
+      "error": "<urlopen error [Errno 101] Network is unreachable>",
+      "supplementalVerification": {
+        "method": "عنوان Essence of linear algebra در بازیابی وب؛ پخش کامل تأیید نشد."
+      }
+    },
+    "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr": {
+      "httpStatus": null,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr",
+      "readableTextCharacters": 0,
+      "pageTitles": [],
+      "error": "<urlopen error [Errno 101] Network is unreachable>",
+      "supplementalVerification": {
+        "method": "عنوان Essence of calculus در بازیابی وب؛ پخش کامل تأیید نشد."
+      }
+    },
+    "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works": {
+      "httpStatus": 200,
+      "finalUrl": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works",
+      "readableTextCharacters": 12258,
+      "pageTitles": [
+        "How the web works - Learn web development | MDN",
+        "MDN",
+        "How the web works"
+      ],
+      "error": null
+    },
+    "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout": {
+      "httpStatus": 200,
+      "finalUrl": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout",
+      "readableTextCharacters": 6059,
+      "pageTitles": [
+        "CSS layout - Learn web development | MDN",
+        "MDN",
+        "CSS layout"
+      ],
+      "error": null
+    },
+    "https://www.w3.org/WAI/tutorials/": {
+      "httpStatus": 200,
+      "finalUrl": "https://www.w3.org/WAI/tutorials/",
+      "readableTextCharacters": 2599,
+      "pageTitles": [
+        "Tutorials | Web Accessibility Initiative (WAI) | W3C",
+        "W3C homepage",
+        "Web Accessibility Initiative (WAI) homepage"
+      ],
+      "error": null
+    },
+    "https://docs.github.com/en/get-started/using-github/hello-world": {
+      "httpStatus": 200,
+      "finalUrl": "https://docs.github.com/en/get-started/using-github/hello-world",
+      "readableTextCharacters": 8281,
+      "pageTitles": [
+        "Hello World - GitHub Docs",
+        "Hello World"
+      ],
+      "error": null
+    },
+    "https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF": {
+      "httpStatus": null,
+      "finalUrl": "https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF",
+      "readableTextCharacters": 0,
+      "pageTitles": [],
+      "error": "<urlopen error [Errno 101] Network is unreachable>",
+      "supplementalVerification": {
+        "method": "همین playlist از فهرست رسمی مدرس لینک شده است؛ پخش کامل تأیید نشد.",
+        "url": "https://statquest.org/video_index.html"
+      }
+    },
+    "https://vite.dev/guide/": {
+      "httpStatus": 200,
+      "finalUrl": "https://vite.dev/guide/",
+      "readableTextCharacters": 8501,
+      "pageTitles": [
+        "Getting Started | Vite",
+        "Getting Started ​"
+      ],
+      "error": null
+    },
+    "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch": {
+      "httpStatus": 200,
+      "finalUrl": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch",
+      "readableTextCharacters": 22216,
+      "pageTitles": [
+        "Using the Fetch API - Web APIs | MDN",
+        "MDN",
+        "Using the Fetch API"
+      ],
+      "error": null
+    },
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide": {
+      "httpStatus": 200,
+      "finalUrl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+      "readableTextCharacters": 3416,
+      "pageTitles": [
+        "JavaScript Guide - JavaScript | MDN",
+        "MDN",
+        "JavaScript Guide"
+      ],
+      "error": null
+    },
+    "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content": {
+      "httpStatus": 200,
+      "finalUrl": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content",
+      "readableTextCharacters": 8925,
+      "pageTitles": [
+        "Structuring content with HTML - Learn web development | MDN",
+        "MDN",
+        "Structuring content with HTML"
+      ],
+      "error": null
+    },
+    "https://developer.chrome.com/docs/devtools/": {
+      "httpStatus": 200,
+      "finalUrl": "https://developer.chrome.com/docs/devtools/",
+      "readableTextCharacters": 5078,
+      "pageTitles": [
+        "Chrome DevTools | Chrome for Developers"
+      ],
+      "error": null
+    },
+    "https://zod.dev/basics": {
+      "httpStatus": 200,
+      "finalUrl": "https://zod.dev/basics",
+      "readableTextCharacters": 4219,
+      "pageTitles": [
+        "Basic usage | Zod",
+        "Basic usage"
+      ],
+      "error": null
+    },
+    "https://testing-library.com/docs/react-testing-library/intro/": {
+      "httpStatus": 200,
+      "finalUrl": "https://testing-library.com/docs/react-testing-library/intro/",
+      "readableTextCharacters": 3318,
+      "pageTitles": [
+        "React Testing Library | Testing Library",
+        "React Testing Library"
+      ],
+      "error": null
+    },
+    "https://mswjs.io/docs/": {
+      "httpStatus": 200,
+      "finalUrl": "https://mswjs.io/docs/",
+      "readableTextCharacters": 2345,
+      "pageTitles": [
+        "Introduction - Mock Service Worker",
+        "Introduction"
+      ],
+      "error": null
+    },
+    "https://www.typescriptlang.org/docs/handbook/intro.html": {
+      "httpStatus": 200,
+      "finalUrl": "https://www.typescriptlang.org/docs/handbook/intro.html",
+      "readableTextCharacters": 7779,
+      "pageTitles": [
+        "TypeScript: Handbook - The TypeScript Handbook",
+        "The TypeScript Handbook"
+      ],
+      "error": null
+    },
+    "https://react-hook-form.com/get-started": {
+      "httpStatus": 200,
+      "finalUrl": "https://react-hook-form.com/get-started",
+      "readableTextCharacters": 22666,
+      "pageTitles": [
+        "Get Started | React Hook Form",
+        "Get Started"
+      ],
+      "error": null
+    },
+    "https://www.youtube.com/results?search_query=deploy+machine+learning+model+fastapi": {
+      "httpStatus": null,
+      "finalUrl": "https://www.youtube.com/results?search_query=deploy+machine+learning+model+fastapi",
+      "readableTextCharacters": 0,
+      "pageTitles": [],
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
+    },
+    "https://tanstack.com/query/latest/docs/framework/react/overview": {
+      "httpStatus": 200,
+      "finalUrl": "https://tanstack.com/query/latest/docs/framework/react/overview",
+      "readableTextCharacters": 6673,
+      "pageTitles": [
+        "Overview | TanStack Query React Docs",
+        "Overview"
+      ],
+      "error": null
+    },
+    "https://react.dev/learn": {
+      "httpStatus": 200,
+      "finalUrl": "https://react.dev/learn",
+      "readableTextCharacters": 12721,
+      "pageTitles": [
+        "Quick Start – React",
+        "Quick Start"
+      ],
+      "error": null
+    },
+    "https://playwright.dev/docs/intro": {
+      "httpStatus": 200,
+      "finalUrl": "https://playwright.dev/docs/intro",
+      "readableTextCharacters": 4060,
+      "pageTitles": [
+        "Installation | Playwright",
+        "Installation"
+      ],
+      "error": null
+    },
+    "https://reactnative.dev/docs/getting-started": {
+      "httpStatus": 200,
+      "finalUrl": "https://reactnative.dev/docs/getting-started",
+      "readableTextCharacters": 2933,
+      "pageTitles": [
+        "Introduction · React Native",
+        "Introduction"
+      ],
+      "error": null
+    },
+    "https://roadmap.sh/frontend": {
+      "httpStatus": 200,
+      "finalUrl": "https://roadmap.sh/frontend",
+      "readableTextCharacters": 5005,
+      "pageTitles": [
+        "Frontend Developer Roadmap: What is Frontend Development?",
+        "Frontend Developer"
+      ],
+      "error": null
+    },
+    "https://nextjs.org/docs/app/getting-started": {
+      "httpStatus": 200,
+      "finalUrl": "https://nextjs.org/docs/app/getting-started",
+      "readableTextCharacters": 2615,
+      "pageTitles": [
+        "Getting Started",
+        "Getting Started"
+      ],
+      "error": null
+    },
+    "https://web.dev/learn/performance": {
+      "httpStatus": 200,
+      "finalUrl": "https://web.dev/learn/performance",
+      "readableTextCharacters": 6922,
+      "pageTitles": [
+        "Learn Performance | web.dev",
+        "Learn Performance"
+      ],
+      "error": null
+    },
+    "https://www.greatfrontend.com/blog/frontend-developer-roadmap": {
+      "httpStatus": 200,
+      "finalUrl": "https://www.greatfrontend.com/blog/frontend-developer-roadmap",
+      "readableTextCharacters": 21593,
+      "pageTitles": [
+        "Frontend Developer Roadmap 2026: The Complete Skills and Career Guide | Blog",
+        "Frontend Developer Roadmap 2026: The Complete Skills and Career Guide",
+        "Footer"
+      ],
+      "error": null
+    },
+    "https://www.greatfrontend.com/blog/how-to-become-a-frontend-developer": {
+      "httpStatus": 200,
+      "finalUrl": "https://www.greatfrontend.com/blog/how-to-become-a-frontend-developer",
+      "readableTextCharacters": 13944,
+      "pageTitles": [
+        "How to Become a Frontend Developer in 2026: The Complete Roadmap | Blog",
+        "How to Become a Frontend Developer in 2026: The Complete Roadmap",
+        "Footer"
+      ],
+      "error": null
+    },
+    "https://www.youtube.com/playlist?list=PL-tKrPVkKKE0k_1812_c2-tT3V7G2M8sA": {
+      "httpStatus": null,
+      "finalUrl": "https://www.youtube.com/playlist?list=PL-tKrPVkKKE0k_1812_c2-tT3V7G2M8sA",
+      "readableTextCharacters": 0,
+      "pageTitles": [],
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
+    },
+    "https://www.youtube.com/watch?v=3c-iBn73dDE": {
+      "httpStatus": null,
+      "finalUrl": "https://www.youtube.com/watch?v=3c-iBn73dDE",
+      "readableTextCharacters": 0,
+      "pageTitles": [],
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
+    }
+  },
+  "resources": [
+    {
+      "id": "dj-step-1-r1",
+      "roadmap": "django-backend",
+      "step": "dj-step-1",
+      "title": "دوره رایگان پایتون مقدماتی تا پیشرفته (منگارد)",
+      "url": "https://www.mongard.ir/courses/python-beginner/",
+      "type": "video-fa",
+      "platform": "Mongard",
+      "description": "آموزش روان و فارسی مبانی پایتون، شیءگرایی و محیط مجازی مخصوص ورود به جنگو.",
+      "assessment": {
+        "verdict": "خراب — ۴۰۴",
+        "coverage": "آدرس دوره باز نمی‌شود؛ عنوان «رایگان، مقدماتی تا پیشرفته، OOP و venv» از این مقصد قابل تأیید نیست.",
+        "fix": "URL فعلی همان دوره را از ناشر تأیید کن؛ تا آن زمان این کارت قابل اتکا نیست. Python Tutorial جایگزین متنی است، نه ویدیوی فارسی.",
+        "suggestedSources": [
+          "https://docs.python.org/3/tutorial/"
+        ]
+      }
+    },
+    {
+      "id": "dj-step-1-r2",
+      "roadmap": "django-backend",
+      "step": "dj-step-1",
+      "title": "پلی‌لیست Python Tutorials از Corey Schafer",
+      "url": "https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU",
+      "type": "video-en",
+      "platform": "YouTube",
+      "description": "یکی از بهترین و واضح‌ترین آموزش‌های ویدیویی پایتون در دنیا.",
+      "assessment": {
+        "verdict": "مرتبط؛ بازبینی ویدئو نامشخص",
+        "coverage": "عنوان Python Tutorials در بازیابی وب تأیید شد؛ پخش، ترتیب درس‌ها و پوشش دقیق OOP/خطا/venv در این بررسی تأیید نشد.",
+        "fix": "درس‌های دقیق موردنیاز و نسخهٔ Python را بنویس؛ ادعای «یکی از بهترین‌های دنیا» را به توضیح پوشش تبدیل کن.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "dj-step-1-r3",
+      "roadmap": "django-backend",
+      "step": "dj-step-1",
+      "title": "تمرین تعاملی پایتون در Kaggle Learn",
+      "url": "https://www.kaggle.com/learn/python",
+      "type": "interactive",
+      "platform": "Kaggle",
+      "description": "مینی‌دوره تعاملی که مستقیم داخل مرورگر کد می‌زنی و تمرین حل می‌کنی.",
+      "assessment": {
+        "verdict": "مناسب برای مبانی؛ ناکافی برای تمام مرحله",
+        "coverage": "GET پوستهٔ JS بود، اما فهرست رسمی بازیابی‌شدهٔ دورهٔ Python شامل syntax، function، condition، list، loop، string/dict و import است؛ OOP، exception و venv فصل صریح این فهرست نیستند.",
+        "fix": "برای مبانی نگه دار؛ منبع فصل‌های کلاس، خطا و محیط توسعه را جدا کن. اجرای تمرین‌ها و نیاز به ورود دستی تأیید شوند؛ دیدن فهرست به معنی اجرای همهٔ تمرین‌ها نیست.",
+        "suggestedSources": [
+          "https://docs.python.org/3/tutorial/"
+        ],
+        "evidenceSources": [
+          "https://www.kaggle.com/learn/python/hello-python"
+        ]
+      }
+    },
+    {
+      "id": "dj-step-1-r4",
+      "roadmap": "django-backend",
+      "step": "dj-step-1",
+      "title": "مستندات رسمی پایتون (صرفاً جهت رفرنس)",
+      "url": "https://docs.python.org/3/tutorial/",
+      "type": "doc",
+      "platform": "Python Docs",
+      "description": "منبع مرجع (Source of Truth) برای زمانی که می‌خواهی جزئیات دقیق یک تابع را چک کنی.",
+      "assessment": {
+        "verdict": "مناسب؛ برچسب و مخاطب نیاز به اصلاح دارد",
+        "coverage": "این URL خودِ Tutorial است، نه فقط مرجع توابع؛ فصل‌های داده، خطا، کلاس و محیط مجازی دارد. ناشر آن را برای افراد دارای آشنایی با برنامه‌نویسی معرفی کرده است.",
+        "fix": "به «آموزش رسمی Python، فصل‌های منتخب» تغییر عنوان بده؛ برای تازه‌کار مطلق، همراه تمرین باشد، نه تنها نقطهٔ شروع.",
+        "suggestedSources": [
+          "https://docs.python.org/3/tutorial/"
+        ]
+      }
+    },
+    {
+      "id": "dj-step-2-r1",
+      "roadmap": "django-backend",
+      "step": "dj-step-2",
+      "title": "بازی تعاملی یادگیری Git و Branching",
+      "url": "https://learngitbranching.js.org/",
+      "type": "interactive",
+      "platform": "LearnGitBranching",
+      "description": "فوق‌العاده جذاب! کل مفاهیم برنچ، مرج و ری‌بیس گیت رو توی ۲ ساعت به صورت بصری و بازی‌محور یاد بگیر.",
+      "assessment": {
+        "verdict": "مرتبط؛ محدود به Git branching",
+        "coverage": "ساختار تعاملی Git را هدف گرفته است؛ جای آموزش نصب Git، گردش کار remote و Pull Request یا Linux/HTTP را نمی‌گیرد. صفحهٔ GET پوستهٔ JS است.",
+        "fix": "تمرین branch/merge را مشخص کن؛ وعدهٔ یادگیری «کل Git در دو ساعت» حذف شود. برای گردش کار تیمی GitHub راهنمای جدا بده.",
+        "suggestedSources": [
+          "https://docs.github.com/en/get-started/using-github/hello-world"
+        ]
+      }
+    },
+    {
+      "id": "dj-step-2-r2",
+      "roadmap": "django-backend",
+      "step": "dj-step-2",
+      "title": "دوره رایگان آموزش گیت و گیت‌هاب (جادی / مکتب‌خونه)",
+      "url": "https://www.youtube.com/results?search_query=jadi+git+tutorial",
+      "type": "video-fa",
+      "platform": "YouTube فارسی",
+      "description": "آموزش شیرین و کاربردی گیت به زبان فارسی.",
+      "assessment": {
+        "verdict": "منبع انتخاب‌نشده — جستجو",
+        "coverage": "URL نتیجهٔ جستجوی YouTube است. از آن نمی‌توان فهمید دقیقاً کدام درس، مدرس یا ناشر انتخاب شده؛ نتیجه هم ممکن است تغییر کند.",
+        "fix": "با یک ویدئو یا پلی‌لیست دقیق و مدرس مشخص جایگزین کن؛ این URL را به‌عنوان دوره منتشر نکن.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "dj-step-2-r3",
+      "roadmap": "django-backend",
+      "step": "dj-step-2",
+      "title": "راهنمای تصویری پروتکل HTTP در MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+      "type": "doc",
+      "platform": "MDN Web Docs",
+      "description": "بهترین رفرنس وب برای درک چرخه Request و Response.",
+      "assessment": {
+        "verdict": "مناسب به‌عنوان مرجع",
+        "coverage": "مرجع HTTP است و به متدها، کدها و header مرتبط است؛ درس Git، Linux، JSON و اصول REST را کامل پوشش نمی‌دهد. «راهنمای تصویری» عنوان دقیقی برای کل این درگاه نیست.",
+        "fix": "فصل‌های overview، methods، status و headers را انتخاب و نقش «مرجع» را مشخص کن؛ برای Git و ترمینال منابع مستقل لازم است.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "dj-step-3-r1",
+      "roadmap": "django-backend",
+      "step": "dj-step-3",
+      "title": "پلی‌لیست مدرن Django در کانال BugBytes",
+      "url": "https://www.youtube.com/@bugbytes3923",
+      "type": "video-en",
+      "platform": "YouTube (BugBytes)",
+      "description": "آموزش‌های فوق‌العاده تمیز، مدرن و کاربردی جنگو بدون حاشیه.",
+      "assessment": {
+        "verdict": "عمومی؛ عنوان با نوع مقصد نمی‌خواند",
+        "coverage": "URL کانال BugBytes است، نه یک playlist مشخص. «مدرن بودن» و پوشش همین پنج مبحث از صفحهٔ کانال اثبات نمی‌شود.",
+        "fix": "پلی‌لیست واقعی مبانی Django و فصل‌ها را مشخص کن؛ تا آن زمان فقط به‌عنوان کانال تکمیلی معرفی شود.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "dj-step-3-r2",
+      "roadmap": "django-backend",
+      "step": "dj-step-3",
+      "title": "دوره جامع آموزش جنگو به زبان فارسی",
+      "url": "https://www.mongard.ir/courses/django-beginner/",
+      "type": "video-fa",
+      "platform": "Mongard",
+      "description": "شروع گام‌به‌گام جنگو به زبان فارسی از نصب تا ساخت اولین اپ.",
+      "assessment": {
+        "verdict": "خراب — ۴۰۴",
+        "coverage": "آدرس Django Beginner باز نمی‌شود؛ شروع تا اولین app قابل استفاده نیست.",
+        "fix": "دورهٔ فعلی ناشر را تأیید کن یا آموزش پروژه‌محور متنیِ موجود MDN را منبع شروع قرار بده.",
+        "suggestedSources": [
+          "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django"
+        ]
+      }
+    },
+    {
+      "id": "dj-step-3-r3",
+      "roadmap": "django-backend",
+      "step": "dj-step-3",
+      "title": "آموزش گام‌به‌گام جنگو در MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django",
+      "type": "doc",
+      "platform": "MDN",
+      "description": "آموزش متنی-پروژه‌محور بسیار روان‌تر از داکیومنت رسمی.",
+      "assessment": {
+        "verdict": "مناسب؛ دامنه از این مرحله بزرگ‌تر است",
+        "coverage": "آموزش پروژه‌محور Django دارد؛ به Python و آشنایی وب نیاز دارد و فقط Views/Routing نیست. شامل models، admin، forms و deployment هم می‌شود.",
+        "fix": "درس‌های مربوط به اسکلت پروژه و views را برای مرحلهٔ ۳ مشخص کن؛ بقیه را در مراحل بعد ارجاع بده. توضیح مقایسه‌ایِ بی‌سند «روان‌تر از مستندات رسمی» حذف شود.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "dj-step-4-r1",
+      "roadmap": "django-backend",
+      "step": "dj-step-4",
+      "title": "یادگیری تعاملی SQL از صفر (SQLBolt)",
+      "url": "https://sqlbolt.com/",
+      "type": "interactive",
+      "platform": "SQLBolt",
+      "description": "بهترین سایت تعاملی برای یادگیری کوئری‌های SQL و Joinها در چند ساعت با حل تمرین زنده.",
+      "assessment": {
+        "verdict": "مناسب برای SQL پایه؛ ناکافی برای PostgreSQL و ORM",
+        "coverage": "SELECT، JOIN، aggregation و تغییر جداول را در فهرست دارد؛ آموزش پیکربندی PostgreSQL، تراکنش‌های Django یا QuerySet نیست.",
+        "fix": "برای SQL پایه نگه دار؛ دو خروجی SQL و ORM را جدا تعریف کن و مرجع queryهای Django بده.",
+        "suggestedSources": [
+          "https://docs.djangoproject.com/en/stable/topics/db/queries/"
+        ]
+      }
+    },
+    {
+      "id": "dj-step-4-r2",
+      "roadmap": "django-backend",
+      "step": "dj-step-4",
+      "title": "پلی‌لیست عمیق Django ORM در کانال BugBytes",
+      "url": "https://www.youtube.com/playlist?list=PL-2EBeDYMIbTLulc9FSoAXhbmXpLq2l5t",
+      "type": "video-en",
+      "platform": "YouTube (BugBytes)",
+      "description": "بررسی کامل کوئری‌ها، Aggregation، Annotation و روابط دیتابیس در جنگو.",
+      "assessment": {
+        "verdict": "ناهمخوانی مشخص عنوان و مقصد",
+        "coverage": "همین URL در مرحلهٔ ۶ برای DRF تکرار شده؛ عنوان بازیابی‌شدهٔ ناشر Django REST Framework است. پوشش «عمیق و کامل ORM، aggregation و annotation» اثبات نشده است.",
+        "fix": "این کارت را از نقش آموزش اصلی ORM خارج کن؛ یک منبع واقعی ORM یا فصل‌های query و QuerySet جایگزین شود. پخش زندهٔ playlist هنوز تأیید نشده است.",
+        "suggestedSources": [
+          "https://docs.djangoproject.com/en/stable/topics/db/queries/",
+          "https://docs.djangoproject.com/en/stable/ref/models/querysets/"
+        ]
+      }
+    },
+    {
+      "id": "dj-step-4-r3",
+      "roadmap": "django-backend",
+      "step": "dj-step-4",
+      "title": "مرجع مدل‌ها و QuerySet در مستندات جنگو",
+      "url": "https://docs.djangoproject.com/en/stable/topics/db/models/",
+      "type": "doc",
+      "platform": "Django Docs",
+      "description": "رفرنس کامل انواع فیلدها و متدهای ORM.",
+      "assessment": {
+        "verdict": "مرتبط اما محدودتر از عنوان",
+        "coverage": "صفحهٔ Models شامل فیلد، رابطه و ساختار مدل است؛ مرجع کامل متدهای QuerySet در صفحهٔ دیگری قرار دارد.",
+        "fix": "عنوان کارت را «مدل‌ها و روابط» کن؛ query guide و QuerySet API به‌صورت جدا و با فصل لازم معرفی شوند.",
+        "suggestedSources": [
+          "https://docs.djangoproject.com/en/stable/topics/db/queries/",
+          "https://docs.djangoproject.com/en/stable/ref/models/querysets/"
+        ]
+      }
+    },
+    {
+      "id": "dj-step-5-r1",
+      "roadmap": "django-backend",
+      "step": "dj-step-5",
+      "title": "آزمایشگاه تعاملی امنیت وب (PortSwigger Web Security Academy)",
+      "url": "https://portswigger.net/web-security",
+      "type": "interactive",
+      "platform": "PortSwigger",
+      "description": "بهترین پلتفرم رایگان و عملی دنیا برای فهمیدن و تست واقعی آسیب‌پذیری‌های SQLi، XSS و CSRF.",
+      "assessment": {
+        "verdict": "معتبر و مرتبط؛ بیش از نیاز شروع",
+        "coverage": "Academy آموزش و lab امنیت وب دارد، اما مسیر بزرگ امنیت و تست نفوذ است؛ کاربر لازم نیست همهٔ موضوعات آن را برای ساخت login تمام کند.",
+        "fix": "فقط چند درس مقدماتی XSS، CSRF و SQL injection مرتبط با پروژه انتخاب کن؛ بخش عمیق به تعمیق برود.",
+        "suggestedSources": [
+          "https://portswigger.net/web-security/learning-paths"
+        ]
+      }
+    },
+    {
+      "id": "dj-step-5-r2",
+      "roadmap": "django-backend",
+      "step": "dj-step-5",
+      "title": "آموزش Custom User Model و احراز هویت در جنگو",
+      "url": "https://www.youtube.com/results?search_query=django+custom+user+model+bugbytes",
+      "type": "video-en",
+      "platform": "YouTube",
+      "description": "پیاده‌سازی استاندارد لاگین با ایمیل یا شماره موبایل در جنگو.",
+      "assessment": {
+        "verdict": "منبع انتخاب‌نشده — جستجو",
+        "coverage": "جستجوی custom user model، آموزش مشخص ورود با ایمیل یا شماره موبایل را تضمین نمی‌کند.",
+        "fix": "یک درس مشخص انتخاب کن؛ مرجع مستقیم custom user برای پیاده‌سازی بر پایهٔ AbstractUser اضافه شود.",
+        "suggestedSources": [
+          "https://docs.djangoproject.com/en/5.2/topics/auth/customizing/"
+        ]
+      }
+    },
+    {
+      "id": "dj-step-5-r3",
+      "roadmap": "django-backend",
+      "step": "dj-step-5",
+      "title": "مستندات امنیت در Django",
+      "url": "https://docs.djangoproject.com/en/stable/topics/security/",
+      "type": "doc",
+      "platform": "Django Docs",
+      "description": "چک‌لیست امنیتی داخلی جنگو برای محافظت از وب‌اپلیکیشن.",
+      "assessment": {
+        "verdict": "مناسب برای امنیت؛ کمبود منابع auth پابرجاست",
+        "coverage": "صفحهٔ Security حفاظت‌های Django را توضیح می‌دهد؛ آموزش کامل custom user، session و permissions نیست.",
+        "fix": "نگه دار؛ فصل‌های auth/session/permission را جدا بده و مرزهای حفاظت پیش‌فرض را توضیح بده.",
+        "suggestedSources": [
+          "https://docs.djangoproject.com/en/5.2/topics/auth/customizing/"
+        ]
+      }
+    },
+    {
+      "id": "dj-step-6-r1",
+      "roadmap": "django-backend",
+      "step": "dj-step-6",
+      "title": "پلی‌لیست کامل آموزش Django REST Framework (کانال BugBytes)",
+      "url": "https://www.youtube.com/playlist?list=PL-2EBeDYMIbTLulc9FSoAXhbmXpLq2l5t",
+      "type": "video-en",
+      "platform": "YouTube (BugBytes)",
+      "description": "آموزش صفر تا صد DRF با استانداردهای روز بازار کار.",
+      "assessment": {
+        "verdict": "مرتبط در سطح عنوان؛ کامل‌بودن تأیید نشده",
+        "coverage": "عنوان بازیابی‌شده DRF با این مرحله می‌خواند و استفادهٔ آن اینجا از مرحلهٔ ORM منطقی‌تر است؛ اما فهرست، نسخه و پوشش JWT یا drf-spectacular بررسی کامل نشده است.",
+        "fix": "عنوان «صفر تا صد با استاندارد روز» را حذف کن؛ سرفصل و نسخهٔ قابل تأیید ثبت شود. لینک تکراریِ مرحلهٔ ORM اصلاح شود.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "dj-step-6-r2",
+      "roadmap": "django-backend",
+      "step": "dj-step-6",
+      "title": "دوره فارسی آموزش Django REST Framework (منگارد)",
+      "url": "https://www.mongard.ir/courses/django-rest-framework/",
+      "type": "video-fa",
+      "platform": "Mongard",
+      "description": "آموزش جامع ساخت REST API، JWT و پرمیشن‌ها در DRF به زبان فارسی.",
+      "assessment": {
+        "verdict": "خراب — ۴۰۴",
+        "coverage": "URL دورهٔ Django REST Framework منگارد ۴۰۴ است.",
+        "fix": "آدرس واقعی دوره را تأیید کن؛ Quickstart موجود فقط راه شروع متنی است و جای ویدئوی فارسی را به‌طور هم‌ارز نمی‌گیرد.",
+        "suggestedSources": [
+          "https://www.django-rest-framework.org/tutorial/quickstart/"
+        ]
+      }
+    },
+    {
+      "id": "dj-step-6-r3",
+      "roadmap": "django-backend",
+      "step": "dj-step-6",
+      "title": "مستندات رسمی و Quickstart فریم‌ورک DRF",
+      "url": "https://www.django-rest-framework.org/tutorial/quickstart/",
+      "type": "doc",
+      "platform": "DRF Official",
+      "description": "یکی از خوش‌خوان‌ترین داکیومنت‌ها برای مراجعه سریع به ساختار ViewSetها.",
+      "assessment": {
+        "verdict": "مناسب برای شروع؛ ناکافی برای دامنهٔ مرحله",
+        "coverage": "Quickstart نمونهٔ serializer، ViewSet، router، pagination و permission ابتدایی دارد؛ آموزش جامع JWT، custom validation، filtering و OpenAPI نیست.",
+        "fix": "برای شروع نگه دار و به فصل‌های مستقیم permissions و authentication متصل کن؛ SimpleJWT و drf-spectacular منابع مخصوص خودشان می‌خواهند.",
+        "suggestedSources": [
+          "https://www.django-rest-framework.org/api-guide/permissions/",
+          "https://www.django-rest-framework.org/api-guide/authentication/"
+        ]
+      }
+    },
+    {
+      "id": "dj-step-7-r1",
+      "roadmap": "django-backend",
+      "step": "dj-step-7",
+      "title": "آموزش Celery، Redis و بهینه‌سازی در جنگو (BugBytes)",
+      "url": "https://www.youtube.com/@bugbytes3923/videos",
+      "type": "video-en",
+      "platform": "YouTube",
+      "description": "ویدیوهای عملی برای اتصال Redis و Celery به جنگو با Docker.",
+      "assessment": {
+        "verdict": "عمومی؛ پوشش معلوم نیست",
+        "coverage": "صفحهٔ Videos کانال است؛ منبع مستقیم Celery/Redis/Docker یا N+1 محسوب نمی‌شود.",
+        "fix": "به درس‌های مشخصِ هر زیرواحد تقسیم کن. تست و query optimization از task queue جدا شوند.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "dj-step-7-r2",
+      "roadmap": "django-backend",
+      "step": "dj-step-7",
+      "title": "آموزش‌های کاربردی Django در Real Python",
+      "url": "https://realpython.com/tutorials/django/",
+      "type": "doc",
+      "platform": "Real Python",
+      "description": "مقالات پروژه‌محور عالی درباره تست‌نویسی و بهینه‌سازی در جنگو.",
+      "assessment": {
+        "verdict": "مرتبط؛ فهرست مقاله، نه مستندات کامل",
+        "coverage": "مجموعهٔ مقالات و حتی podcastهای Django است؛ یک curriculum مرتب برای پنج موضوع این مرحله نیست و همهٔ محتوا الزاماً دسترسی یکسان ندارد.",
+        "fix": "عنوان نوع را «آموزش متنی/مجموعه مقاله» کن؛ مقالهٔ مشخص با تاریخ و دسترسی معلوم انتخاب شود. برای N+1 مرجع مستقیم بده.",
+        "suggestedSources": [
+          "https://docs.djangoproject.com/en/stable/ref/models/querysets/"
+        ]
+      }
+    },
+    {
+      "id": "dj-step-8-r1",
+      "roadmap": "django-backend",
+      "step": "dj-step-8",
+      "title": "آموزش Docker برای برنامه‌نویسان پایتون و جنگو",
+      "url": "https://www.youtube.com/results?search_query=dockerize+django+postgres+nginx",
+      "type": "video-en",
+      "platform": "YouTube",
+      "description": "راهنمای عملی داکرایز کردن پروژه جنگو به همراه دیتابیس و Nginx.",
+      "assessment": {
+        "verdict": "منبع انتخاب‌نشده — جستجو",
+        "coverage": "URL جستجوی dockerize Django است؛ ترکیب نسخه‌ها و اینکه کدام ویدئو امن و قابل اجراست معلوم نیست.",
+        "fix": "یک آموزش نسخه‌دار انتخاب کن؛ Docker را ابتدا با مسیر رسمی تمرین کن و بعد روی پروژهٔ Django اجرا کن.",
+        "suggestedSources": [
+          "https://docs.docker.com/get-started/tutorials/run-an-app/"
+        ]
+      }
+    },
+    {
+      "id": "dj-step-8-r2",
+      "roadmap": "django-backend",
+      "step": "dj-step-8",
+      "title": "چک‌لیست رسمی Deployment در مستندات جنگو",
+      "url": "https://docs.djangoproject.com/en/stable/howto/deployment/",
+      "type": "doc",
+      "platform": "Django Docs",
+      "description": "نکات حیاتی امنیتی (مثل DEBUG=False و ALLOWED_HOSTS) قبل از پابلیش.",
+      "assessment": {
+        "verdict": "مرتبط؛ مقصد دقیقِ عنوان نیست",
+        "coverage": "این URL How to deploy Django است، نه خود Deployment checklist. صفحهٔ اصلی به checklist لینک می‌دهد؛ بنابراین منبع نامرتبط نیست، ولی عنوان دقیق نیست.",
+        "fix": "URL را به checklist/ تغییر بده؛ توضیح بده این منبع آموزش کامل Docker Compose یا Nginx نیست.",
+        "suggestedSources": [
+          "https://docs.djangoproject.com/en/stable/howto/deployment/checklist/"
+        ]
+      }
+    },
+    {
+      "id": "ds-step-1-r1",
+      "roadmap": "data-science",
+      "step": "ds-step-1",
+      "title": "مینی‌دوره تعاملی پایتون در Kaggle Learn",
+      "url": "https://www.kaggle.com/learn/python",
+      "type": "interactive",
+      "platform": "Kaggle Learn",
+      "description": "بهترین نقطه شروع! بدون نیاز به نصب هیچ برنامه‌ای، پایتون مخصوص دیتا ساینس رو توی مرورگر تمرین کن.",
+      "assessment": {
+        "verdict": "مناسب برای مبانی؛ ناکافی برای تمام مرحله",
+        "coverage": "GET پوستهٔ JS بود، اما فهرست رسمی بازیابی‌شدهٔ دورهٔ Python شامل syntax، function، condition، list، loop، string/dict و import است؛ OOP، exception و venv فصل صریح این فهرست نیستند.",
+        "fix": "برای مبانی نگه دار؛ منبع فصل‌های کلاس، خطا و محیط توسعه را جدا کن. اجرای تمرین‌ها و نیاز به ورود دستی تأیید شوند؛ دیدن فهرست به معنی اجرای همهٔ تمرین‌ها نیست.",
+        "suggestedSources": [
+          "https://docs.python.org/3/tutorial/"
+        ],
+        "evidenceSources": [
+          "https://www.kaggle.com/learn/python/hello-python"
+        ]
+      }
+    },
+    {
+      "id": "ds-step-1-r2",
+      "roadmap": "data-science",
+      "step": "ds-step-1",
+      "title": "بازی تعاملی یادگیری Git",
+      "url": "https://learngitbranching.js.org/",
+      "type": "interactive",
+      "platform": "LearnGitBranching",
+      "description": "یادگیری سریع مفاهیم گیت به صورت کاملاً تصویری.",
+      "assessment": {
+        "verdict": "مرتبط؛ فقط بخش Git",
+        "coverage": "Git branching به نیاز کنترل نسخه می‌خورد؛ آموزش Conda، venv یا کار با notebook نیست.",
+        "fix": "تمرین commit/branch منتخب و منبع محیط مجازی را جدا کن؛ بازی در مرورگر نیاز به اجرای JS دارد.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "ds-step-1-r3",
+      "roadmap": "data-science",
+      "step": "ds-step-1",
+      "title": "آموزش کار با Google Colab و Jupyter به زبان فارسی",
+      "url": "https://www.youtube.com/results?search_query=google+colab+persian+tutorial",
+      "type": "video-fa",
+      "platform": "YouTube فارسی",
+      "description": "آشنایی با محیط کولب و نحوه اجرای کدهای پایتون روی سرورهای رایگان گوگل.",
+      "assessment": {
+        "verdict": "منبع انتخاب‌نشده — جستجو",
+        "coverage": "عبارت جستجو، آموزش مشخص Colab یا Jupyter را انتخاب نکرده است.",
+        "fix": "یک درس یا راهنمای رسمی مشخص برای اجرای notebook، ذخیره و نصب کتابخانه انتخاب کن؛ GPU را پیش‌نیاز شروع قرار نده.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "ds-step-2-r1",
+      "roadmap": "data-science",
+      "step": "ds-step-2",
+      "title": "مینی‌دوره تعاملی Pandas در کگل",
+      "url": "https://www.kaggle.com/learn/pandas",
+      "type": "interactive",
+      "platform": "Kaggle Learn",
+      "description": "آموزش عملی فیلتر کردن، گروه‌بندی و تمیزکاری دیتافریم‌ها با دیتاست‌های واقعی.",
+      "assessment": {
+        "verdict": "مرتبط با Pandas؛ پوشش فعلی درس‌ها تأیید نشد",
+        "coverage": "GET فقط عنوان دوره را نشان داد. این کارت، منبع مستقل NumPy یا SQL نیست.",
+        "fix": "تمرین‌های منتخب course را دستی بررسی کن؛ راهنمای رسمی Pandas برای خواندن فایل، انتخاب، گروه‌بندی و merge افزوده شود.",
+        "suggestedSources": [
+          "https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html"
+        ]
+      }
+    },
+    {
+      "id": "ds-step-2-r2",
+      "roadmap": "data-science",
+      "step": "ds-step-2",
+      "title": "مینی‌دوره Data Cleaning در کگل",
+      "url": "https://www.kaggle.com/learn/data-cleaning",
+      "type": "interactive",
+      "platform": "Kaggle Learn",
+      "description": "تکنیک‌های عملی برخورد با داده‌های ناقص و ناسازگار.",
+      "assessment": {
+        "verdict": "مرتبط با پاک‌سازی؛ کفایت همهٔ موارد معلوم نیست",
+        "coverage": "فقط پوستهٔ صفحه قابل خواندن بود. پوشش outlierها، تصمیم آماری حذف داده و pipeline بدون نشت داده از این مشاهده تأیید نشده است.",
+        "fix": "فهرست درس‌ها را مشخص کن؛ تمیزکاری dtype/missing/duplicate از تصمیم مدل‌سازی جدا شود. قواعد leakage را از مرجع مرتبط بخوان.",
+        "suggestedSources": [
+          "https://scikit-learn.org/stable/common_pitfalls.html"
+        ]
+      }
+    },
+    {
+      "id": "ds-step-2-r3",
+      "roadmap": "data-science",
+      "step": "ds-step-2",
+      "title": "آموزش تعاملی SQL در SQLBolt + کگل SQL",
+      "url": "https://sqlbolt.com/",
+      "type": "interactive",
+      "platform": "SQLBolt",
+      "description": "یادگیری سریع و تعاملی کوئری‌نویسی SQL از پایه تا پیشرفته.",
+      "assessment": {
+        "verdict": "پوشش ناقص و عنوان ناسازگار",
+        "coverage": "URL فقط SQLBolt است؛ کارت هم Kaggle SQL و هم سطح پیشرفته را وعده می‌دهد. فهرست SQLBolt درس مشخص Window Functions ندارد.",
+        "fix": "عنوان را به SQL پایه محدود کن؛ window function منبع و تمرین مستقل داشته باشد. SQLBolt را حذف نکن؛ برای پایه مناسب است.",
+        "suggestedSources": [
+          "https://www.postgresql.org/docs/current/tutorial-window.html"
+        ]
+      }
+    },
+    {
+      "id": "ds-step-2-r4",
+      "roadmap": "data-science",
+      "step": "ds-step-2",
+      "title": "تمرین‌های تحلیل داده و پایتون در کوئرا (Quera)",
+      "url": "https://quera.org/",
+      "type": "interactive",
+      "platform": "Quera (فارسی)",
+      "description": "حل سوالات واقعی مسابقات و مصاحبه‌های شرکت‌های ایرانی با داوری خودکار.",
+      "assessment": {
+        "verdict": "مقصد عمومی؛ تمرین انتخاب نشده",
+        "coverage": "quera.org صفحهٔ اصلی خدمات، یادگیری و استخدام است؛ تمرین تحلیل دادهٔ مشخص با داوری را باز نمی‌کند.",
+        "fix": "URL تمرین یا مجموعهٔ مشخص با پیش‌نیاز و هدف بده؛ این صفحه به‌تنهایی نباید کارت «حل سؤال» باشد.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "ds-step-3-r1",
+      "roadmap": "data-science",
+      "step": "ds-step-3",
+      "title": "کانال یوتیوب StatQuest with Josh Starmer (فوق‌العاده!)",
+      "url": "https://www.youtube.com/@statquest",
+      "type": "video-en",
+      "platform": "YouTube (StatQuest)",
+      "description": "بهترین کانال دنیا برای فهمیدن مفاهیم آمار، احتمال و P-value به ساده‌ترین و تصویری‌ترین زبان ممکن بدون پیچیدگی.",
+      "assessment": {
+        "verdict": "کانال عمومی؛ قابل دقیق‌تر شدن",
+        "coverage": "صفحهٔ کانال، درس آمار منتخب نیست. فهرست رسمی مدرس درس‌های توزیع، آزمون فرض، p-value و confidence interval را جدا فهرست کرده است.",
+        "fix": "به فهرست رسمی و سپس ۲ تا ۴ درس مرتبط ارجاع بده؛ کل کانال الزام نیست و آموزش تمام KPI/EDA هم نیست.",
+        "suggestedSources": [
+          "https://statquest.org/video_index.html"
+        ]
+      }
+    },
+    {
+      "id": "ds-step-3-r2",
+      "roadmap": "data-science",
+      "step": "ds-step-3",
+      "title": "دوره رایگان آمار و احتمال در Khan Academy",
+      "url": "https://www.khanacademy.org/math/statistics-probability",
+      "type": "interactive",
+      "platform": "Khan Academy",
+      "description": "آموزش گام‌به‌گام و بسیار روان مفاهیم پایه آمار همراه با تمرین‌های تعاملی.",
+      "assessment": {
+        "verdict": "مرتبط با آمار؛ جزئیات دسترسی نامشخص",
+        "coverage": "عنوان/پوستهٔ Khan Academy باز شد ولی اجرای درس و تمرین در این بررسی قابل خواندن نبود. کل مسیر آمار احتمال از نیاز همین پروژه بزرگ‌تر است.",
+        "fix": "واحدهای توصیف داده، احتمال پایه، نمونه‌گیری و استنباط را انتخاب کن؛ اجرای تمرین، ورود و زبان دستی بررسی شوند.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "ds-step-3-r3",
+      "roadmap": "data-science",
+      "step": "ds-step-3",
+      "title": "مینی‌دوره Data Visualization در Kaggle",
+      "url": "https://www.kaggle.com/learn/data-visualization",
+      "type": "interactive",
+      "platform": "Kaggle Learn",
+      "description": "آموزش عملی کتابخانه Seaborn و انتخاب نمودار مناسب برای هر نوع داده.",
+      "assessment": {
+        "verdict": "مرتبط با مصورسازی؛ پوشش جزئی تأیید نشده",
+        "coverage": "نام دورهٔ Data Visualization قابل بازیابی بود؛ از پوسته نمی‌توان آموزش هر سه Matplotlib، Seaborn و Plotly یا A/B Testing را نتیجه گرفت.",
+        "fix": "برای یک ابزار نمودار و انتخاب نمودار مناسب استفاده شود؛ Plotly الزام مشترک نباشد و منابع آمار جدا بمانند.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "ds-step-4-r1",
+      "roadmap": "data-science",
+      "step": "ds-step-4",
+      "title": "پلی‌لیست انیمیشنی Essence of Linear Algebra از 3Blue1Brown",
+      "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+      "type": "video-en",
+      "platform": "YouTube (3Blue1Brown)",
+      "description": "شاهکار انیمیشنی! جبر خطی و ماتریس‌ها رو طوری بصری می‌فهمی که هیچ‌وقت سر کلاس دانشگاه ندیدی.",
+      "assessment": {
+        "verdict": "عنوان مرتبط تأیید شد؛ پخش کامل بازبینی نشده",
+        "coverage": "عنوان Essence of linear algebra در بازیابی خود YouTube با موضوع این مرحله می‌خواند. پخش تک‌تک ویدئوها و تمرین عملی یا کفایت آن برای کل مرحله تأیید نشده است.",
+        "fix": "درس‌های بردار، ضرب و تبدیل خطی انتخاب شوند؛ eigenvalue را برای مسیر PCA به تعمیق منتقل کن. فهرست رسمی سازنده برای تطبیق درس‌ها موجود است.",
+        "suggestedSources": [
+          "https://www.3blue1brown.com/topics/linear-algebra"
+        ]
+      }
+    },
+    {
+      "id": "ds-step-4-r2",
+      "roadmap": "data-science",
+      "step": "ds-step-4",
+      "title": "پلی‌لیست انیمیشنی Essence of Calculus از 3Blue1Brown",
+      "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr",
+      "type": "video-en",
+      "platform": "YouTube (3Blue1Brown)",
+      "description": "درک عمیق و شهودی مفهوم مشتق و نرخ تغییرات بدون درگیر شدن با محاسبات خسته‌کننده.",
+      "assessment": {
+        "verdict": "عنوان مرتبط تأیید شد؛ پخش کامل بازبینی نشده",
+        "coverage": "عنوان Essence of calculus در بازیابی خود YouTube با موضوع این مرحله می‌خواند. پخش تک‌تک ویدئوها و تمرین عملی یا کفایت آن برای کل مرحله تأیید نشده است.",
+        "fix": "مشتق و شهود زنجیره را انتخاب کن؛ الگوریتم descent یک تمرین جدا لازم دارد. وضعیت playlist در یوتیوب بازبینی دستی شود.",
+        "suggestedSources": [
+          "https://www.3blue1brown.com/topics/calculus"
+        ]
+      }
+    },
+    {
+      "id": "ds-step-5-r1",
+      "roadmap": "data-science",
+      "step": "ds-step-5",
+      "title": "دوره معروف Machine Learning Specialization از Andrew Ng",
+      "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+      "type": "video-en",
+      "platform": "Coursera / YouTube",
+      "description": "معتبرترین دوره شروع یادگیری ماشین در دنیا با تدریس فوق‌العاده اندرو ان‌جی.",
+      "assessment": {
+        "verdict": "مناسب؛ معرفی پلتفرم و دامنه نیاز به اصلاح",
+        "coverage": "صفحهٔ Coursera یک specialization سه‌دوره‌ای است؛ URL یوتیوب نیست. عنوان دوره درست است، ولی کل برنامه بزرگ‌تر از یک مرحله و دسترسی کامل/گواهی لزوماً رایگان نیست.",
+        "fix": "platform را Coursera بنویس؛ دوره/فصل منتخب و شرایط دسترسی مشخص شود. آن را پوشش خودکار تمام مدل‌های جدول، معیارها یا PCA ندان.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "ds-step-5-r2",
+      "roadmap": "data-science",
+      "step": "ds-step-5",
+      "title": "پلی‌لیست Machine Learning در کانال StatQuest",
+      "url": "https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF",
+      "type": "video-en",
+      "platform": "YouTube (StatQuest)",
+      "description": "توضیح گام‌به‌گام و تصویری تک‌تک الگوریتم‌ها از درخت تصمیم تا XGBoost و ROC-AUC.",
+      "assessment": {
+        "verdict": "مرتبط؛ انتساب playlist تأیید شد",
+        "coverage": "همین شناسه از فهرست رسمی StatQuest به‌عنوان Machine Learning لینک شده است؛ پخش تک‌تک ویدئوها و نسخهٔ کدها تأیید نشده است.",
+        "fix": "برای شهود مدل‌ها و evaluation نگه دار؛ ویدئوهای baseline، cross-validation و confusion matrix انتخاب شوند و تمرین کدنویسی جدا باشد.",
+        "suggestedSources": [
+          "https://statquest.org/video_index.html"
+        ],
+        "evidenceSources": [
+          "https://statquest.org/video_index.html"
+        ]
+      }
+    },
+    {
+      "id": "ds-step-5-r3",
+      "roadmap": "data-science",
+      "step": "ds-step-5",
+      "title": "مینی‌دوره‌های Intro to ML و Intermediate ML در کگل",
+      "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+      "type": "interactive",
+      "platform": "Kaggle Learn",
+      "description": "کدنویسی عملی با Scikit-learn و XGBoost همراه با آموزش جلوگیری از Data Leakage.",
+      "assessment": {
+        "verdict": "عنوان و پوشش بیش از مقصد",
+        "coverage": "URL فقط Intro to ML است. فهرست بازیابی‌شدهٔ دورهٔ مقدماتی شامل اعتبارسنجی و random forest است؛ کارت، Intermediate، XGBoost و جلوگیری از leakage را هم یکجا وعده می‌دهد.",
+        "fix": "دو دوره کارت مستقل داشته باشند؛ برای leakage و pipeline مرجع مشخص بده. مقصد فعلی را دورهٔ پیشرفته معرفی نکن.",
+        "suggestedSources": [
+          "https://scikit-learn.org/stable/common_pitfalls.html"
+        ],
+        "evidenceSources": [
+          "https://www.kaggle.com/learn/intro-to-machine-learning?s=09"
+        ]
+      }
+    },
+    {
+      "id": "ds-step-6-r1",
+      "roadmap": "data-science",
+      "step": "ds-step-6",
+      "title": "مستندات و گالری پروژه‌های Streamlit",
+      "url": "https://streamlit.io/",
+      "type": "interactive",
+      "platform": "Streamlit",
+      "description": "سریع‌ترین ابزار تبدیل اسکریپت‌های دیتا ساینس به وب‌اپلیکیشن‌های قابل اشتراک‌گذاری.",
+      "assessment": {
+        "verdict": "مرتبط با محصول؛ مقصد و نوع منبع دقیق نیست",
+        "coverage": "streamlit.io صفحهٔ محصول و نمایش قابلیت‌هاست، نه راهنمای مرحله‌ای یا محیط تمرین تعاملیِ مشخص.",
+        "fix": "برای یادگیری به Get started مستندات لینک بده؛ عنوان نوع «آموزش متنی/مستندات» باشد.",
+        "suggestedSources": [
+          "https://docs.streamlit.io/get-started"
+        ]
+      }
+    },
+    {
+      "id": "ds-step-6-r2",
+      "roadmap": "data-science",
+      "step": "ds-step-6",
+      "title": "آموزش دیپلوی مدل ماشین لرنینگ با FastAPI",
+      "url": "https://www.youtube.com/results?search_query=deploy+machine+learning+model+fastapi",
+      "type": "video-en",
+      "platform": "YouTube",
+      "description": "آموزش ساخت REST API برای مدل‌های Scikit-learn با FastAPI.",
+      "assessment": {
+        "verdict": "منبع انتخاب‌نشده — جستجو",
+        "coverage": "جستجوی YouTube نه آموزش مشخص FastAPI را تضمین می‌کند نه استقرار مدل و قرارداد ورودی را.",
+        "fix": "به tutorial رسمی برای پایه وصل کن و تمرین بارگذاری مدل و اعتبارسنجی ورودی را جدا بنویس؛ deployment واقعی خروجی جداست.",
+        "suggestedSources": [
+          "https://fastapi.tiangolo.com/tutorial/",
+          "https://scikit-learn.org/stable/model_persistence.html"
+        ]
+      }
+    },
+    {
+      "id": "ds-step-7-r1",
+      "roadmap": "data-science",
+      "step": "ds-step-7",
+      "title": "دوره عملی Deep Learning برای کدنویس‌ها (fast.ai)",
+      "url": "https://course.fast.ai/",
+      "type": "video-en",
+      "platform": "fast.ai",
+      "description": "بهترین دوره پروژه‌محور و Top-Down یادگیری عمیق با PyTorch.",
+      "assessment": {
+        "verdict": "مناسب برای شاخهٔ DL؛ پیش‌نیاز و نسخه لازم است",
+        "coverage": "صفحه دورهٔ Practical Deep Learning for Coders 2022 را معرفی می‌کند؛ تجربهٔ کدنویسی می‌خواهد و fastai را بر پایهٔ PyTorch به کار می‌برد. جدید نبودن سال، به‌تنهایی بی‌ارزش بودن مفاهیم نیست.",
+        "fix": "برای شاخهٔ انتخابی DL نگه دار؛ نسخهٔ اجرا و کتابخانه‌ها و تمرین مشخص لازم است. آن را آموزش پایهٔ مستقل تمام PyTorch، RAG و سری زمانی معرفی نکن.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "ds-step-7-r2",
+      "roadmap": "data-science",
+      "step": "ds-step-7",
+      "title": "دوره رایگان NLP و LLM در Hugging Face",
+      "url": "https://huggingface.co/learn/nlp-course/",
+      "type": "interactive",
+      "platform": "Hugging Face",
+      "description": "مرجع اصلی یادگیری کار با مدل‌های زبانی و ترنسفورمرها.",
+      "assessment": {
+        "verdict": "مرتبط؛ آدرس قدیمی با تغییر مسیر سالم",
+        "coverage": "nlp-course به LLM Course فصل ۱ هدایت می‌شود. ناشر Python خوب و ترجیحاً دورهٔ مقدماتی DL را پیش‌نیاز می‌داند؛ موضوعات آن جای یک منبع کامل سری زمانی یا سیستم RAG محصولی نیست.",
+        "fix": "URL canonical، نقش «دورهٔ متنی همراه کد» و فصل‌های انتخابی مشخص شود؛ برای RAG، retrieval/evaluation و منبع مستقل لازم است.",
+        "suggestedSources": [
+          "https://huggingface.co/learn/llm-course/chapter1/1"
+        ]
+      }
+    },
+    {
+      "id": "lx-step-1-r1",
+      "roadmap": "linux-devops-core",
+      "step": "lx-step-1",
+      "title": "دوره رایگان لینوکس و مفاهیم سیستم‌عامل (جادی - LPIC-1)",
+      "url": "https://www.youtube.com/playlist?list=PL-tKrPVkKKE0k_1812_c2-tT3V7G2M8sA",
+      "type": "video-fa",
+      "platform": "YouTube (جادی)",
+      "description": "بهترین و جذاب‌ترین دوره فارسی برای درک عمیق لینوکس و نحوه کارکرد سیستم‌عامل.",
+      "assessment": {
+        "verdict": "وضعیت playlist نامشخص؛ تناسب جزئی",
+        "coverage": "منبع با عنوان LPIC-1 مدیریت لینوکس معرفی شده، اما مرحله دربارهٔ thread، race، deadlock و stack/heap است؛ این هم‌ترازی از عنوان یا فهرست LPIC اثبات نمی‌شود.",
+        "fix": "درس‌های واقعی playlist را تأیید کن؛ برای مفاهیم OS، فصل منتخب OSTEP مناسب‌تر است. LPIC را به محیط و ترمینال منتقل کن.",
+        "suggestedSources": [
+          "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+          "https://linux1st.com/"
+        ]
+      }
+    },
+    {
+      "id": "lx-step-2-r1",
+      "roadmap": "linux-devops-core",
+      "step": "lx-step-2",
+      "title": "سایت تعاملی Linux Journey",
+      "url": "https://linuxjourney.com/",
+      "type": "interactive",
+      "platform": "Linux Journey",
+      "description": "یادگیری مرحله‌به‌مرحله و بسیار خلاصه و تعاملی دستورات لینوکس.",
+      "assessment": {
+        "verdict": "تغییر مسیر سالم؛ دسترسی مستقیم محدود",
+        "coverage": "linuxjourney.com به LabEx می‌رود. GET این محیط ۴۰۳ شد، ولی صفحهٔ رسمی جانشین با ابزار وب خوانده شد. درس‌های command line، permissions و processes دارد.",
+        "fix": "لینک canonical را ثبت کن و فصل‌های منتخب بده؛ ۴۰۳ را با حذف منبع اشتباه نگیر. این منبع Bash scripting کامل نیست.",
+        "suggestedSources": [
+          "https://labex.io/linuxjourney"
+        ]
+      }
+    },
+    {
+      "id": "lx-step-2-r2",
+      "roadmap": "linux-devops-core",
+      "step": "lx-step-2",
+      "title": "بازی هکری OverTheWire: Bandit برای تمرین لینوکس و SSH",
+      "url": "https://overthewire.org/wargames/bandit/",
+      "type": "interactive",
+      "platform": "OverTheWire",
+      "description": "فوق‌العاده اعتیادآور! با وصل شدن به سرور واقعی از طریق SSH و حل معماها به مرحله بعد می‌ری.",
+      "assessment": {
+        "verdict": "مناسب برای تمرین SSH/CLI؛ همهٔ مرحله را پوشش نمی‌دهد",
+        "coverage": "Bandit بازی مرحله‌ای برای تازه‌کار با اتصال SSH است. آموزش systemd/journalctl یا اسکریپت کامل از این صفحه نتیجه نمی‌شود.",
+        "fix": "سطح‌های ابتدایی و نیاز به SSH client را بنویس؛ «تعاملی» به معنی ترمینال آماده در مرورگر نیست. نگه دار به‌عنوان تمرین انتخابی.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "lx-step-3-r1",
+      "roadmap": "linux-devops-core",
+      "step": "lx-step-3",
+      "title": "آزمایشگاه رایگان Play with Docker در مرورگر",
+      "url": "https://labs.play-with-docker.com/",
+      "type": "interactive",
+      "platform": "Play with Docker",
+      "description": "محیط لینوکس و داکر آنلاین و رایگان برای تست دستورات داکر بدون نصب روی سیستم.",
+      "assessment": {
+        "verdict": "بازنشسته — ۲۰۰ گمراه‌کننده است",
+        "coverage": "ناشر اعلام کرده Play with Docker از ۱ مارس ۲۰۲۶ در دسترس نخواهد بود. صفحه باز می‌شود، ولی معرفی آزمایشگاه فعال قابل اتکا نیست.",
+        "fix": "این کارت به‌عنوان آزمایشگاه فعال حذف/جایگزین شود؛ Docker Docs کارگاه محلی دارد و نباید بدون تأیید آن را آزمایشگاه مرورگری نامید.",
+        "suggestedSources": [
+          "https://docs.docker.com/get-started/tutorials/run-an-app/"
+        ],
+        "evidenceSources": [
+          "https://labs.play-with-docker.com/"
+        ]
+      }
+    },
+    {
+      "id": "lx-step-3-r2",
+      "roadmap": "linux-devops-core",
+      "step": "lx-step-3",
+      "title": "دوره ویدیویی آموزش Docker از صفر (TechWorld with Nana)",
+      "url": "https://www.youtube.com/watch?v=3c-iBn73dDE",
+      "type": "video-en",
+      "platform": "YouTube (Nana)",
+      "description": "بهترین آموزش تصویری و انیمیشنی داکر برای درک کامل کانتینرها.",
+      "assessment": {
+        "verdict": "ارتباط عنوانی؛ وضعیت و پوشش ویدئو نامشخص",
+        "coverage": "URL ویدئوی مشخص است، اما درخواست وب ۴۲۹ و درخواست مستقیم خطای شبکه داشت. نسخه، مدرس، سرفصل و اجرای Compose از این بررسی تأیید نشد.",
+        "fix": "منبع را صرفاً به‌دلیل خطای شبکه خراب اعلام نکن؛ metadata/chapters را دستی تأیید کن. تا آن زمان کارگاه رسمی راه شروع قابل اتکاتر است.",
+        "suggestedSources": [
+          "https://docs.docker.com/get-started/tutorials/run-an-app/"
+        ]
+      }
+    },
+    {
+      "id": "fe-step-0-r1",
+      "roadmap": "frontend",
+      "step": "fe-step-0",
+      "title": "وب چطور کار می‌کند؟",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works",
+      "type": "doc",
+      "platform": "MDN",
+      "description": "برای شروع: مسیر کلاینت، DNS، سرور و درخواست HTTP را دنبال کن.",
+      "assessment": {
+        "verdict": "مناسب برای مدل ذهنی شبکه؛ پوشش رندر ناقص",
+        "coverage": "How the web works دربارهٔ client/server، DNS و HTTP است؛ خود صفحه می‌گوید رندر مرورگر در مقالهٔ دیگری توضیح داده شده است.",
+        "fix": "برای شبکه نگه دار؛ How browsers load websites را برای DOM/CSSOM و نمایش صفحه اضافه کن.",
+        "suggestedSources": [
+          "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_browsers_load_websites"
+        ]
+      }
+    },
+    {
+      "id": "fe-step-0-r2",
+      "roadmap": "frontend",
+      "step": "fe-step-0",
+      "title": "راهنمای HTTP",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+      "type": "doc",
+      "platform": "MDN",
+      "description": "مرجع تکمیلی برای متدها، هدرها، کوکی‌ها و CORS.",
+      "assessment": {
+        "verdict": "مناسب به‌عنوان مرجع HTTP",
+        "coverage": "درگاه HTTP برای هدر، cookie، CORS و status مرتبط است؛ کل TLS، CDN، rendering و package manager این ماژول را آموزش نمی‌دهد.",
+        "fix": "فصل‌های پایه را مشخص کن؛ آشنایی مفهومی کافی است و خواندن کل مرجع پیش از HTML لازم نیست.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "fe-step-1-r1",
+      "roadmap": "frontend",
+      "step": "fe-step-1",
+      "title": "ساختار محتوا با HTML",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content",
+      "type": "doc",
+      "platform": "MDN",
+      "description": "برای شروع: عناصر معنایی، لینک‌ها و ساختار صفحه را در تمرینت به کار ببر.",
+      "assessment": {
+        "verdict": "مناسب؛ فرم نیاز به منبع صریح دارد",
+        "coverage": "Structuring content آموزش معنایی HTML و بخش‌بندی است؛ اعتبارسنجی فرم، label، خطای ورودی و رفتار صفحه‌کلید باید با درس فرم تکمیل شود.",
+        "fix": "نگه دار؛ برای فرمِ تمرین، WAI Forms و تمرین label/focus اضافه کن.",
+        "suggestedSources": [
+          "https://www.w3.org/WAI/tutorials/forms/"
+        ]
+      }
+    },
+    {
+      "id": "fe-step-1-r2",
+      "roadmap": "frontend",
+      "step": "fe-step-1",
+      "title": "چیدمان با CSS",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout",
+      "type": "doc",
+      "platform": "MDN",
+      "description": "Flexbox، Grid و طراحی واکنش‌گرا؛ فصل مرتبط با تمرین را انتخاب کن.",
+      "assessment": {
+        "verdict": "مرتبط با layout؛ کل CSS پایه نیست",
+        "coverage": "CSS layout، Flex/Grid/positioning و responsive را هدف دارد؛ مبانی cascade، specificity و مدل جعبه‌ای همه از همین URL به‌عنوان درس واحد نتیجه نمی‌شوند.",
+        "fix": "Styling basics قبل/کنار layout قرار بگیرد؛ مرحله نباید مستقیماً از HTML به Grid بپرد.",
+        "suggestedSources": [
+          "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics"
+        ]
+      }
+    },
+    {
+      "id": "fe-step-1-r3",
+      "roadmap": "frontend",
+      "step": "fe-step-1",
+      "title": "آموزش‌های دسترس‌پذیری وب",
+      "url": "https://www.w3.org/WAI/tutorials/",
+      "type": "doc",
+      "platform": "W3C WAI",
+      "description": "برای فرم، برچسب ورودی‌ها، ساختار صفحه و رفتار قابل‌دسترس به آموزش مربوط مراجعه کن.",
+      "assessment": {
+        "verdict": "مناسب و مستقیم برای a11y",
+        "coverage": "WAI Tutorials آموزش‌های ساختار، فرم، تصویر و دیگر موضوعات دسترس‌پذیری را دارد؛ جای تمرین عملی focus/keyboard یا آزمون کاربر را نمی‌گیرد.",
+        "fix": "صفحهٔ forms و ساختار معنایی را برای تمرین مشخص کن؛ همهٔ WCAG یا ARIA پیشرفته الزام شروع نیست.",
+        "suggestedSources": [
+          "https://www.w3.org/WAI/tutorials/forms/"
+        ]
+      }
+    },
+    {
+      "id": "fe-step-2-r1",
+      "roadmap": "frontend",
+      "step": "fe-step-2",
+      "title": "اولین مخزن، branch و pull request",
+      "url": "https://docs.github.com/en/get-started/using-github/hello-world",
+      "type": "doc",
+      "platform": "GitHub Docs",
+      "description": "برای شروع: چرخهٔ ساخت مخزن، commit، branch و pull request را تمرین کن.",
+      "assessment": {
+        "verdict": "مناسب برای گردش کار ابتدایی؛ conflict ناقص",
+        "coverage": "Hello World ساخت مخزن، branch، commit، PR و merge در GitHub را دارد؛ آموزش کامل CLI و حل conflict محلی نیست.",
+        "fix": "نگه دار؛ یک تمرین conflict مستقل و راهنمای فرمان‌های Git به آن متصل کن.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "fe-step-2-r2",
+      "roadmap": "frontend",
+      "step": "fe-step-2",
+      "title": "راهنمای DevTools",
+      "url": "https://developer.chrome.com/docs/devtools/",
+      "type": "doc",
+      "platform": "Chrome for Developers",
+      "description": "مرجع ابزارهای Elements، Network، Console، Performance و Application؛ هر پنل را در پروژه آزمایش کن.",
+      "assessment": {
+        "verdict": "مرتبط؛ درگاه ابزارهاست",
+        "coverage": "صفحهٔ اصلی DevTools راه‌های ورود به Elements، Network، debugging و performance را نشان می‌دهد، نه یک درس مرتب با خروجی مشخص.",
+        "fix": "برای مشکل layout روی Elements و برای خطای درخواست روی Network لینک دقیق بده؛ Performance عمیق را به انتشار منتقل کن.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "fe-step-2-r3",
+      "roadmap": "frontend",
+      "step": "fe-step-2",
+      "title": "شروع کار با Vite",
+      "url": "https://vite.dev/guide/",
+      "type": "doc",
+      "platform": "Vite",
+      "description": "ساخت و اجرای پروژه و کار با اسکریپت‌های توسعه و build.",
+      "assessment": {
+        "verdict": "مناسب برای راه‌اندازی؛ npm کامل نیست",
+        "coverage": "Vite guide ساخت پروژه و فرمان‌ها را دارد و نیاز نسخهٔ Node را مشخص می‌کند؛ آموزش همهٔ package management یا خطایابی stack trace نیست.",
+        "fix": "یک template ساده و نسخهٔ سازگار Node انتخاب کن؛ package.json، scripts و lockfile در تمرین توضیح داده شوند.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "fe-step-3-r1",
+      "roadmap": "frontend",
+      "step": "fe-step-3",
+      "title": "راهنمای JavaScript",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+      "type": "doc",
+      "platform": "MDN",
+      "description": "برای شروع: نوع داده‌ها، توابع، آبجکت‌ها، Promise و ماژول‌ها را با تمرین مرور کن.",
+      "assessment": {
+        "verdict": "منبع زبان مناسب؛ پوشش browser API ناقص",
+        "coverage": "JavaScript Guide دربارهٔ زبان، توابع، scope، collection، Promise و module است؛ DOM، event delegation و Web Storage در APIهای وب توضیح داده می‌شوند.",
+        "fix": "نگه دار و درس Dynamic scripting و Web Storage را برای بخش‌های مرورگر اضافه کن؛ رفرنس زبان را آموزش کامل مرورگر نام نده.",
+        "suggestedSources": [
+          "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API"
+        ]
+      }
+    },
+    {
+      "id": "fe-step-3-r2",
+      "roadmap": "frontend",
+      "step": "fe-step-3",
+      "title": "کار با Fetch API",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch",
+      "type": "doc",
+      "platform": "MDN",
+      "description": "در پروژهٔ بدون فریم‌ورک، پاسخ HTTP و شکست درخواست را مدیریت کن.",
+      "assessment": {
+        "verdict": "مناسب و مستقیم برای fetch",
+        "coverage": "ساخت درخواست، پاسخ و لغو درخواست را توضیح می‌دهد؛ فرم چندمرحله‌ای، DOM و state تماماً در این مقاله نیستند.",
+        "fix": "در تمرین response.ok، خطای شبکه/HTTP، loading و retry را بررسی کن؛ برای DOM از منبع مستقل استفاده شود.",
+        "suggestedSources": [
+          "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting"
+        ]
+      }
+    },
+    {
+      "id": "fe-step-4-r1",
+      "roadmap": "frontend",
+      "step": "fe-step-4",
+      "title": "کتاب راهنمای TypeScript",
+      "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+      "type": "doc",
+      "platform": "TypeScript",
+      "description": "برای شروع: نوع‌های پایه، union، narrowing و genericهای ساده؛ بعد سراغ بخش‌های پیشرفته برو.",
+      "assessment": {
+        "verdict": "مناسب؛ نقطهٔ ورودی کتاب راهنماست",
+        "coverage": "صفحهٔ intro هدف و ساختار Handbook را توضیح و به فصل‌ها هدایت می‌کند؛ برای تک‌تک نوع‌ها باید فصل منتخب تعیین شود.",
+        "fix": "Everyday types، narrowing و generics ساده انتخاب شوند؛ بخش props کنار React و typeهای پیشرفته اختیاری باشد.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "fe-step-4-r2",
+      "roadmap": "frontend",
+      "step": "fe-step-4",
+      "title": "کاربرد پایهٔ Zod",
+      "url": "https://zod.dev/basics",
+      "type": "doc",
+      "platform": "Zod",
+      "description": "اعتبارسنجی ورودی و بررسی نتیجهٔ parse و safeParse در مرز API.",
+      "assessment": {
+        "verdict": "مناسب برای runtime validation",
+        "coverage": "Basic usage تعریف schema، parse/safeParse، خطا و infer را پوشش می‌دهد؛ خود TypeScript را آموزش نمی‌دهد و الزاماً بهترین انتخاب برای هر پروژه نیست.",
+        "fix": "برای نمونهٔ اعتبارسنجی API نگه دار؛ هدف «اعتبارسنجی مرز» باشد، نه اجبار به یک کتابخانه در تمام پروژه‌ها.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "fe-step-5-r1",
+      "roadmap": "frontend",
+      "step": "fe-step-5",
+      "title": "آموزش رسمی React",
+      "url": "https://react.dev/learn",
+      "type": "doc",
+      "platform": "React",
+      "description": "برای شروع: توصیف UI، تعامل، مدیریت state و escape hatchها را به‌ترتیب نیازت بخوان.",
+      "assessment": {
+        "verdict": "مناسب؛ Quick Start کل ماژول نیست",
+        "coverage": "مقصد اولیه Quick Start است؛ برای effects، context، refs، data fetching و معماری state باید فصل‌های بعدی Learn انتخاب شوند.",
+        "fix": "به Managing State و You Might Not Need an Effect لینک مستقیم بده؛ برای URL/server state به ماژول اپلیکیشن ارجاع بده.",
+        "suggestedSources": [
+          "https://react.dev/learn/managing-state",
+          "https://react.dev/learn/you-might-not-need-an-effect"
+        ]
+      }
+    },
+    {
+      "id": "fe-step-5-r2",
+      "roadmap": "frontend",
+      "step": "fe-step-5",
+      "title": "تست رفتار کامپوننت‌های React",
+      "url": "https://testing-library.com/docs/react-testing-library/intro/",
+      "type": "doc",
+      "platform": "Testing Library",
+      "description": "مرجع تست رفتار قابل‌مشاهدهٔ کاربر و تعامل با رابط کاربری.",
+      "assessment": {
+        "verdict": "مرتبط؛ معرفی library است",
+        "coverage": "صفحهٔ معرفی Testing Library است؛ راه‌اندازی Vitest، ساخت اولین تست، mocking و آزمون async را به‌تنهایی آموزش نمی‌دهد.",
+        "fix": "Vitest Getting Started و یک تست رفتاری فرم با query قابل‌دسترس اضافه شود.",
+        "suggestedSources": [
+          "https://vitest.dev/guide/"
+        ]
+      }
+    },
+    {
+      "id": "fe-step-6-r1",
+      "roadmap": "frontend",
+      "step": "fe-step-6",
+      "title": "مدیریت server state با TanStack Query",
+      "url": "https://tanstack.com/query/latest/docs/framework/react/overview",
+      "type": "doc",
+      "platform": "TanStack Query",
+      "description": "برای بخش داده: دریافت، کش، تغییر داده و هماهنگی وضعیت درخواست‌ها.",
+      "assessment": {
+        "verdict": "مناسب برای server state؛ تمام معماری اپ نیست",
+        "coverage": "Overview انگیزه و نمونهٔ آغاز TanStack Query را دارد؛ routing، auth، Zustand، Axios و تمام مدیریت فرم را پوشش نمی‌دهد.",
+        "fix": "Query برای دادهٔ سرور نگه دار؛ fetch یا Axios یکی انتخاب شود. برای router و mutation/optimistic موضوعات جدا مشخص شوند.",
+        "suggestedSources": [
+          "https://reactrouter.com/start/declarative/routing"
+        ]
+      }
+    },
+    {
+      "id": "fe-step-6-r2",
+      "roadmap": "frontend",
+      "step": "fe-step-6",
+      "title": "فرم با React Hook Form",
+      "url": "https://react-hook-form.com/get-started",
+      "type": "doc",
+      "platform": "React Hook Form",
+      "description": "برای بخش فرم: ثبت فیلدها، اعتبارسنجی، ارسال و نمایش خطا.",
+      "assessment": {
+        "verdict": "مناسب و مرتبط با فرم",
+        "coverage": "Get Started ثبت فیلد، validation، errors، controlled input و schema validation را دارد؛ قرارداد API و auth باید جدا تمرین شود.",
+        "fix": "برای فرم انتخاب مناسبی است؛ submit async، خطای سرور، retry و keyboard را در معیار پایان بنویس.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "fe-step-6-r3",
+      "roadmap": "frontend",
+      "step": "fe-step-6",
+      "title": "شبیه‌سازی API با MSW",
+      "url": "https://mswjs.io/docs/",
+      "type": "doc",
+      "platform": "MSW",
+      "description": "برای تست: پاسخ موفق، شکست و وضعیت‌های شبکه را شبیه‌سازی کن.",
+      "assessment": {
+        "verdict": "مناسب برای mocking؛ معرفی کافی نیست",
+        "coverage": "صفحهٔ Introduction است. MSW پاسخ API را شبیه‌سازی می‌کند؛ assertion، test runner، پوشش تست و راه‌اندازی کامل خودشکار نیست.",
+        "fix": "راهنمای integration با runner و handlerهای موفق/خطا اضافه شود؛ کنار Testing Library/Vitest بیاید.",
+        "suggestedSources": [
+          "https://vitest.dev/guide/"
+        ]
+      }
+    },
+    {
+      "id": "fe-step-7-r1",
+      "roadmap": "frontend",
+      "step": "fe-step-7",
+      "title": "شروع کار با App Router",
+      "url": "https://nextjs.org/docs/app/getting-started",
+      "type": "doc",
+      "platform": "Next.js",
+      "description": "برای شروع: مرز سرور و کلاینت، مسیرها، دریافت داده و انتشار را در مستندات نسخهٔ پروژه دنبال کن.",
+      "assessment": {
+        "verdict": "مناسب؛ به نسخه و فصل‌ها وابسته است",
+        "coverage": "Getting Started درگاه آموزش App Router است؛ شیوهٔ caching و server/client boundary باید از مستندات نسخهٔ پروژه خوانده شود. فرض یک رفتار ثابت برای همهٔ Nextها درست نیست.",
+        "fix": "نسخهٔ تمرین را ثبت و فصل‌های routing، data fetching، caching، metadata و deployment را انتخاب کن؛ امنیت و CI منابع جدا می‌خواهند.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "fe-step-7-r2",
+      "roadmap": "frontend",
+      "step": "fe-step-7",
+      "title": "آموزش عملکرد وب",
+      "url": "https://web.dev/learn/performance",
+      "type": "doc",
+      "platform": "web.dev",
+      "description": "اندازه‌گیری و بررسی هزینهٔ منابع صفحه، تصاویر و JavaScript؛ انتخاب فصل متناسب با نتیجهٔ اندازه‌گیری.",
+      "assessment": {
+        "verdict": "مناسب برای مبانی performance؛ سنجش کامل نیست",
+        "coverage": "دوره critical path، منابع، تصاویر، فونت و code splitting دارد؛ یک امتیاز Lighthouse یا خواندن این فهرست، تجربهٔ کاربران واقعی یا SEO/security را ثابت نمی‌کند.",
+        "fix": "برای هر بهینه‌سازی baseline و شرایط اندازه‌گیری ثبت کن؛ معیار نتیجه، بهبود اندازه‌پذیر باشد نه نمرهٔ تضمینی.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "fe-step-7-r3",
+      "roadmap": "frontend",
+      "step": "fe-step-7",
+      "title": "شروع تست E2E با Playwright",
+      "url": "https://playwright.dev/docs/intro",
+      "type": "doc",
+      "platform": "Playwright",
+      "description": "برای تست: یک مسیر حیاتی کاربر را در مرورگر واقعی اجرا و بررسی کن.",
+      "assessment": {
+        "verdict": "مناسب برای نصب؛ نوشتن تست ناقص",
+        "coverage": "مقصد Installation است: نصب و اجرای مثال را پوشش می‌دهد؛ طراحی تست حیاتی، locator و assertion در Writing tests آمده‌اند.",
+        "fix": "لینک آموزش Writing tests را کنار آن بگذار و جریان حیاتی مشخص بده؛ صرف سبزشدن مثال نصب معیار پایان نباشد.",
+        "suggestedSources": [
+          "https://playwright.dev/docs/writing-tests"
+        ]
+      }
+    },
+    {
+      "id": "fe-step-8-r1",
+      "roadmap": "frontend",
+      "step": "fe-step-8",
+      "title": "آموزش عملکرد وب",
+      "url": "https://web.dev/learn/performance",
+      "type": "doc",
+      "platform": "web.dev",
+      "description": "یکی از مسیرهای انتخابی؛ پس از ساخت و انتشار محصول، حوزهٔ عملکرد را عمیق‌تر دنبال کن.",
+      "assessment": {
+        "verdict": "مرتبط با یکی از شش شاخه؛ پوشش جمعی ندارد",
+        "coverage": "Learn Performance به شاخهٔ عملکرد می‌خورد؛ منبع Design System، Fullstack، AI UI، i18n و privacy نیست. تکرار URL از ماژول ۷ ایراد فنی نیست.",
+        "fix": "برای عملکرد فصل عمیق‌تر/اندازه‌گیری انتخاب شود؛ چهار شاخهٔ بدون مرجع به منبع اختصاصی نیاز دارند.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "fe-step-8-r2",
+      "roadmap": "frontend",
+      "step": "fe-step-8",
+      "title": "شروع React Native",
+      "url": "https://reactnative.dev/docs/getting-started",
+      "type": "doc",
+      "platform": "React Native",
+      "description": "مرجع یکی از شاخه‌های انتخابی، برای توسعهٔ رابط موبایل با React.",
+      "assessment": {
+        "verdict": "مناسب برای آشنایی React Native؛ setup جداست",
+        "coverage": "صفحه خود اعلام می‌کند دستور شروع و راه‌اندازی به بخش دیگری منتقل شده است؛ فعلاً مقدمه و نمونهٔ Snack دارد.",
+        "fix": "برای ارزیابی علاقه نگه دار؛ اگر هدف اجرای پروژه است به راه‌اندازی محیط و اولین app هدایت کن، نه فقط عنوان getting-started قدیمی.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "frontend-reference-1",
+      "roadmap": "frontend",
+      "step": null,
+      "title": "Frontend Roadmap — roadmap.sh",
+      "url": "https://roadmap.sh/frontend",
+      "type": "doc",
+      "platform": "roadmap.sh",
+      "description": "رفرنس الهام‌بخش ساختار مسیر در فایل اصلی؛ دورهٔ آموزشی هر ماژول نیست.",
+      "assessment": {
+        "verdict": "مناسب به‌عنوان الهام ساختاری",
+        "coverage": "roadmap.sh یک نقشهٔ مهارت است؛ به معنی گذراندن تمام ابزارها، یک دورهٔ خطی یا اثبات تقاضای همهٔ مشاغل نیست.",
+        "fix": "در منابع مرجع بماند؛ برای هر گره منبع آموزش/تمرین مستقل لازم است.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "frontend-reference-2",
+      "roadmap": "frontend",
+      "step": null,
+      "title": "How to Become a Frontend Developer in 2026",
+      "url": "https://www.greatfrontend.com/blog/how-to-become-a-frontend-developer",
+      "type": "doc",
+      "platform": "GreatFrontEnd",
+      "description": "رفرنس الهام‌بخش مسیر یادگیری و پروژه‌های عملی در فایل اصلی.",
+      "assessment": {
+        "verdict": "مناسب به‌عنوان دیدگاه ناشر؛ دوره نیست",
+        "coverage": "مقالهٔ مسیر شغلی و پروژه‌هاست؛ زمان‌بندی و تعبیر job-ready تحلیل نویسنده است، نه تضمین استخدام برای دانشجوی این کامیونیتی.",
+        "fix": "به‌عنوان منبع تدوین حفظ شود؛ از تبدیل پیشنهادهای زمانی/شغلی به قانون سایت پرهیز کن.",
+        "suggestedSources": []
+      }
+    },
+    {
+      "id": "frontend-reference-3",
+      "roadmap": "frontend",
+      "step": null,
+      "title": "Frontend Developer Roadmap 2026",
+      "url": "https://www.greatfrontend.com/blog/frontend-developer-roadmap",
+      "type": "doc",
+      "platform": "GreatFrontEnd",
+      "description": "رفرنس الهام‌بخش مهارت‌ها و معیارهای عملی در فایل اصلی.",
+      "assessment": {
+        "verdict": "مناسب به‌عنوان نقشهٔ مهارت؛ هم‌پوشان",
+        "coverage": "مقالهٔ مهارت‌ها با مقالهٔ قبلی هم‌پوشانی دارد؛ دو مرجع مستقل آموزشی برای هر مرحله محسوب نمی‌شوند.",
+        "fix": "برای provenance نگه دار؛ روی تعداد این سه لینک، امتیاز پوشش آموزشی نساز.",
+        "suggestedSources": []
+      }
+    }
+  ],
+  "modules": [
+    {
+      "id": "dj-step-1",
+      "roadmap": "django-backend",
+      "title": "پیش‌نیازهای Python و محیط توسعه",
+      "assessment": {
+        "problem": "توابع، OOP و مدیریت خطا در یک شاخه فشرده‌اند؛ پروژهٔ JSON پیش‌نیاز صریح فایل/ماژول ندارد.",
+        "missing": "import، خواندن/نوشتن فایل، JSON و رفع خطای ساده را قبل از مینی‌پروژه اضافه کن.",
+        "outcome": "یک CLI کوچک با دو تابع/کلاس ساده بساز، ورودی نامعتبر را مدیریت و داده را در JSON ذخیره و بازیابی کن."
+      }
+    },
+    {
+      "id": "dj-step-2",
+      "roadmap": "django-backend",
+      "title": "ابزارهای ضروری و مفاهیم پایه وب",
+      "assessment": {
+        "problem": "ابزار Git و Linux و مبانی شبکه چهار هدف جدا هستند؛ منابع فعلی بخش ترمینال را مستقیم تأمین نمی‌کنند.",
+        "missing": "یک تمرین CLI و یک مشاهدهٔ HTTP در کنار PR لازم است.",
+        "outcome": "یک branch و PR بساز و conflict ساده را حل کن؛ request و response واقعی را با status و JSON توضیح بده."
+      }
+    },
+    {
+      "id": "dj-step-3",
+      "roadmap": "django-backend",
+      "title": "مبانی فریم‌ورک Django",
+      "assessment": {
+        "problem": "تمرین admin و آپلود عکس به model و migration نیاز دارد که تازه مرحلهٔ بعد می‌آیند؛ admin در موضوعات هم صریح نیست.",
+        "missing": "یک model حداقلی قبل از admin، فعال‌کردن admin و مسیر static/media یا انتقال این تمرین به مرحلهٔ ۴.",
+        "outcome": "یک app با URL و View قابل اجرا بساز؛ سپس با model آماده از مرحلهٔ ۴ آن را در admin ثبت کن."
+      }
+    },
+    {
+      "id": "dj-step-4",
+      "roadmap": "django-backend",
+      "title": "پایگاه داده، SQL و قدرت Django ORM",
+      "assessment": {
+        "problem": "SQL، schema و ORM یکی شده‌اند؛ عنوان منابع مدل‌ها را با مرجع کامل QuerySet قاطی کرده است.",
+        "missing": "constraint، transaction ساده و منبع مستقل SQL/PostgreSQL متناسب با پروژه؛ منبع query/QuerySet صحیح.",
+        "outcome": "مدل مرتبط و migration بساز؛ یک JOIN/aggregate در SQL و معادل سادهٔ ORM را اجرا و اعتبار داده را با constraint حفظ کن."
+      }
+    },
+    {
+      "id": "dj-step-5",
+      "roadmap": "django-backend",
+      "title": "مدیریت کاربران، احراز هویت و اصول امنیت وب",
+      "assessment": {
+        "problem": "شروع هم‌زمان AbstractBaseUser و امنیت آکادمی کامل می‌تواند بیش از نیاز باشد؛ تست مالکیت داده پنهان است.",
+        "missing": "password API، تست دسترسی کاربران متفاوت و امنیت session/cookie؛ reset password براساس نیاز پروژه.",
+        "outcome": "کاربر ثبت‌نام و ورود کند؛ رمز خام ذخیره نشود؛ کاربر دیگر به دادهٔ خصوصی دسترسی نگیرد و تست آن وجود داشته باشد."
+      }
+    },
+    {
+      "id": "dj-step-6",
+      "roadmap": "django-backend",
+      "title": "ساخت API حرفه‌ای با Django REST Framework",
+      "assessment": {
+        "problem": "همهٔ سبک‌های View و JWT/OpenAPI را یکجا پیش‌شرط کرده؛ بنر آمادگی شغلی پیش از ورود تست‌ها زود است.",
+        "missing": "permission سطح شیء، validation، status/error contract و تست endpoint؛ منابع مستقیم JWT/OpenAPI در صورت انتخاب.",
+        "outcome": "CRUD با ورودی معتبر/نامعتبر، pagination و محدودیت مالکیت بساز؛ مسیر مجاز و غیرمجاز در تست اثبات شود."
+      }
+    },
+    {
+      "id": "dj-step-7",
+      "roadmap": "django-backend",
+      "title": "تست‌نویسی، بهینه‌سازی کوئری و پردازش پس‌زمینه",
+      "assessment": {
+        "problem": "باید به تست پایه، عملکرد query و task پس‌زمینه تقسیم شود؛ فقط آخری واقعاً تعمیق مستقل است.",
+        "missing": "baseline تعداد query/زمان، تست رفتاری و failure/retry برای task در صورت افزودن Celery.",
+        "outcome": "N+1 یک endpoint را با شمارش query نشان بده و رفع کن؛ task queue فقط در پروژهٔ نیازمند و با رفتار شکست مشخص اضافه شود."
+      }
+    },
+    {
+      "id": "dj-step-8",
+      "roadmap": "django-backend",
+      "title": "کانتینرسازی با Docker و استقرار در محیط Production",
+      "assessment": {
+        "problem": "Docker+Redis+Celery+Nginx برای هر پروژه شرط نشده باشد؛ یک مسیر deploy روشن کافی است.",
+        "missing": "HTTPS، static/media ماندگار، اجرای migration، log و پشتیبان‌گیری/بازیابی سادهٔ داده در مسیر انتخابی.",
+        "outcome": "پروژه با config محیط و DEBUG خاموش اجرا شود؛ restart داده را پاک نکند؛ خطای سرویس از log قابل پیدا کردن باشد."
+      }
+    },
+    {
+      "id": "ds-step-1",
+      "roadmap": "data-science",
+      "title": "پایتون کاربردی برای دیتا و ابزارهای محیط کار",
+      "assessment": {
+        "problem": "ابزارهای محیط، Git و GPU کنار مبانی زبان جمع شده‌اند؛ GPU برای شروع تمرین‌ها لازم نیست.",
+        "missing": "فایل CSV، نوع داده، نصب کتابخانه و اجرای دوبارهٔ کامل notebook از محیط پاک.",
+        "outcome": "از یک CSV آماده گزارشی ساده بساز و notebook با run-all بدون وابستگی به ترتیب تصادفی سلول‌ها اجرا شود."
+      }
+    },
+    {
+      "id": "ds-step-2",
+      "roadmap": "data-science",
+      "title": "کار با داده، پاک‌سازی و تسلط بر SQL",
+      "assessment": {
+        "problem": "NumPy/Pandas/پاک‌سازی/SQL پیشرفته باید به زیرواحد تبدیل شوند؛ یک منبع مستقل NumPy وجود ندارد.",
+        "missing": "منبع NumPy، duplicate/dtype/date، JOIN و window با تمرین مستقل و گزارش تصمیم پاک‌سازی.",
+        "outcome": "داده را با دلایل ثبت‌شده پاک کن؛ چند سؤال با Pandas و SQL پاسخ بده و جمع‌های خروجی را با دادهٔ ورودی سازگار نگه دار."
+      }
+    },
+    {
+      "id": "ds-step-3",
+      "roadmap": "data-science",
+      "title": "تحلیل اکتشافی (EDA)، بصری‌سازی و آمار کاربردی",
+      "assessment": {
+        "problem": "EDA، سه کتابخانهٔ نمودار و آمار/A-B بیش از ظرفیت یک قدم هستند؛ شاخهٔ تحلیل‌گر فقط در بنر دیده می‌شود.",
+        "missing": "نمونه‌گیری، عدم‌قطعیت/CI و محدودیت داده؛ در شاخهٔ BI یک ابزار و تمرین مستقل انتخاب شود.",
+        "outcome": "به یک سؤال کسب‌وکار با چند نمودار مناسب پاسخ بده و محدودیت/نمونه‌گیری و metric انتخاب‌شده را توضیح بده."
+      }
+    },
+    {
+      "id": "ds-step-4",
+      "roadmap": "data-science",
+      "title": "ریاضیات شهودی ماشین لرنینگ (Just-in-Time Math)",
+      "assessment": {
+        "problem": "دو عنوان، محتوای دو درس دانشگاهی را پنهان می‌کنند؛ برای تحلیل‌گر این شاخهٔ ML پیش‌نیاز نیست.",
+        "missing": "تمرین عددی کوچک برای dot/gradient در مدل مربوط، نه افزودن تمام حسابان یا اثبات PCA.",
+        "outcome": "روی دادهٔ کوچک معنای ضرب بردار و تغییر loss با learning rate را نشان بده؛ اثبات‌های عمیق الزام عبور نباشند."
+      }
+    },
+    {
+      "id": "ds-step-5",
+      "roadmap": "data-science",
+      "title": "یادگیری ماشین کلاسیک و مهندسی ویژگی",
+      "assessment": {
+        "problem": "الگوریتم‌ها، معیارها و مهندسی ویژگی فشرده‌اند؛ baseline باید پیش از چندین boosting بیاید.",
+        "missing": "معیار regression، baseline، pipeline و split درست متناسب با دادهٔ تصادفی/گروهی/زمانی؛ منبع مستقیم leakage.",
+        "outcome": "یک baseline و یک مدل بساز؛ preprocessing فقط روی train fit شود و نتیجه با metric و محدودیت مناسب گزارش شود."
+      }
+    },
+    {
+      "id": "ds-step-6",
+      "roadmap": "data-science",
+      "title": "استقرار مدل و تبدیل پروژه به محصول (Model Deployment)",
+      "assessment": {
+        "problem": "دمو و API دو خروجی متفاوت‌اند؛ صرف نبود وب‌اپ، تحلیل یا notebook را بی‌ارزش نمی‌کند.",
+        "missing": "یکسان‌بودن preprocessing آموزش/پیش‌بینی، نسخهٔ artifact و ورودی معتبر؛ منبع مستقیم persistence و FastAPI/Streamlit.",
+        "outcome": "یک مدلِ قابل اعتماد با همان preprocessing اجرا شود و برای دادهٔ ناقص پیام قابل فهم بدهد؛ یکی از دمو یا API برای نقش انتخاب شود."
+      }
+    },
+    {
+      "id": "ds-step-7",
+      "roadmap": "data-science",
+      "title": "شاخه‌های پیشرفته هوش مصنوعی (انتخابی بر اساس علاقه)",
+      "assessment": {
+        "problem": "اختیاری بودن از قبل درست است؛ چهار شاخه با دو منبع، مسیر مستقل کافی ندارند.",
+        "missing": "برای RAG، سری زمانی و recommender هدف، پیش‌نیاز، dataset، baseline و معیار پایان جدا لازم است.",
+        "outcome": "یک شاخه انتخاب شود و پروژهٔ کوچک با baseline/evaluation آن شاخه بسازد؛ تمام شاخه‌ها شرط پایان این رودمپ نباشند."
+      }
+    },
+    {
+      "id": "lx-step-1",
+      "roadmap": "linux-devops-core",
+      "title": "مفاهیم درس سیستم‌عامل در دنیای واقعی",
+      "assessment": {
+        "problem": "با OS نظری شروع می‌کند، درحالی‌که هنوز محیط تمرین و فرمان پایه روشن نیست؛ LPIC با همهٔ این مفاهیم هم‌تراز نیست.",
+        "missing": "راه‌اندازی یک محیط امنِ تمرین، اجرای فرمان و مشاهدهٔ process/memory.",
+        "outcome": "یک process را پیدا کن، مصرف حافظه را ببین و تفاوت process/thread را با مثال توضیح بده؛ حل deadlock نظری شرط شروع نباشد."
+      }
+    },
+    {
+      "id": "lx-step-2",
+      "roadmap": "linux-devops-core",
+      "title": "تسلط بر ترمینال لینوکس و اسکریپت‌نویسی Bash",
+      "assessment": {
+        "problem": "عنوان scripting دارد، اما مبحث صریح script/variable/condition/loop ندارد. چند موضوع بزرگ در چهار شاخه جا گرفته‌اند.",
+        "missing": "quoting، متغیر، exit status، شرط و حلقهٔ ساده و script کوتاه؛ یا تغییر عنوان به CLI اگر این‌ها اضافه نمی‌شوند.",
+        "outcome": "فایل‌ها را با pipe تحلیل کن، با SSH وصل شو، log سرویس را بخوان و یک script کوتاه با مدیریت خطا اجرا کن."
+      }
+    },
+    {
+      "id": "lx-step-3",
+      "roadmap": "linux-devops-core",
+      "title": "کانتینرسازی با Docker و Docker Compose",
+      "assessment": {
+        "problem": "از معماری مستقیم به Dockerfile بهینه می‌پرد؛ منبع مرورگری بازنشسته است.",
+        "missing": "run/ps/logs/exec/stop، port mapping، service DNS، env و volume؛ بهینه‌سازی بعد از اجرای درست.",
+        "outcome": "app و database با Compose اجرا شوند، restart داده را پاک نکند و خطای اتصال از log و network رفع شود."
+      }
+    },
+    {
+      "id": "fe-step-0",
+      "roadmap": "frontend",
+      "title": "پایه‌های وب",
+      "assessment": {
+        "problem": "برای پیش از HTML، جزئیات HTTP/TLS/rendering و چند ابزار را یکجا آورده؛ برخی موضوعات بعداً بهتر فهمیده می‌شوند.",
+        "missing": "تمایز شبکه با رندر و منبع مقالهٔ رندر؛ DNS/HTTP ابتدا و CORS/cookie همراه API/auth.",
+        "outcome": "در حد مفهومی مسیر URL تا HTML/CSS/JS را توضیح بده و یک request واقعی را در Network پیدا کن."
+      }
+    },
+    {
+      "id": "fe-step-1",
+      "roadmap": "frontend",
+      "title": "HTML و CSS",
+      "assessment": {
+        "problem": "CSS layout منبع دارد ولی cascade/specificity منبع شروع مستقل ندارند؛ فرم نیاز به تمرین مشخص دارد.",
+        "missing": "Styling basics، تصویر/فرم، keyboard/focus و overflow در پروژه؛ ARIA سفارشی عمیق لازم نیست.",
+        "outcome": "یک صفحه و فرم معنایی در موبایل/دسکتاپ بساز، با کیبورد استفاده کن و یک مشکل CSS را با DevTools رفع کن."
+      }
+    },
+    {
+      "id": "fe-step-2",
+      "roadmap": "frontend",
+      "title": "ابزارهای توسعه",
+      "assessment": {
+        "problem": "فهرست همهٔ پنل‌های DevTools می‌تواند تسلط هم‌زمان را القا کند؛ ابزارها بهتر است همراه مسئله تدریجی شوند.",
+        "missing": "Node و scripts/lockfile و نصب/اجرای پروژه؛ تمرین CLI conflict جدا از GitHub Hello World.",
+        "outcome": "مخزن را clone و اجرا کن، یک تغییر با PR بده و درخواست شکست‌خورده را از Network و stack trace پیدا کن."
+      }
+    },
+    {
+      "id": "fe-step-3",
+      "roadmap": "frontend",
+      "title": "JavaScript",
+      "assessment": {
+        "problem": "منبع زبان، DOM/events/storage را کامل پوشش نمی‌دهد؛ موضوعات پایهٔ شرط و حلقه زیر عنوان‌ها پنهان‌اند.",
+        "missing": "منبع DOM و Web Storage، کنترل flow، error state و cancellation/race در درخواست جستجو.",
+        "outcome": "یک رابط بدون framework با input، DOM و API بساز که loading/empty/error و تلاش دوباره را مدیریت کند."
+      }
+    },
+    {
+      "id": "fe-step-4",
+      "roadmap": "frontend",
+      "title": "TypeScript",
+      "assessment": {
+        "problem": "ترکیب هم‌زمان با React در متن اصلی مجاز است؛ props قبل از شناخت کامپوننت به تمرین نیاز دارد، نه افزودن قفل اجباری جدید.",
+        "missing": "مرز type compile-time با validation runtime و یک ورودی واقعاً نامطمئن.",
+        "outcome": "پاسخ API را با narrowing/validation امن مصرف کن؛ خطای نوع را با مدل درست رفع کن، نه assertion بی‌دلیل."
+      }
+    },
+    {
+      "id": "fe-step-5",
+      "roadmap": "frontend",
+      "title": "React",
+      "assessment": {
+        "problem": "معیار پایان به URL/server state اشاره می‌کند که بخشی از ماژول بعد است؛ مرجع runner تست هم کم است.",
+        "missing": "cleanup/effect مناسب، state مشتق‌شده و تست رفتار با runner؛ URL/server state در اپلیکیشن واقعی تکمیل شود.",
+        "outcome": "جریان فرم/فهرست را با state در جای مناسب بساز، effect غیرضروری نداشته باشد و یک تست تعامل مهم کاربر بگذرد."
+      }
+    },
+    {
+      "id": "fe-step-6",
+      "roadmap": "frontend",
+      "title": "ساخت اپلیکیشن واقعی",
+      "assessment": {
+        "problem": "پنج حوزهٔ بزرگ و تعداد زیادی ابزار در یک ماژول هستند؛ سه منبع موجود برای routing/auth/UI کافی نیستند.",
+        "missing": "منبع routing، قرارداد auth با backend، source برای UI انتخابی، خطای سرور و مجوز و تست سناریوهای شکست.",
+        "outcome": "یک جریان کامل با فرم، API، routing و حالت غیرمجاز بساز؛ pending و شکست و بازیابی آن در آزمون رفتاری بررسی شوند."
+      }
+    },
+    {
+      "id": "fe-step-7",
+      "roadmap": "frontend",
+      "title": "Next.js و انتشار محصول",
+      "assessment": {
+        "problem": "Next، امنیت، performance و انتشار در یک مرحله؛ بازسازی اجباری پروژه با Next برای همهٔ انواع frontend لازم نیست.",
+        "missing": "فصل صریح CI/deploy و امنیت متناسب با معماری؛ نسخهٔ Next و تمرین Playwright واقعی.",
+        "outcome": "یک پروژه را منتشر کن، build و تست حیاتی در CI اجرا شود و اثر یک تغییر performance با baseline ثبت شود؛ Next در صورت انتخاب مسیر آن."
+      }
+    },
+    {
+      "id": "fe-step-8",
+      "roadmap": "frontend",
+      "title": "انتخاب مسیر تخصصی (اختیاری)",
+      "assessment": {
+        "problem": "شش تخصص عملاً فقط برای دو شاخه منبع دارند؛ optional بودن صحیح است و نباید همه به الزامات تبدیل شوند.",
+        "missing": "چهار شاخهٔ design system، fullstack، AI UI و i18n/security به منبع و هدف مستقل نیاز دارند.",
+        "outcome": "یک تخصص انتخاب و پروژهٔ کوچک با معیار همان تخصص تعریف شود؛ ورود به همهٔ شاخه‌ها لازم نیست."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "id": "dj-1-1",
+      "module": "dj-step-1",
+      "roadmap": "django-backend",
+      "title": "مبانی پایتون و ساختارهای داده (List, Dict, Set, Tuple)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته؛ اصلاح نکته",
+        "reason": "list/dict/set/tuple با انتخاب ساختار و تمرین بمانند؛ O(1) برای hash lookup حالت متوسط است، نه تضمین همیشگی یا سؤال ثابت همهٔ مصاحبه‌ها."
+      }
+    },
+    {
+      "id": "dj-1-2",
+      "module": "dj-step-1",
+      "roadmap": "django-backend",
+      "title": "توابع، برنامه‌نویسی شیءگرا (OOP) و مدیریت خطا",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "تفکیک؛ اصلاح علمی",
+        "reason": "توابع و خطا قبل از کلاس؛ OOP در حد کلاس و ارث‌بری. ادعای «تمام Viewها کلاس‌اند» غلط است؛ View تابعی هم داریم. متاکلاس و OOP عمیق لازم نیست."
+      }
+    },
+    {
+      "id": "dj-1-3",
+      "module": "dj-step-1",
+      "roadmap": "django-backend",
+      "title": "محیط مجازی (venv) و مدیریت پکیج‌ها با pip",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "یک روش venv+pip کافی است؛ نصب، فعال‌سازی و ثبت وابستگی را تمرین کن. چندین package manager و جزئیات packaging پیشرفته در شروع لازم نیست."
+      }
+    },
+    {
+      "id": "dj-2-1",
+      "module": "dj-step-2",
+      "roadmap": "django-backend",
+      "title": "کنترل نسخه با Git و کار تیمی در GitHub",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته؛ محدود کردن عمق",
+        "reason": "commit، branch، merge، remote و PR لازم‌اند؛ حل conflict تمرین شود. تسلط مقایسه‌ای عمیق rebase/merge پیش از اولین پروژه مانع شروع نباشد."
+      }
+    },
+    {
+      "id": "dj-2-2",
+      "module": "dj-step-2",
+      "roadmap": "django-backend",
+      "title": "کار با ترمینال و دستورات پایه Linux",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "cd/ls، مسیر فایل، اجرای فرمان و متغیر محیطی کافی است؛ به مسیر مشترک لینوکس لینک بده، تکرار کامل دورهٔ لینوکس لازم نیست."
+      }
+    },
+    {
+      "id": "dj-2-3",
+      "module": "dj-step-2",
+      "roadmap": "django-backend",
+      "title": "معماری وب: پروتکل HTTP، Request/Response و Headers",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "چرخهٔ request/response و status/header را روی یک درخواست ببین؛ حفظ همهٔ کدها، HTTP/2 internals یا TLS عمیق لازم نیست."
+      }
+    },
+    {
+      "id": "dj-2-4",
+      "module": "dj-step-2",
+      "roadmap": "django-backend",
+      "title": "ساختار داده JSON و مفاهیم REST API",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "خواندن و نوشتن JSON، resource و verb و idempotency مقدماتی؛ REST را به معنی هر JSON API معرفی نکن. مثال درخواست و پاسخ لازم است."
+      }
+    },
+    {
+      "id": "dj-3-1",
+      "module": "dj-step-3",
+      "roadmap": "django-backend",
+      "title": "ساختار Project در برابر App در جنگو",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "Project/App و ساخت اولین URL کافی است؛ چندلایه‌سازی پیچیدهٔ پروژه و معماری سازمانی به بعد از پروژه منتقل شود."
+      }
+    },
+    {
+      "id": "dj-3-2",
+      "module": "dj-step-3",
+      "roadmap": "django-backend",
+      "title": "معماری MVT (Model-View-Template)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "ساده‌سازی",
+        "reason": "MVT با یک چرخهٔ واقعی توضیح داده شود؛ حفظ اسم الگوها یا مقایسهٔ مفصل MVC/MVT خروجی عملی ندارد."
+      }
+    },
+    {
+      "id": "dj-3-3",
+      "module": "dj-step-3",
+      "roadmap": "django-backend",
+      "title": "مسیریابی URL Routing و نوشتن Views",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته؛ تدریجی",
+        "reason": "ابتدا یک View تابعی، سپس generic/class-based در صورت نیاز. یادگیری همهٔ mixinها و همهٔ سبک‌ها در یک قدم لازم نیست."
+      }
+    },
+    {
+      "id": "dj-3-4",
+      "module": "dj-step-3",
+      "roadmap": "django-backend",
+      "title": "مدیریت فایل‌های Static و Media",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته؛ تقسیم عمق",
+        "reason": "تفاوت static و فایل بارگذاری‌شده روشن شود؛ storage ابری و پیکربندی production به بخش انتشار برود. آپلود به اعتبارسنجی و محدودیت فایل نیاز دارد."
+      }
+    },
+    {
+      "id": "dj-3-5",
+      "module": "dj-step-3",
+      "roadmap": "django-backend",
+      "title": "آشنایی با Templates و Forms سنتی جنگو",
+      "currentlyOptional": true,
+      "assessment": {
+        "decision": "حفظ اختیاری با اصلاح دامنه",
+        "reason": "برای مسیر API، template کامل می‌تواند اختیاری بماند؛ اما اعتبارسنجی داده و Form/ModelForm مرتبط را صرفاً به بهانهٔ «همه React دارند» بی‌ارزش معرفی نکن."
+      }
+    },
+    {
+      "id": "dj-4-1",
+      "module": "dj-step-4",
+      "roadmap": "django-backend",
+      "title": "طراحی Models و مدیریت تغییرات با Migrations",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "مدل، migration و تغییر schema روی پروژه تمرین شود؛ migration پیشرفته یا چندپایگاه‌داده‌ای در شروع لازم نیست."
+      }
+    },
+    {
+      "id": "dj-4-2",
+      "module": "dj-step-4",
+      "roadmap": "django-backend",
+      "title": "عملیات CRUD و تسلط بر QuerySet API",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "CRUD، filter/order/limit و ارزیابی QuerySet لازم‌اند؛ عنوان «تسلط بر کل QuerySet API» بیش از نیاز شروع است. lazy بودن را با شمارش query ببین."
+      }
+    },
+    {
+      "id": "dj-4-3",
+      "module": "dj-step-4",
+      "roadmap": "django-backend",
+      "title": "روابط بین جداول (ForeignKey, OneToOne, ManyToMany)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "FK و OneToOne و M2M با نمونهٔ واقعی بمانند؛ همراه constraints و رفتار حذف. relationship پیچیده قبل از یک مدل ساده لازم نیست."
+      }
+    },
+    {
+      "id": "dj-4-4",
+      "module": "dj-step-4",
+      "roadmap": "django-backend",
+      "title": "زبان SQL و کار با دیتابیس استاندارد PostgreSQL",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "تفکیک",
+        "reason": "SQL پایه و راه‌اندازی PostgreSQL دو خروجی جدا هستند؛ SELECT/JOIN/aggregation ابتدا، تراکنش و ایندکس به نیاز پروژه. اجرای SQL و ORM با هم مقایسه شوند."
+      }
+    },
+    {
+      "id": "dj-5-1",
+      "module": "dj-step-5",
+      "roadmap": "django-backend",
+      "title": "سفارشی‌سازی مدل User (AbstractUser / AbstractBaseUser)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "ساده‌سازی",
+        "reason": "شروع با AbstractUser و تنظیم از ابتدای پروژه؛ AbstractBaseUser برای نیاز سفارشی واقعی و فهم manager/auth backend اختیاری شود. «همیشه هر دو را بلد باش» لازم نیست."
+      }
+    },
+    {
+      "id": "dj-5-2",
+      "module": "dj-step-5",
+      "roadmap": "django-backend",
+      "title": "ثبت‌نام، ورود و مدیریت سشن‌ها و کوکی‌ها",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "login/logout و session/cookie، ذخیرهٔ رمز با API درست و رفتار expiry لازم‌اند؛ مکانیزم session را با JWT قاطی نکن."
+      }
+    },
+    {
+      "id": "dj-5-3",
+      "module": "dj-step-5",
+      "roadmap": "django-backend",
+      "title": "سیستم Permissions و گروه‌بندی دسترسی‌ها (RBAC)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته؛ تکمیل",
+        "reason": "گروه/مجوز لازم است؛ کنترل مالکیت شیء و فیلتر queryset در API هم افزوده شود. پنهان کردن دکمه در UI جای authorization نیست."
+      }
+    },
+    {
+      "id": "dj-5-4",
+      "module": "dj-step-5",
+      "roadmap": "django-backend",
+      "title": "اصول امنیت وب: جلوگیری از XSS، CSRF و SQL Injection",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته؛ محدود کردن عمق",
+        "reason": "علت XSS/CSRF/SQLi و رفتار صحیح framework لازم است؛ دورهٔ کامل pentest لازم نیست. ORM همهٔ استفاده‌های SQL خام یا خروجی unsafe را خودکار ایمن نمی‌کند."
+      }
+    },
+    {
+      "id": "dj-6-1",
+      "module": "dj-step-6",
+      "roadmap": "django-backend",
+      "title": "مفاهیم Serializer و ModelSerializer (اعتبارسنجی داده‌ها)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "Serializer و validation با ورودی صحیح/غلط؛ ابتدا یک الگوی ساده، سپس ModelSerializer. تست field-level و object-level لازم است."
+      }
+    },
+    {
+      "id": "dj-6-2",
+      "module": "dj-step-6",
+      "roadmap": "django-backend",
+      "title": "نوشتن APIView، Generic Views و ViewSets",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "ساده‌سازی",
+        "reason": "Generic view یا ViewSet را مسیر اصلی انتخاب کن؛ APIView به‌عنوان پایه توضیح داده شود. تسلط هم‌زمان بر تمام abstractionها قبل از CRUD لازم نیست."
+      }
+    },
+    {
+      "id": "dj-6-3",
+      "module": "dj-step-6",
+      "roadmap": "django-backend",
+      "title": "احراز هویت مدرن با توکن JWT (پکیج SimpleJWT)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "گزینهٔ معماری؛ عمق تکمیلی",
+        "reason": "مفهوم authentication هسته است، JWT تنها گزینه نیست. session برای بعضی وب‌اپ‌ها مناسب است؛ SimpleJWT و refresh/rotation زمانی که معماری به آن نیاز دارد."
+      }
+    },
+    {
+      "id": "dj-6-4",
+      "module": "dj-step-6",
+      "roadmap": "django-backend",
+      "title": "صفحه‌بندی (Pagination)، فیلترینگ و جستجو در API",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "pagination و filter ساده برای API داده‌محور مناسب‌اند؛ جستجوی پیچیده و tuning موتور جداگانه در شروع لازم نیست."
+      }
+    },
+    {
+      "id": "dj-6-5",
+      "module": "dj-step-6",
+      "roadmap": "django-backend",
+      "title": "مستندسازی خودکار API با Swagger / OpenAPI (drf-spectacular)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "تکمیلی پس از API ساده",
+        "reason": "نمونهٔ درخواست/پاسخ و قرارداد API ضروری‌اند؛ سفارشی‌سازی گستردهٔ Swagger/drf-spectacular پیش از ساخت endpoint لازم نیست. OpenAPI سبک بعد از اولین API اضافه شود."
+      }
+    },
+    {
+      "id": "dj-7-1",
+      "module": "dj-step-7",
+      "roadmap": "django-backend",
+      "title": "حل مشکل N+1 Query با select_related و prefetch_related",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "جابه‌جایی نزدیک ORM؛ اصلاح نکته",
+        "reason": "مسئلهٔ N+1 در حد مشاهده و رفع یک نمونه مناسب است. select_related برای روابط تک‌مقداری با join است؛ prefetch فقط مخصوص M2M نیست و روابط دیگر را هم پوشش می‌دهد."
+      }
+    },
+    {
+      "id": "dj-7-2",
+      "module": "dj-step-7",
+      "roadmap": "django-backend",
+      "title": "کش کردن داده‌ها با Redis برای افزایش سرعت",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "تعمیق",
+        "reason": "Redis/cache را بعد از مشاهدهٔ کندی و تعیین TTL/invalidation بیاور؛ برای اولین CRUD الزام نیست. کش بدون دلیل، پیچیدگی اضافه می‌کند."
+      }
+    },
+    {
+      "id": "dj-7-3",
+      "module": "dj-step-7",
+      "roadmap": "django-backend",
+      "title": "صف وظایف و کارهای پس‌زمینه با Celery (ارسال ایمیل/پیامک)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "تعمیق مستقل",
+        "reason": "Celery و broker/retry مسئولیت عملیاتی جدیدند؛ بعد از task کند واقعی، نه شرط شروع کارآموزی. برای یک CRUD ساده لازم نیست."
+      }
+    },
+    {
+      "id": "dj-7-4",
+      "module": "dj-step-7",
+      "roadmap": "django-backend",
+      "title": "نوشتن Unit Test و تست API با Pytest / APITestCase",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "انتقال به هستهٔ زودتر",
+        "reason": "تست مدل، validation، permission و API باید هنگام ساخت همان قابلیت شروع شود. همهٔ test frameworkها لازم نیست؛ یک روش انتخاب شود."
+      }
+    },
+    {
+      "id": "dj-7-5",
+      "module": "dj-step-7",
+      "roadmap": "django-backend",
+      "title": "کار با Middlewareها، Signals و اصول Clean Code / SOLID",
+      "currentlyOptional": true,
+      "assessment": {
+        "decision": "حفظ اختیاری؛ تفکیک",
+        "reason": "الان هم اختیاری است. middleware، signals و SOLID یک مهارت واحد نیستند؛ signals ضمنی و تئوری همهٔ اصول قبل از نیاز پروژه الزام نشود."
+      }
+    },
+    {
+      "id": "dj-8-1",
+      "module": "dj-step-8",
+      "roadmap": "django-backend",
+      "title": "جداسازی تنظیمات Development و Production و متغیرهای محیطی (.env)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هستهٔ انتشار",
+        "reason": "config محیط، DEBUG، secret و logging لازم‌اند؛ .env ابزار محلی است، نه کل استراتژی نگهداری راز در production."
+      }
+    },
+    {
+      "id": "dj-8-2",
+      "module": "dj-step-8",
+      "roadmap": "django-backend",
+      "title": "نوشتن Dockerfile و بالا آوردن کل استک با Docker Compose",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "یک مسیر انتشار؛ ساده‌سازی",
+        "reason": "Docker برای این مسیر ارزش دارد ولی تنها راه deploy نیست؛ ابتدا app+database. Redis/Celery را فقط اگر در پروژه استفاده شده‌اند وارد Compose کن."
+      }
+    },
+    {
+      "id": "dj-8-3",
+      "module": "dj-step-8",
+      "roadmap": "django-backend",
+      "title": "تنظیم وب‌سرور Nginx و اپلیکیشن‌سرور Gunicorn",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "انتخاب پیاده‌سازی؛ تعمیق",
+        "reason": "فهم app server و reverse proxy خوب است؛ Nginx+Gunicorn را تنها ترکیب صحیح یا پیش‌نیاز تمام کارآموزها معرفی نکن. یک مسیر انتشار قابل اجرا کافی است."
+      }
+    },
+    {
+      "id": "ds-1-1",
+      "module": "ds-step-1",
+      "roadmap": "data-science",
+      "title": "مبانی پایتون، حلقه‌ها، توابع و List Comprehension",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته؛ تدریجی",
+        "reason": "حلقه و تابع و خوانایی قبل از comprehension؛ lambda و کوتاه‌نویسی معیار کیفیت کد نیستند. یک تحلیل کوچک مهم‌تر از حفظ ترفند است."
+      }
+    },
+    {
+      "id": "ds-1-2",
+      "module": "ds-step-1",
+      "roadmap": "data-science",
+      "title": "ساختارهای داده پایتون (List, Dict, Set, Tuple)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "list/dict و انتخاب ساختار برای رکوردها لازم است؛ ساختارهای داخلی پیشرفتهٔ زبان به نیاز پروژه موکول شوند."
+      }
+    },
+    {
+      "id": "ds-1-3",
+      "module": "ds-step-1",
+      "roadmap": "data-science",
+      "title": "مدیریت محیط مجازی (venv / Conda) و Git پایه",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "تفکیک ابزارها",
+        "reason": "یک محیط venv یا Conda انتخاب شود، نه تسلط هم‌زمان هر دو. Git کنترل نسخه است و از جداسازی کتابخانه‌ها مسئلهٔ متفاوتی حل می‌کند."
+      }
+    },
+    {
+      "id": "ds-1-4",
+      "module": "ds-step-1",
+      "roadmap": "data-science",
+      "title": "تسلط بر محیط Jupyter Notebook و Google Colab (استفاده از GPU رایگان)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "ساده‌سازی",
+        "reason": "اجرای notebook، restart/run-all و ذخیرهٔ خروجی لازم‌اند. GPU برای Python/Pandas/SQL پیش‌نیاز نیست و رایگان/همیشه‌موجود بودن آن نباید وعده شود."
+      }
+    },
+    {
+      "id": "ds-1-5",
+      "module": "ds-step-1",
+      "roadmap": "data-science",
+      "title": "برنامه‌نویسی شیءگرا (OOP) در پایتون",
+      "currentlyOptional": true,
+      "assessment": {
+        "decision": "حفظ اختیاری",
+        "reason": "همین وضعیت برای شروع تحلیل مناسب است؛ فهم ساخت و استفادهٔ object کافی است، معماری OOP سنگین پیش‌نیاز EDA نیست."
+      }
+    },
+    {
+      "id": "ds-2-1",
+      "module": "ds-step-2",
+      "roadmap": "data-science",
+      "title": "محاسبات برداری و ماتریسی سریع با کتابخانه NumPy",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته در حد کاربرد",
+        "reason": "array، shape، dtype، slicing و vectorization کافی است. ادعای همیشگی «ده‌ها برابر سریع‌تر» بدون benchmark محدودکننده است؛ جبر خطی سنگین اینجا لازم نیست."
+      }
+    },
+    {
+      "id": "ds-2-2",
+      "module": "ds-step-2",
+      "roadmap": "data-science",
+      "title": "پردازش و تحلیل داده‌های جدولی با Pandas (DataFrames)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "read_csv، select/filter، groupby و merge با سؤال تحلیلی مشخص؛ حفظ تمام API Pandas لازم نیست."
+      }
+    },
+    {
+      "id": "ds-2-3",
+      "module": "ds-step-2",
+      "roadmap": "data-science",
+      "title": "پاک‌سازی داده (Data Cleaning): مدیریت داده‌های گمشده (Missing Values) و پرت (Outliers)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته؛ تکمیل تصمیم‌گیری",
+        "reason": "dtype، duplicate، missing و مقادیر نامعتبر با گزارش تصمیم‌ها؛ outlier را خودکار حذف نکن. imputation در ML فقط روی train برازش شود."
+      }
+    },
+    {
+      "id": "ds-2-4",
+      "module": "ds-step-2",
+      "roadmap": "data-science",
+      "title": "تسلط کامل بر SQL برای تحلیل داده (JOINs, Group By, Window Functions)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "تفکیک دو سطح",
+        "reason": "SELECT/JOIN/GROUP BY هسته؛ Window Functions یک زیرواحد بعد از پایه‌ها، نه «تسلط کامل» یک‌مرحله‌ای. ادعای ۱۰۰٪ مصاحبه حذف شود."
+      }
+    },
+    {
+      "id": "ds-3-1",
+      "module": "ds-step-3",
+      "roadmap": "data-science",
+      "title": "تحلیل اکتشافی داده (EDA) و کشف الگوهای پنهان",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "EDA با سؤال، کیفیت داده و نتیجهٔ قابل توضیح؛ کشف الگو بدون توجه به sampling و محدودیت داده کافی نیست."
+      }
+    },
+    {
+      "id": "ds-3-2",
+      "module": "ds-step-3",
+      "roadmap": "data-science",
+      "title": "رسم نمودارهای تحلیلی با Matplotlib، Seaborn و Plotly",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "انتخاب یک ابزار اصلی",
+        "reason": "Matplotlib+Seaborn برای شروع کافی‌اند؛ Plotly در صورت نیاز به تعامل. یادگیری عمیق هر سه قبل از یک گزارش لازم نیست."
+      }
+    },
+    {
+      "id": "ds-3-3",
+      "module": "ds-step-3",
+      "roadmap": "data-science",
+      "title": "آمار توصیفی در عمل (میانگین، میانه، واریانس، چولگی و توزیع نرمال)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته؛ اصلاح مطلق‌گویی",
+        "reason": "مرکز و پراکندگی و توزیع داده لازم‌اند؛ میانه همیشه از میانگین بهتر نیست و انتخاب به سؤال و توزیع وابسته است."
+      }
+    },
+    {
+      "id": "ds-3-4",
+      "module": "ds-step-3",
+      "roadmap": "data-science",
+      "title": "آمار استنباطی، احتمال پایه و آزمون فرض (Hypothesis Testing & A/B Testing)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "تفکیک؛ عمق تدریجی",
+        "reason": "احتمال و sampling و confidence interval قبل از فرضیه/A-B؛ p-value احتمال درست بودن فرض صفر نیست. طراحی آزمایش و توان آزمون یک تعمیق مستقل است."
+      }
+    },
+    {
+      "id": "ds-3-5",
+      "module": "ds-step-3",
+      "roadmap": "data-science",
+      "title": "روایت‌گری داده (Data Storytelling) و درک شاخص‌های کسب‌وکار (KPIs)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "تبدیل سؤال کسب‌وکار به metric و توضیح نمودار لازم است؛ یک گزارش با محدودیت‌ها بساز. مهارت presentation را با ابزار BI یکی ندان."
+      }
+    },
+    {
+      "id": "ds-4-1",
+      "module": "ds-step-4",
+      "roadmap": "data-science",
+      "title": "شهود جبر خطی: بردارها، ماتریس‌ها، ضرب نقطه‌ای و مقادیر ویژه (Eigenvalues)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "ساده‌سازی؛ شرطی برای ML",
+        "reason": "بردار/ماتریس و dot product با مثال کافی‌اند؛ eigenvalue و اثبات‌ها زمانی که PCA/مدل مربوط لازم شد. برای خروجی تحلیل‌گر داده همهٔ این مرحله اجباری نیست."
+      }
+    },
+    {
+      "id": "ds-4-2",
+      "module": "ds-step-4",
+      "roadmap": "data-science",
+      "title": "مفهوم مشتق، گرادیان و الگوریتم بهینه‌سازی Gradient Descent",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "ساده‌سازی؛ شرطی برای ML",
+        "reason": "شهود مشتق و گرادیان و یک مثال learning rate؛ تمام حسابان یا حل نمادین سخت برای شروع مدل‌سازی لازم نیست."
+      }
+    },
+    {
+      "id": "ds-5-1",
+      "module": "ds-step-5",
+      "roadmap": "data-science",
+      "title": "یادگیری نظارت‌شده (Supervised): رگرسیون خطی/لجستیک، درخت تصمیم و Random Forest",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هستهٔ شاخهٔ ML؛ تفکیک",
+        "reason": "یک regression و یک classification ساده با baseline؛ درخت و Random Forest بعد از ارزیابی. چهار الگوریتم را یک مهارت بدون معیار پایان ندان."
+      }
+    },
+    {
+      "id": "ds-5-2",
+      "module": "ds-step-5",
+      "roadmap": "data-science",
+      "title": "پادشاهان داده‌های جدولی: الگوریتم‌های XGBoost، LightGBM و CatBoost",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "تعمیق پس از baseline",
+        "reason": "از XGBoost/LightGBM/CatBoost یک پیاده‌سازی انتخاب کن؛ بقیه آشنایی مقایسه‌ای. هم‌زمانی سه ابزار و hyperparameter tuning عمیق شرط اولین پروژه نیست."
+      }
+    },
+    {
+      "id": "ds-5-3",
+      "module": "ds-step-5",
+      "roadmap": "data-science",
+      "title": "یادگیری بدون نظارت (Unsupervised): خوشه‌بندی K-Means و کاهش ابعاد PCA",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "اختیاری بر اساس مسئله",
+        "reason": "K-Means و PCA دو مسئلهٔ متفاوت‌اند و پیش‌نیاز همهٔ پروژه‌های supervised نیستند؛ دو زیرواحد با تمرین جدا بهتر است."
+      }
+    },
+    {
+      "id": "ds-5-4",
+      "module": "ds-step-5",
+      "roadmap": "data-science",
+      "title": "مهندسی ویژگی (Feature Engineering) و کدگذاری متغیرها",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هستهٔ شاخهٔ ML",
+        "reason": "encoding، scaling لازم برای مدل و preprocessing pipeline؛ انتخاب ویژگی و روش‌های پیچیده به پس از baseline منتقل شوند."
+      }
+    },
+    {
+      "id": "ds-5-5",
+      "module": "ds-step-5",
+      "roadmap": "data-science",
+      "title": "ارزیابی مدل (Precision, Recall, F1, ROC-AUC) و اعتبارسنجی Cross-Validation",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته؛ تکمیل معیارها",
+        "reason": "classification با precision/recall/F1 و معیار متناسب با مسئله؛ برای regression هم MAE/RMSE لازم است. threshold و PR-AUC برای عدم توازن مهم‌تر از حفظ نام همهٔ معیارهاست."
+      }
+    },
+    {
+      "id": "ds-5-6",
+      "module": "ds-step-5",
+      "roadmap": "data-science",
+      "title": "مدیریت بیش‌برازش (Overfitting)، نشت داده (Data Leakage) و عدم توازن کلاس‌ها (Class Imbalance)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته؛ تفکیک",
+        "reason": "overfitting، leakage و imbalance جدا با مثال؛ split پیش از fit و pipeline در هسته. SMOTE درمان پیش‌فرض نیست و فقط داخل train/fold مربوط مجاز است."
+      }
+    },
+    {
+      "id": "ds-6-1",
+      "module": "ds-step-6",
+      "roadmap": "data-science",
+      "title": "ذخیره و بازیابی مدل‌های آموزش‌دیده (Pickle / Joblib)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته برای انتشار مدل؛ تکمیل",
+        "reason": "بارگذاری artifact فقط از منبع قابل اعتماد و با نسخهٔ سازگار؛ pickle/joblib ورودی ناشناس را ایمن نمی‌کنند. ذخیرهٔ کد preprocessing هم ضروری است."
+      }
+    },
+    {
+      "id": "ds-6-2",
+      "module": "ds-step-6",
+      "roadmap": "data-science",
+      "title": "ساخت رابط کاربری تعاملی و دمو برای مدل با Streamlit",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "یک گزینهٔ دموی ساده",
+        "reason": "برای ارائهٔ پروژه مناسب است؛ یک دموی Streamlit کافی است و نیاز به FastAPI هم‌زمان ندارد. «۵۰ خط» معیار کیفیت یا تضمین استقرار نیست."
+      }
+    },
+    {
+      "id": "ds-6-3",
+      "module": "ds-step-6",
+      "roadmap": "data-science",
+      "title": "ساخت سرویس API سریع برای مدل با FastAPI",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "اختیاری نسبت به نقش",
+        "reason": "برای ML serving یا همکاری محصول مفید است؛ برای تحلیل‌گر داده الزامی نیست. قرارداد ورودی، پاسخ و validation قبل از استقرار پیچیده لازم‌اند."
+      }
+    },
+    {
+      "id": "ds-6-4",
+      "module": "ds-step-6",
+      "roadmap": "data-science",
+      "title": "چیدمان پورتفولیو حرفه‌ای در GitHub (مستندسازی README و نتایج)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "همراه از ابتدای مسیر",
+        "reason": "README، روش اجرا، نسخه‌ها، داده و محدودیت‌ها را از اولین پروژه اضافه کن؛ مستندسازی فقط مرحلهٔ آخر یا زیباسازی پروفایل نیست."
+      }
+    },
+    {
+      "id": "ds-7-1",
+      "module": "ds-step-7",
+      "roadmap": "data-science",
+      "title": "یادگیری عمیق (Deep Learning) و شبکه‌های عصبی با PyTorch",
+      "currentlyOptional": true,
+      "assessment": {
+        "decision": "حفظ اختیاری؛ پیش‌نیاز روشن",
+        "reason": "الان هم اختیاری است؛ مبانی ML/Python و یک پروژه لازم دارد. توسعهٔ PyTorch از صفر یا training سنگین شرط مسیر تحلیل نیست."
+      }
+    },
+    {
+      "id": "ds-7-2",
+      "module": "ds-step-7",
+      "roadmap": "data-science",
+      "title": "پردازش زبان طبیعی (NLP) و معماری ترنسفورمرها",
+      "currentlyOptional": true,
+      "assessment": {
+        "decision": "حفظ اختیاری",
+        "reason": "NLP/Transformer شاخهٔ مستقل با پیش‌نیاز DL؛ آشنایی اولیه را از آموزش عمیق attention و fine-tuning جدا کن."
+      }
+    },
+    {
+      "id": "ds-7-3",
+      "module": "ds-step-7",
+      "roadmap": "data-science",
+      "title": "مهندسی هوش مصنوعی مولد، LLMها و سیستم‌های RAG",
+      "currentlyOptional": true,
+      "assessment": {
+        "decision": "حفظ اختیاری؛ منبع کم دارد",
+        "reason": "RAG و مهندسی LLM در هستهٔ دانشجوی تازه‌کار لازم نیست؛ retrieval، ارزیابی، هزینه و داده باید در یک شاخهٔ جدا بیایند. «ترندترین بازار» ادعای مستند نیست."
+      }
+    },
+    {
+      "id": "ds-7-4",
+      "module": "ds-step-7",
+      "roadmap": "data-science",
+      "title": "تحلیل سری‌های زمانی (Time Series) یا سیستم‌های پیشنهاددهنده (Recommender Systems)",
+      "currentlyOptional": true,
+      "assessment": {
+        "decision": "حفظ اختیاری؛ تفکیک",
+        "reason": "سری زمانی و recommender دو مسیرند؛ لازم نیست هر دو خوانده شوند. split زمانی و baseline یا ranking/evaluation هرکدام منبع و معیار جدا می‌خواهند."
+      }
+    },
+    {
+      "id": "lx-1-1",
+      "module": "lx-step-1",
+      "roadmap": "linux-devops-core",
+      "title": "تفاوت Process و Thread در عمل و نحوه مدیریت منابع",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "ساده‌سازی و جابه‌جایی",
+        "reason": "دیدن process و thread در ابزارها برای شروع کافی است؛ internals و هزینهٔ ارتباط به تعمیق OS برود. سرعت ارتباط ترد/پروسس حکم مطلق نیست."
+      }
+    },
+    {
+      "id": "lx-1-2",
+      "module": "lx-step-1",
+      "roadmap": "linux-devops-core",
+      "title": "مفهوم Race Condition و Deadlock (از سیستم‌عامل تا تراکنش‌های دیتابیس)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "تعمیق یا ارجاع به پایگاه داده",
+        "reason": "race/deadlock کامل برای شروع CLI لازم نیست. مثال خرید آخرین کالا به تراکنش و قفل دیتابیس مربوط است و در پروژهٔ backend بهتر آموزش داده می‌شود."
+      }
+    },
+    {
+      "id": "lx-1-3",
+      "module": "lx-step-1",
+      "roadmap": "linux-devops-core",
+      "title": "مدیریت حافظه (RAM، Stack vs Heap و مفهوم Swap)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "ساده‌سازی",
+        "reason": "مصرف RAM و swap کاربردی است؛ جزئیات stack/heap و تخصیص حافظهٔ پایین‌سطح از مسیر پایهٔ لینوکس جدا شود."
+      }
+    },
+    {
+      "id": "lx-2-1",
+      "module": "lx-step-2",
+      "roadmap": "linux-devops-core",
+      "title": "فایل‌سیستم لینوکس، دستورات پایه و لوله‌کشی دستورات (Pipes & Redirection)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته؛ مرحله‌بندی",
+        "reason": "navigation و فایل‌ها، سپس pipe و redirection و جستجوی متن؛ هرکدام تمرین کوتاه. تبدیل همه به یک عنوان «تسلط بر ترمینال» کافی نیست."
+      }
+    },
+    {
+      "id": "lx-2-2",
+      "module": "lx-step-2",
+      "roadmap": "linux-devops-core",
+      "title": "مدیریت کاربران و سطح دسترسی فایل‌ها (chmod / chown)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "کاربر، مالکیت و rwx با فایل واقعی؛ چند دستور و معنی‌شان کافی است. سطح دسترسی باید از نیاز فایل نتیجه شود، نه حفظ چند عدد."
+      }
+    },
+    {
+      "id": "lx-2-3",
+      "module": "lx-step-2",
+      "roadmap": "linux-devops-core",
+      "title": "اتصال امن به سرور با SSH و مدیریت کلیدهای عمومی/خصوصی",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "اتصال با کلید و مدیریت permission کلید؛ خطایابی سادهٔ اتصال. تنظیمات پیچیدهٔ bastion و چندلایهٔ SSH برای شروع لازم نیست."
+      }
+    },
+    {
+      "id": "lx-2-4",
+      "module": "lx-step-2",
+      "roadmap": "linux-devops-core",
+      "title": "مانیتورینگ منابع سرور و سرویس‌ها (htop, btop, systemd, journalctl)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "تفکیک",
+        "reason": "htop/btop انتخاب ابزار مانیتورینگ است؛ systemd/journalctl مدیریت سرویس و لاگ. یکی از htop/btop کافی است و برای service یک تمرین مستقل لازم است."
+      }
+    },
+    {
+      "id": "lx-3-1",
+      "module": "lx-step-3",
+      "roadmap": "linux-devops-core",
+      "title": "تفاوت معماری ماشین مجازی (VM) و کانتینر (Container)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هستهٔ مفهومی",
+        "reason": "تفاوت VM/container را کوتاه و با اجرا توضیح بده. اشتراک kernel دربارهٔ میزبان لینوکسی است؛ Docker Desktop ممکن است VM لینوکسی واسط داشته باشد."
+      }
+    },
+    {
+      "id": "lx-3-2",
+      "module": "lx-step-3",
+      "roadmap": "linux-devops-core",
+      "title": "نوشتن Dockerfile بهینه و مدیریت Imageها و Volumeها",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "تفکیک؛ کاهش بهینه‌سازی زودهنگام",
+        "reason": "اول run/logs/exec و image/container، سپس Dockerfile خوانا و volume. multi-stage و بهینه‌سازی عمیق به بعد از نمونهٔ کارا بروند."
+      }
+    },
+    {
+      "id": "lx-3-3",
+      "module": "lx-step-3",
+      "roadmap": "linux-devops-core",
+      "title": "اجرای هم‌زمان بک‌اند، فرانت‌اند و دیتابیس با Docker Compose",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته در سطح app+database",
+        "reason": "Compose با شبکهٔ سرویس و volume ماندگار مناسب است؛ همهٔ افراد لازم نیست هم‌زمان frontend/backend/db/Nginx را از صفر پیاده کنند."
+      }
+    },
+    {
+      "id": "fe-0-1",
+      "module": "fe-step-0",
+      "roadmap": "frontend",
+      "title": "اینترنت، کلاینت و سرور",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته در حد مدل ذهنی",
+        "reason": "client/server و DNS و نقش IP/CDN به‌صورت مفهومی؛ جزئیات routing شبکه یا مدیریت CDN پیش از HTML لازم نیست."
+      }
+    },
+    {
+      "id": "fe-0-2",
+      "module": "fe-step-0",
+      "roadmap": "frontend",
+      "title": "HTTP، HTTPS و امنیت ارتباط",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "ساده‌سازی و توزیع در مسیر",
+        "reason": "request/status/header و HTTPS ابتدا؛ cookie/CORS کنار fetch و auth و CSRF. جزئیات TLS، گواهی و رمزنگاری عمیق در هستهٔ شروع لازم نیست."
+      }
+    },
+    {
+      "id": "fe-0-3",
+      "module": "fe-step-0",
+      "roadmap": "frontend",
+      "title": "از URL تا نمایش صفحه",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته؛ بدون تکرار",
+        "reason": "این موضوع جمع‌بندی client/DNS/HTTP/render است؛ آن را معیار پایانِ پایه‌ها کن تا یک شاخهٔ تکراری با مطالب قبلی نباشد."
+      }
+    },
+    {
+      "id": "fe-0-4",
+      "module": "fe-step-0",
+      "roadmap": "frontend",
+      "title": "رندر مرورگر و DOM / CSSOM",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "آشنایی اولیه؛ تعمیق بعداً",
+        "reason": "نام و نقش DOM/CSSOM کافی است؛ reflow/repaint و tracing عمیق پس از HTML/CSS و در performance قرار گیرد، نه مانع شروع."
+      }
+    },
+    {
+      "id": "fe-0-5",
+      "module": "fe-step-0",
+      "roadmap": "frontend",
+      "title": "API، JSON و روش‌های رندر",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "تفکیک و جابه‌جایی",
+        "reason": "API/JSON کنار JavaScript/fetch؛ CSR/SSR/SSG پس از ساخت صفحه و در انتخاب معماری. حفظ همهٔ روش‌های رندر قبل از HTML لازم نیست."
+      }
+    },
+    {
+      "id": "fe-0-6",
+      "module": "fe-step-0",
+      "roadmap": "frontend",
+      "title": "دامنه، میزبانی و ابزارهای اجرا",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "تفکیک",
+        "reason": "ترمینال و package manager به ابزارهای توسعه؛ دامنه/hosting هنگام اولین انتشار. آشنایی اولیه خوب است، تسلط عملی هم‌زمان لازم نیست."
+      }
+    },
+    {
+      "id": "fe-1-1",
+      "module": "fe-step-1",
+      "roadmap": "frontend",
+      "title": "ساختار HTML و فرم‌ها",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "ساختار معنایی، heading، link/button و فرم؛ HTML بومی و label از اولین تمرین استفاده شوند. جدول و تصویر هم در تمرین پوشش داده شوند."
+      }
+    },
+    {
+      "id": "fe-1-2",
+      "module": "fe-step-1",
+      "roadmap": "frontend",
+      "title": "عناصر بومی HTML",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "ادغام با HTML معنایی",
+        "reason": "انتخاب عنصر بومی یک اصل کاربردی در همان ساخت صفحه است؛ لازم نیست واحد حجیم مستقل یا الزام ساخت کنترل سفارشی داشته باشد."
+      }
+    },
+    {
+      "id": "fe-1-3",
+      "module": "fe-step-1",
+      "roadmap": "frontend",
+      "title": "مدل جعبه‌ای، cascade و specificity",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "box model، cascade و specificity قبل از framework CSS لازم‌اند؛ بدون آن‌ها Grid/Tailwind به حدس‌زدن تبدیل می‌شوند."
+      }
+    },
+    {
+      "id": "fe-1-4",
+      "module": "fe-step-1",
+      "roadmap": "frontend",
+      "title": "Flexbox، Grid و positioning",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته؛ تدریجی",
+        "reason": "Flex برای چیدمان ساده، سپس Grid و positioning لازم؛ حفظ همهٔ ویژگی‌ها یا layout بسیار پیچیده در شروع لازم نیست."
+      }
+    },
+    {
+      "id": "fe-1-5",
+      "module": "fe-step-1",
+      "roadmap": "frontend",
+      "title": "طراحی واکنش‌گرا",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "عرض سیال و mobile layout، media query لازم؛ آموختن همهٔ breakpointها یا صرفاً تقلید اندازهٔ دستگاه معیار مهارت نیست."
+      }
+    },
+    {
+      "id": "fe-1-6",
+      "module": "fe-step-1",
+      "roadmap": "frontend",
+      "title": "دسترس‌پذیری پایه",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته؛ ادامه‌دار",
+        "reason": "semantic، label، keyboard، focus و contrast از ابتدا؛ ARIA سفارشی پیچیده یا حفظ کل WCAG پیش‌نیاز شروع نیست."
+      }
+    },
+    {
+      "id": "fe-1-deep-1",
+      "module": "fe-step-1",
+      "roadmap": "frontend",
+      "title": "تعمیق HTML & CSS",
+      "currentlyOptional": true,
+      "assessment": {
+        "decision": "تفکیک هسته و تعمیق موجود",
+        "reason": "الان اختیاری است؛ CSS variables، overflow و stacking پایه برای layout واقعی مفیدند و بهتر است نمونهٔ ساده‌شان زودتر بیاید. container query و containment عمیق اختیاری بمانند."
+      }
+    },
+    {
+      "id": "fe-2-1",
+      "module": "fe-step-2",
+      "roadmap": "frontend",
+      "title": "Git و همکاری در GitHub",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "commit/branch/PR و conflict ساده همراه پروژه؛ rebase پیچیده و Git internals لازم نیست."
+      }
+    },
+    {
+      "id": "fe-2-2",
+      "module": "fe-step-2",
+      "roadmap": "frontend",
+      "title": "ابزارهای مرورگر (DevTools)",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "مرحله‌بندی ابزار",
+        "reason": "Elements/Console ابتدا، Network با API، Application با storage؛ profiling عمیق Performance بعد از محصول. همهٔ پنل‌ها هم‌زمان لازم نیستند."
+      }
+    },
+    {
+      "id": "fe-2-3",
+      "module": "fe-step-2",
+      "roadmap": "frontend",
+      "title": "اشکال‌زدایی و stack trace",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "بازسازی خطا، خواندن پیام و stack و کوچک‌کردن مسئله؛ حفظ همهٔ امکانات debugger یا واگذاری علت‌یابی به AI لازم نیست."
+      }
+    },
+    {
+      "id": "fe-2-4",
+      "module": "fe-step-2",
+      "roadmap": "frontend",
+      "title": "npm و ابزار ساخت Vite",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته؛ انتخاب یک ابزار",
+        "reason": "Node و npm و scripts/lockfile با Vite کافی‌اند؛ یادگیری هم‌زمان تمام package managerها و تنظیم دستی bundlerها لازم نیست."
+      }
+    },
+    {
+      "id": "fe-3-1",
+      "module": "fe-step-3",
+      "roadmap": "frontend",
+      "title": "نوع داده، scope، closure و ماژول‌ها",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "تفکیک پایه از تعمیق",
+        "reason": "نوع، شرط/حلقه، تابع و module پایه؛ closure با مثال ساده لازم است، بحث پیچیدهٔ hoisting/closure internals پیش از پروژه ضرورتی ندارد. شرط و حلقه اکنون در عنوان‌ها صریح نیستند."
+      }
+    },
+    {
+      "id": "fe-3-2",
+      "module": "fe-step-3",
+      "roadmap": "frontend",
+      "title": "آرایه، آبجکت، Map و Set",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "array/object و map/filter/reduce کاربردی؛ Map/Set آشنایی اولیه. تبدیل‌های پیچیده یا حفظ همهٔ متدها لازم نیست."
+      }
+    },
+    {
+      "id": "fe-3-3",
+      "module": "fe-step-3",
+      "roadmap": "frontend",
+      "title": "رویدادها و به‌روزرسانی DOM",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "DOM selection/update و رویداد، bubbling و delegation با مثال. همهٔ APIهای مرورگر یا جزئیات هر phase لازم نیست."
+      }
+    },
+    {
+      "id": "fe-3-4",
+      "module": "fe-step-3",
+      "roadmap": "frontend",
+      "title": "کد غیرهم‌زمان، fetch و مدیریت خطا",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته؛ تدریجی",
+        "reason": "Promise و async/await و مدیریت خطای شبکه؛ fetch برای خطای HTTP خودکار reject نمی‌شود. cancellation و race پاسخ در پروژهٔ جستجو معرفی شوند."
+      }
+    },
+    {
+      "id": "fe-3-5",
+      "module": "fe-step-3",
+      "roadmap": "frontend",
+      "title": "ذخیره‌سازی در مرورگر",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته در حد نیاز",
+        "reason": "local/sessionStorage و serialize/parse و انتخاب دادهٔ مناسب؛ IndexedDB و offline sync در شروع لازم نیست. storage مرورگر را محل خودکار نگهداری هر token ندان."
+      }
+    },
+    {
+      "id": "fe-3-deep-1",
+      "module": "fe-step-3",
+      "roadmap": "frontend",
+      "title": "تعمیق JavaScript Core",
+      "currentlyOptional": true,
+      "assessment": {
+        "decision": "تعمیق موجود با یک استثنا",
+        "reason": "this/prototype در حد خواندن کد و event loop در حد ترتیب اجرا مفید است؛ generator/iterator سفارشی و event loop عمیق اختیاری بمانند. لازم نیست همه را به یک عمق بخوانی."
+      }
+    },
+    {
+      "id": "fe-4-1",
+      "module": "fe-step-4",
+      "roadmap": "frontend",
+      "title": "نوع‌های پایه و genericهای ساده",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "نوع‌های پایه، union و narrowing، generic ساده؛ conditional/type-level programming سنگین لازم نیست."
+      }
+    },
+    {
+      "id": "fe-4-2",
+      "module": "fe-step-4",
+      "roadmap": "frontend",
+      "title": "تایپ props و پاسخ API",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هم‌زمان با React",
+        "reason": "پاسخ API را می‌توان بعد از JavaScript تایپ کرد؛ props وقتی کامپوننت را می‌شناسی. فایل اصلی هم یادگیری هم‌زمان TS و React را مجاز می‌داند؛ این یک قفل پیش‌نیاز جدید نیست."
+      }
+    },
+    {
+      "id": "fe-4-3",
+      "module": "fe-step-4",
+      "roadmap": "frontend",
+      "title": "narrowing، unknown و any",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "unknown و narrowing مرز ورودی، پرهیز از any غیرضروری؛ منع مطلق هر any معیار عمومی مناسبی نیست. متن Markdown منع غیرضروری را می‌گوید، نه ممنوعیت مطلق."
+      }
+    },
+    {
+      "id": "fe-4-4",
+      "module": "fe-step-4",
+      "roadmap": "frontend",
+      "title": "خواندن خطاهای TypeScript",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "خواندن خطای واقعی و اصلاح مدل نوع؛ خاموش‌کردن خطا با assertion بی‌دلیل یا افزایش پیچیدگی type هدف نیست."
+      }
+    },
+    {
+      "id": "fe-4-5",
+      "module": "fe-step-4",
+      "roadmap": "frontend",
+      "title": "اعتبارسنجی داده با Zod",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "اصل هسته؛ ابزار نمونه اختیاری",
+        "reason": "اعتبارسنجی runtime ورودی لازم است؛ Zod یک انتخاب نمونه است. یادگیری عمیق همهٔ API آن یا افزودنش به هر پروژه لازم نیست."
+      }
+    },
+    {
+      "id": "fe-4-deep-1",
+      "module": "fe-step-4",
+      "roadmap": "frontend",
+      "title": "تعمیق TypeScript",
+      "currentlyOptional": true,
+      "assessment": {
+        "decision": "حفظ اختیاری با تفکیک",
+        "reason": "Partial/Pick ساده هنگام نیاز عادی‌اند؛ conditional typeهای پیچیده و utilityهای سفارشی عمیق اختیاری بمانند. همهٔ utility typeها را «پیشرفته» فرض نکن."
+      }
+    },
+    {
+      "id": "fe-5-1",
+      "module": "fe-step-5",
+      "roadmap": "frontend",
+      "title": "کامپوننت، props، state و rendering",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "کامپوننت/props و state/render پایهٔ Reactاند؛ مشتق‌کردن دادهٔ قابل محاسبه از props را از ساخت state اضافه جدا کن."
+      }
+    },
+    {
+      "id": "fe-5-2",
+      "module": "fe-step-5",
+      "roadmap": "frontend",
+      "title": "effects و محدودیت‌های آن",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته",
+        "reason": "effect برای هماهنگی با سیستم بیرونی، همراه dependency و cleanup؛ تبدیل هر محاسبه یا event handler به effect آموزش غلطی می‌سازد."
+      }
+    },
+    {
+      "id": "fe-5-3",
+      "module": "fe-step-5",
+      "roadmap": "frontend",
+      "title": "فرم controlled، فهرست و key",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "تفکیک تمرین‌ها",
+        "reason": "فرم controlled و اعتبارسنجی یک تمرین؛ list/key یک تمرین کوتاه دیگر. key پایدار و معنای داده مهم‌تر از حفظ warning است."
+      }
+    },
+    {
+      "id": "fe-5-4",
+      "module": "fe-step-5",
+      "roadmap": "frontend",
+      "title": "context و ref",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته در حد استفاده",
+        "reason": "context برای نیاز واقعیِ اشتراک و ref برای DOM/مقدار mutable؛ global کردن هر state یا ref برای دور زدن render لازم نیست."
+      }
+    },
+    {
+      "id": "fe-5-5",
+      "module": "fe-step-5",
+      "roadmap": "frontend",
+      "title": "composition و error boundary",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "تفکیک عمق",
+        "reason": "composition ساده و نمایش fallback خطا لازم‌اند؛ پیاده‌سازی دستی error boundary پیچیده یا همهٔ design patternها برای شروع لازم نیست."
+      }
+    },
+    {
+      "id": "fe-5-6",
+      "module": "fe-step-5",
+      "roadmap": "frontend",
+      "title": "الگوهای دریافت داده",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هستهٔ اولیه؛ تعمیق در اپلیکیشن",
+        "reason": "یک درخواست با loading/error و cleanup کافی است؛ caching و server-state library بعد از الگوی ساده. مستندات effects جای تمام معماری داده را نمی‌گیرد."
+      }
+    },
+    {
+      "id": "fe-5-deep-1",
+      "module": "fe-step-5",
+      "roadmap": "frontend",
+      "title": "تعمیق React",
+      "currentlyOptional": true,
+      "assessment": {
+        "decision": "حفظ اختیاری",
+        "reason": "advanced composition، memoization همه‌جانبه و headless سفارشی پس از نیاز و اندازه‌گیری؛ ساخت design system یا بهینه‌سازی حدسی شرط React پایه نیست."
+      }
+    },
+    {
+      "id": "fe-6-1",
+      "module": "fe-step-6",
+      "roadmap": "frontend",
+      "title": "داده و API",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "تفکیک؛ کاهش تعداد ابزار اجباری",
+        "reason": "REST/fetch و خطا ابتدا؛ server state و TanStack Query بعد؛ service layer ساده. Axios یا fetch یکی کافی است و Zustand فقط برای client state واقعی نیاز است."
+      }
+    },
+    {
+      "id": "fe-6-2",
+      "module": "fe-step-6",
+      "roadmap": "frontend",
+      "title": "مسیریابی و احراز هویت",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "تفکیک؛ امنیت زودتر",
+        "reason": "routing، حالت login و permission با قرارداد backend؛ JWT/OTP/refresh سه الزام هم‌زمان نیستند. کنترل مجوز واقعی در سرور و خطرهای token باید همین‌جا روشن شوند."
+      }
+    },
+    {
+      "id": "fe-6-3",
+      "module": "fe-step-6",
+      "roadmap": "frontend",
+      "title": "فرم‌ها و مدیریت خطا",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هستهٔ محصول",
+        "reason": "یک فرم با خطای فیلد، submit async، خطای سرور و retry؛ React Hook Form/Zod ابزارند. تمام فرم‌ها نیاز به هر دو کتابخانه ندارند."
+      }
+    },
+    {
+      "id": "fe-6-4",
+      "module": "fe-step-6",
+      "roadmap": "frontend",
+      "title": "وضعیت‌های رابط کاربری",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "تفکیک هسته و تعمیق",
+        "reason": "loading/empty/error/disabled و responsive هسته؛ جستجو و pagination کاربردی؛ optimistic update برای مسئلهٔ مناسب و با rollback، نه الزام هر محصول."
+      }
+    },
+    {
+      "id": "fe-6-5",
+      "module": "fe-step-6",
+      "roadmap": "frontend",
+      "title": "ابزارهای ساخت رابط کاربری",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "انتخاب ابزار؛ کاهش انباشت",
+        "reason": "یک رویکرد CSS و استفاده از کنترل‌های قابل‌دسترس کافی است؛ Tailwind، shadcn و Radix را سه پیش‌نیاز مستقل و اجباری نکن. motion ظریف اختیاری و سازگار با reduced motion باشد."
+      }
+    },
+    {
+      "id": "fe-6-deep-1",
+      "module": "fe-step-6",
+      "roadmap": "frontend",
+      "title": "تعمیق Building Real Applications",
+      "currentlyOptional": true,
+      "assessment": {
+        "decision": "حفظ اختیاری؛ نیازمحور",
+        "reason": "WebSocket یا SSE بعد از نیاز real-time؛ upload و analytics نیز زیرواحد جدا با قرارداد داده. برای همهٔ پروژه‌ها لازم نیستند."
+      }
+    },
+    {
+      "id": "fe-7-1",
+      "module": "fe-step-7",
+      "roadmap": "frontend",
+      "title": "App Router و مرز سرور و کلاینت",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هستهٔ مسیر Next؛ انتخابی در فرانت عمومی",
+        "reason": "App Router و مرز Server/Client را برای پروژهٔ Next یاد بگیر؛ Next تنها راه ساخت و انتشار frontend نیست. متن اصلی نیز سبک‌کردن آن را مجاز دانسته است."
+      }
+    },
+    {
+      "id": "fe-7-2",
+      "module": "fe-step-7",
+      "roadmap": "frontend",
+      "title": "SSR، SSG، ISR و caching",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "تدریجی و نسخه‌دار",
+        "reason": "تفاوت روش‌های رندر در حد انتخاب برای پروژه؛ caching/ISR عمیق و همهٔ مدل‌های هم‌زمان پیش‌نیاز شروع نیستند. رفتار مستندات با نسخهٔ پروژه تطبیق داده شود."
+      }
+    },
+    {
+      "id": "fe-7-3",
+      "module": "fe-step-7",
+      "roadmap": "frontend",
+      "title": "SEO و metadata",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته برای صفحات عمومی؛ نیازمحور",
+        "reason": "title/description و metadata پایه کافی است؛ SEO پیشرفته برای پنل داخلیِ خصوصی اولویت شروع ندارد."
+      }
+    },
+    {
+      "id": "fe-7-4",
+      "module": "fe-step-7",
+      "roadmap": "frontend",
+      "title": "Core Web Vitals و بهینه‌سازی",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هستهٔ پایه؛ بهینه‌سازی پس از اندازه‌گیری",
+        "reason": "اندازهٔ تصویر، بارگذاری فونت و JavaScript معقول؛ code splitting عمیق فقط برای bottleneck واقعی. حفظ نام metricها خروجی عملی نیست."
+      }
+    },
+    {
+      "id": "fe-7-5",
+      "module": "fe-step-7",
+      "roadmap": "frontend",
+      "title": "اندازه‌گیری پیش و پس از تغییر",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هسته؛ معیار دقیق‌تر",
+        "reason": "baseline و شرایط دستگاه/شبکه و چند بار سنجش ثبت شود؛ امتیاز Lighthouse به‌تنهایی تضمین بهبود تجربهٔ همهٔ کاربران نیست."
+      }
+    },
+    {
+      "id": "fe-7-6",
+      "module": "fe-step-7",
+      "roadmap": "frontend",
+      "title": "امنیت پایه در فرانت‌اند",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "انتقال بخشی به قبل؛ حفظ تعمیق",
+        "reason": "XSS و token/auth/CSRF کنار فرم و auth مطرح شوند؛ threat modeling عمیق و ممیزی همهٔ وابستگی‌ها برای شروع لازم نیست. امنیت پایه را تکمیلی تلقی نکن."
+      }
+    },
+    {
+      "id": "fe-7-7",
+      "module": "fe-step-7",
+      "roadmap": "frontend",
+      "title": "انتشار و CI ساده",
+      "currentlyOptional": false,
+      "assessment": {
+        "decision": "هستهٔ انتشار سبک",
+        "reason": "یک deployment قابل تکرار و CI با build/typecheck/test مرتبط کافی است؛ چند میزبان، pipeline سازمانی و زیرساخت پیچیده لازم نیست."
+      }
+    },
+    {
+      "id": "fe-8-1",
+      "module": "fe-step-8",
+      "roadmap": "frontend",
+      "title": "Design System",
+      "currentlyOptional": true,
+      "assessment": {
+        "decision": "حفظ اختیاری",
+        "reason": "Design System تخصص مستقل است؛ قبل از یک محصول به ساخت کتابخانهٔ سفارشی headless یا monorepo نیاز نیست. مثال کوچک و معیار جدا لازم دارد."
+      }
+    },
+    {
+      "id": "fe-8-2",
+      "module": "fe-step-8",
+      "roadmap": "frontend",
+      "title": "بهینه‌سازی عملکرد وب",
+      "currentlyOptional": true,
+      "assessment": {
+        "decision": "حفظ اختیاری",
+        "reason": "عمق performance پس از اندازه‌گیری یک محصول؛ منبع پایهٔ تکراری به‌تنهایی برنامهٔ تخصصی نیست. bottleneck و نتیجهٔ مشخص تعیین شود."
+      }
+    },
+    {
+      "id": "fe-8-3",
+      "module": "fe-step-8",
+      "roadmap": "frontend",
+      "title": "توسعهٔ فول‌استک محصول‌محور",
+      "currentlyOptional": true,
+      "assessment": {
+        "decision": "حفظ اختیاری؛ مسیر مستقل",
+        "reason": "fullstack/MVP نیاز به API، داده و auth سمت سرور دارد؛ یک گرهٔ کوتاه جای رودمپ backend نیست. برای frontend عمومی الزام نیست."
+      }
+    },
+    {
+      "id": "fe-8-4",
+      "module": "fe-step-8",
+      "roadmap": "frontend",
+      "title": "رابط محصولات هوش مصنوعی",
+      "currentlyOptional": true,
+      "assessment": {
+        "decision": "حفظ اختیاری",
+        "reason": "streaming/agent UI به قرارداد جریان، قطع/خطا/لغو و تجربهٔ کاربر نیاز دارد؛ توسعهٔ agent و همهٔ ابزارهای AI شرط ورود به frontend نیست."
+      }
+    },
+    {
+      "id": "fe-8-5",
+      "module": "fe-step-8",
+      "roadmap": "frontend",
+      "title": "React Native",
+      "currentlyOptional": true,
+      "assessment": {
+        "decision": "حفظ اختیاری؛ شاخهٔ موبایل",
+        "reason": "React Native نیاز مسیر موبایل را پاسخ می‌دهد؛ پیش‌نیاز شغل frontend وب نیست. پروژه و setup مخصوص خودش لازم است."
+      }
+    },
+    {
+      "id": "fe-8-6",
+      "module": "fe-step-8",
+      "roadmap": "frontend",
+      "title": "بین‌المللی‌سازی، امنیت و حریم خصوصی",
+      "currentlyOptional": true,
+      "assessment": {
+        "decision": "تفکیک سطح‌ها؛ حفظ انتخابی بودن تخصص",
+        "reason": "i18n و امنیت عمیق و privacy یک موضوع واحد نیستند؛ مبانی RTL و حفظ داده و امنیت باید در پروژه‌های فارسی رعایت شوند، تخصص عمیق هر شاخه اختیاری بماند."
+      }
+    }
+  ],
+  "additionalEvidence": [
+    {
+      "url": "https://research.google.com/colaboratory/faq.html",
+      "finding": "ناشر منابع GPU رایگان را تضمین‌شده یا نامحدود نمی‌داند."
+    },
+    {
+      "url": "https://imbalanced-learn.org/stable/common_pitfalls.html",
+      "finding": "بازنمونه‌گیری قبل از split می‌تواند leakage ایجاد کند."
+    },
+    {
+      "url": "https://docs.docker.com/desktop/setup/install/linux/",
+      "finding": "Docker Desktop روی Linux از VM استفاده می‌کند؛ با اشتراک بی‌واسطهٔ kernel اصلی میزبان یکی نیست."
+    }
+  ]
+}

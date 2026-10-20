@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowLeft, ArrowUpLeft, BriefcaseBusiness, Code2, GitBranch, MessagesSquare, Presentation, Send, UserRound, UsersRound } from "lucide-react";
+import { ArrowLeft, ArrowUpLeft, BriefcaseBusiness, Code2, GitBranch, MessagesSquare, Presentation, Send, UsersRound } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { community } from "@/data/community";
@@ -57,11 +57,6 @@ export default function AboutPage() {
             {community.questionsUrl && <a className="primary-button questions-link" href={community.questionsUrl} target="_blank" rel="noopener noreferrer">رفتن به تاپیک Questions<ArrowUpLeft size={16} /></a>}
             {community.communityUrl && <a className="secondary-button community-join" href={community.communityUrl} target="_blank" rel="noopener noreferrer">پیوستن به گروه تلگرام<Send size={15} /></a>}
           </div>
-        </section>
-
-        <section id="contact" className="founder-section" aria-labelledby="founder-title">
-          <div><span className="section-eyebrow"><UserRound size={16} />راه ارتباط</span><h2 id="founder-title">ارتباط با مؤسس یونی‌دو</h2><p>برای پیشنهاد دربارهٔ کامیونیتی، هماهنگی همکاری یا موضوعی که لازم است مستقیم با مؤسس مطرح شود، از راه ارتباطی زیر استفاده کن.</p><p className="founder-question-note">سؤال‌های یادگیری و برنامه‌نویسی را در <a href="#questions">تاپیک Questions</a> مطرح کن تا بقیه هم بتوانند در گفت‌وگو شرکت کنند.</p></div>
-          <div className="founder-card"><span className="founder-avatar" aria-hidden="true"><UserRound size={27} /></span><div><h3>{community.founder.name || "مؤسس یونی‌دو"}</h3><span className="founder-handle" dir="ltr">{community.founder.handle}</span></div>{community.founder.contactUrl && <a className="secondary-button owner-contact" href={community.founder.contactUrl} target="_blank" rel="noopener noreferrer">گفت‌وگو در تلگرام<ArrowUpLeft size={16} /></a>}</div>
         </section>
       </main>
       <SiteFooter />
